@@ -1,5 +1,17 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &7906945121091094818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6352167670364254723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c79dcf65733cee148ac9d97ffcb4462b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1088713447353923316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65,7 +77,33 @@ PrefabInstance:
     - target: {fileID: 6286055087121925367, guid: 326bbf19f71b8a54bba3ac8e36952ff6,
         type: 3}
       propertyPath: m_Name
-      value: WildOakScenary
+      value: WildOakScenary Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521393464492323354, guid: 326bbf19f71b8a54bba3ac8e36952ff6,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 6.178776
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521393464492323354, guid: 326bbf19f71b8a54bba3ac8e36952ff6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521393464492323354, guid: 326bbf19f71b8a54bba3ac8e36952ff6,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 3.089388
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521393464492323354, guid: 326bbf19f71b8a54bba3ac8e36952ff6,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 326bbf19f71b8a54bba3ac8e36952ff6, type: 3}
+--- !u!1 &6352167670364254723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6286055087121925367, guid: 326bbf19f71b8a54bba3ac8e36952ff6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1088713447353923316}
+  m_PrefabAsset: {fileID: 0}

@@ -5,13 +5,13 @@ using UnityEngine;
 public class NPCController : MonoBehaviour
 {
 
-    private GameObject chatCanvas;
-    public string text;
+    private ChatController chatController;
+    public List<string> textos;
 
     // Start is called before the first frame update
     void Start()
     {
-        chatCanvas = GameObject.Find("Canvas").transform.GetChild(0).gameObject;
+        chatController = GameObject.Find("Canvas").transform.GetChild(0).gameObject.GetComponentInChildren<ChatController>();
     }
 
     // Update is called once per frame
@@ -20,11 +20,16 @@ public class NPCController : MonoBehaviour
         
     }
 
-    public void InitInteraction()
+    public void InitInteraction(List<string> flagMissoesConcluidas)
     {
-        chatCanvas.GetComponentInChildren<ChatController>().SetVisible(true);
+        // Habilito o chat
+        chatController.SetVisible(true);
+        // Configuro o chat com o texto inicial
+        // TODO verificar as variáveis de progresso antes de inicial um chat
+        chatController.ConfigureText(textos[0]);
         // Bloqueia o input do teclado para o personagem
         GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(false);
+        GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(false);
     }
 
 

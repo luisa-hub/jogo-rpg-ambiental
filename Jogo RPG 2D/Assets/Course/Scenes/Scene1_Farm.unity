@@ -1069,7 +1069,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df495d30084bb6640affef97dc12c9f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  textos:
+  - "CORAMISSAO1#Aqui est\xE1 uma miss\xE3o.# Boa sorte."
+  - "CORAMISSAO2#Ainda estou aguardando...#Voc\xEA concluir a miss\xE3o"
+  - "CORAMISSAO3#Obrigada por concluir a miss\xE3o"
 --- !u!61 &507666515
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51764,7 +51767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df495d30084bb6640affef97dc12c9f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  textos: []
 --- !u!1001 &1089251746
 PrefabInstance:
   m_ObjectHideFlags: 0

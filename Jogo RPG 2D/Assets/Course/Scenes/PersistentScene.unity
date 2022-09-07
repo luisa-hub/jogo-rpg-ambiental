@@ -239,6 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 149ad6ea47e83bd4ba126f14bad00a7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stringSeparator: 35
 --- !u!114 &170046954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1322,6 +1323,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fbbe0ff951a29f4d868603aa69e3657, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flagMissoesConcluidas:
+  - CORAMISSAO1
+  - CORAMISSAO2
 --- !u!1 &4686568465519428239
 GameObject:
   m_ObjectHideFlags: 0

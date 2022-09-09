@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         // Se o jogador puder interagir e tirver pressionado enter
         if (_canInteract && Input.GetKeyDown(KeyCode.Return))
@@ -43,5 +43,12 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         lastGameObjectWithCollision = null;
+    }
+
+    public void updateTags(string novaTag) {
+        if (flagMissoesConcluidas.Contains(novaTag)==false) {
+            flagMissoesConcluidas.Add(novaTag);
+        }
+        
     }
 }

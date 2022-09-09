@@ -18,7 +18,7 @@ public class ChatController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
@@ -45,11 +45,14 @@ public class ChatController : MonoBehaviour
 
     public void ConfigureText( string text )
     {
+        
         // Reseta o índice de texto (começa com 1, pois o index 0 é a flag da missão)
         indexOfText = 1;
         // Divide a string recebida
         textos = text.Split(stringSeparator);
         // Define o texto inicial
         ObjetoTexto.text = textos[indexOfText];
+        GameObject.Find("Player").GetComponent<PlayerController>().updateTags("CORAMISSAO2");
+        
     }
 }

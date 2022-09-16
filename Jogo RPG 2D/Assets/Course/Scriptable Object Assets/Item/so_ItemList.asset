@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c07735a46f444f4cbb3f6928134dc8d, type: 3}
+  m_Name: so_ItemList
+  m_EditorClassIdentifier: 
+  itemDetails:
+  - itemCode: 1000
+    itemType: 0
+    itemDescription: Aaaaaacorn
+    itemSprite: {fileID: 21300000, guid: 730e572c78cf0244ca0db36bb8f3af7f, type: 3}
+    itemLongDescription: A AAAAcorn
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 1001
+    itemType: 1
+    itemDescription: Pumpkin
+    itemSprite: {fileID: 21300000, guid: f0d720006ae6c9e468cc99a9f1713ba1, type: 3}
+    itemLongDescription: Abobra
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePicked: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+  - itemCode: 1002
+    itemType: 1
+    itemDescription: Corn
+    itemSprite: {fileID: 21300000, guid: 081b5033ea188cb48b5d44b99ab920bc, type: 3}
+    itemLongDescription: "Um Milh\xE3o"
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+  - itemCode: 1003
+    itemType: 2
+    itemDescription: Watering tool
+    itemSprite: {fileID: 21300136, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemLongDescription: molha
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePicked: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1004
+    itemType: 3
+    itemDescription: A basic Hoe
+    itemSprite: {fileID: 21300052, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemLongDescription: hoe
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePicked: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1005
+    itemType: 4
+    itemDescription: Axe
+    itemSprite: {fileID: 21300010, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemLongDescription: Machado
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePicked: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1006
+    itemType: 0
+    itemDescription: Parsnips seed
+    itemSprite: {fileID: 21300000, guid: 7da78110e28e0f74aaa3ef4a41f4c0ed, type: 3}
+    itemLongDescription: semente pog
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 1007
+    itemType: 1
+    itemDescription: Parsnip
+    itemSprite: {fileID: 21300000, guid: 0a1268bf801d5304ebf16458d7309ac1, type: 3}
+    itemLongDescription: wtf is a parsnip
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+  - itemCode: 1008
+    itemType: 1
+    itemDescription: Wood
+    itemSprite: {fileID: 21300000, guid: e26dc0d638731ec47abe9c4b3cae62ac, type: 3}
+    itemLongDescription: madera
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 1009
+    itemType: 0
+    itemDescription: Blue Spruce Pine Cone
+    itemSprite: {fileID: 21300000, guid: 5eb84bf51d351da428f95a1296f6a397, type: 3}
+    itemLongDescription: aaa
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 1010
+    itemType: 0
+    itemDescription: Canyon oak tree
+    itemSprite: {fileID: 7154603021615155856, guid: d241c496741a12d4290e12ba81dd6724,
+      type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1011
+    itemType: 0
+    itemDescription: Blue Spruce Tree Stump
+    itemSprite: {fileID: -341119608263849502, guid: 5d22327a2a3d2a049a8a59a708d527fe,
+      type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1012
+    itemType: 7
+    itemDescription: Wicker Basket
+    itemSprite: {fileID: 21300504, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePicked: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1013
+    itemType: 5
+    itemDescription: Picareeta
+    itemSprite: {fileID: 21300094, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemLongDescription: picareta? picareta
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePicked: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1014
+    itemType: 0
+    itemDescription: STONE SEED
+    itemSprite: {fileID: 21300000, guid: 4fb548784c08c2c40b86a99493efa98d, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1015
+    itemType: 1
+    itemDescription: Stone
+    itemSprite: {fileID: 21300000, guid: 7700e9e59e6f58e4598ea8f2e5a84cc1, type: 3}
+    itemLongDescription: preda
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 1016
+    itemType: 0
+    itemDescription: Stone 2 Seed
+    itemSprite: {fileID: 21300000, guid: ffd3a07e9702a614284d1e5a4be9f532, type: 3}
+    itemLongDescription: Dos mesmos criadores de Stone Seed
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1017
+    itemType: 6
+    itemDescription: A Basic Scythe
+    itemSprite: {fileID: 21300506, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 2
+    itemUseRadius: 1.5
+    isStartingItem: 1
+    canBePicked: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1018
+    itemType: 8
+    itemDescription: grama 1
+    itemSprite: {fileID: 21300000, guid: 207ad99171e171b418bcaaa396d5a6f6, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1019
+    itemType: 8
+    itemDescription: 'grass 2 '
+    itemSprite: {fileID: 21300000, guid: e452dd2aa629f624390a9ba516a7c47e, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1020
+    itemType: 0
+    itemDescription: weed
+    itemSprite: {fileID: 21300000, guid: 25925800440b0e84f9533a314ddca6b5, type: 3}
+    itemLongDescription: weed
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 1021
+    itemType: 8
+    itemDescription: Prickly Cactus
+    itemSprite: {fileID: 21300000, guid: 37e09848a493a0a4b89a743f73f75963, type: 3}
+    itemLongDescription: cactus
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1022
+    itemType: 9
+    itemDescription: chair
+    itemSprite: {fileID: 21300000, guid: 2a61f48c8f2dfed4da6f2f8e2485ee15, type: 3}
+    itemLongDescription: c hair
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 1023
+    itemType: 9
+    itemDescription: table
+    itemSprite: {fileID: 21300000, guid: 60f7a57556be87841a8cabc94054df28, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePicked: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0

@@ -5,7 +5,7 @@ using UnityEngine;
 //using Mono.Data.Sqlite;
 using System.Data;  
 
-public class DatabaseDBD : MonoBehaviour
+public class DatabaseDB: MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -21,12 +21,13 @@ public class DatabaseDBD : MonoBehaviour
 
     public void DisplayUsers() 
     {
+        Debug.Log("oi");
         string dbName = "URI=file:" + Application.dataPath + "/Database/exemplo.db";
         using (var connection = new SqliteConnection(dbName)) 
         {
             connection.Open();
             Debug.Log(dbName);
-            /*
+            
             using(var command = connection.CreateCommand())
             {
                 command.CommandText = "SELECT * FROM USER";
@@ -37,7 +38,7 @@ public class DatabaseDBD : MonoBehaviour
                     }
                     reader.Close();
                 }
-            } */
+            } 
             connection.Close();
         }
         

@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     private bool _canInteract = true;
     private GameObject lastGameObjectWithCollision;
     public List<string> flagMissoesConcluidas;
+    NPCController nPCController;
 
     // Start is called before the first frame update
     void Start()
@@ -24,8 +25,10 @@ public class PlayerController : MonoBehaviour
             if (lastGameObjectWithCollision && lastGameObjectWithCollision.tag.Equals("NPC"))
             {
                 // Inicia a interação com o NPCController
-                NPCController nPCController = lastGameObjectWithCollision.GetComponent<NPCController>();
+                nPCController = lastGameObjectWithCollision.GetComponent<NPCController>();
+                Debug.Log(flagMissoesConcluidas);
                 nPCController.InitInteraction(flagMissoesConcluidas);
+                
             }
         }
     }
@@ -49,6 +52,9 @@ public class PlayerController : MonoBehaviour
         if (flagMissoesConcluidas.Contains(novaTag)==false) {
             flagMissoesConcluidas.Add(novaTag);
         }
-        
+
+
     }
+
+
 }

@@ -126,13 +126,6 @@ public class Player : SingletonMonobehaviour<Player>
         yInput = Input.GetAxisRaw("Vertical");
 
 
-
-        if(yInput != 0 && xInput != 0)
-        {
-            xInput = xInput * 0.71f;
-            yInput = yInput * 0.71f;
-        }
-
         if(xInput != 0 || yInput != 0)
         {
             isRunning = true;

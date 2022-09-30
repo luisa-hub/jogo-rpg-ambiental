@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChatController">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAIAAAAAAABEAAAEACQAAAAAAAAAAAEAEA=</HashCode>
+      <FileName>Assets\TCC\Scripts\ChatController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseDB">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\TCC\Scripts\DatabaseDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NPCController">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAABEAAAAAAAAAAAIAAAAAAAQAA=</HashCode>
+      <FileName>Assets\TCC\Scripts\NPCController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAACCAACAABAAAAAAAAAAAQEAACAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\TCC\Scripts\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="1" Y="4" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AocAAAQIYoIgABBBAARBAAAUQAAECHAIAAVIAAAFUEA=</HashCode>
+      <FileName>Assets\Course\Scripts\Player\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwitchConfineBoundingShape">
+    <Position X="3.75" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Course\Scripts\Scene\SwitchConfineBoundingShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Settings">
+    <Position X="6.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgMAAAQAYIJAABBBAARBACAEwAAAAHAAAAFIAgAFAAA=</HashCode>
+      <FileName>Assets\Course\Scripts\Misc\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingletonMonobehaviour&lt;T&gt;">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Course\Scripts\Misc\SingletonMonobehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tags">
+    <Position X="11" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Course\Scripts\Misc\Tags.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventHandler">
+    <Position X="13.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgA=</HashCode>
+      <FileName>Assets\Course\Scripts\Events\EventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="MovementDelegate">
+    <Position X="13.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAACQAAAAAAAAAAAAAAAAAAAIAPiHAQA=</HashCode>
+      <FileName>Assets\Course\Scripts\Events\EventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

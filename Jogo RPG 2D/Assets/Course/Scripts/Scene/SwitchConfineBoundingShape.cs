@@ -15,8 +15,10 @@ public class SwitchConfineBoundingShape : MonoBehaviour
     /// </summary>
     private void SwitchBoundingShape()
     {
-        //Get the polygon collider on the "boundconfiner" gameobjetc which is used by CineMachine to prevent the camera going beyond the screnn edges 
-        PolygonCollider2D polygonCollider2D = GameObject.FindGameObjectWithTag(Tags.BoundsConfiner).GetComponent<PolygonCollider2D>();
+        //Get the polygon collider on the "boundconfiner"
+        //gameobjetc which is used by CineMachine to prevent the camera going beyond the screnn edges 
+        PolygonCollider2D polygonCollider2D = 
+            GameObject.FindGameObjectWithTag(Tags.BoundsConfiner).GetComponent<PolygonCollider2D>();
 
 
         CinemachineConfiner cinemachineConfiner = GetComponent<CinemachineConfiner>();

@@ -622,7 +622,7 @@ GameObject:
   - component: {fileID: 1374752695}
   - component: {fileID: 1374752697}
   - component: {fileID: 1374752696}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -645,8 +645,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.000061035156, y: -0.33676147}
-  m_SizeDelta: {x: 2048, y: 293.3472}
+  m_AnchoredPosition: {x: 39, y: 48}
+  m_SizeDelta: {x: 2649.7097, y: 420.01083}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1374752696
 MonoBehaviour:
@@ -668,7 +668,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 771d877a49e443540ae1bfb7ec2795b5, type: 3}
     m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 0
@@ -680,7 +680,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Texto de teste
+  m_Text: 'Testando o texto de teste testando asdasbdjhaskjdbdh jahdskhd jkahsdj
+    hhajsd jashdajshd  ajshdjashjahd ajksdhajdh wknafklankfnkl knsaklfnalkfna lnklsanfklnaklfnklalknf
+    askjdbdh jahdskhd jkahsdj hhajsd jashdajshd  ajshdjashjahd ajksdhajdh '
 --- !u!222 &1374752697
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -787,7 +789,7 @@ GameObject:
   - component: {fileID: 1917815624}
   - component: {fileID: 1917815626}
   - component: {fileID: 1917815625}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -811,8 +813,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -310.7}
-  m_SizeDelta: {x: 0, y: -621.3264}
+  m_AnchoredPosition: {x: -1.2999878, y: -234.70001}
+  m_SizeDelta: {x: 27.866089, y: -494.66278}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1917815625
 MonoBehaviour:
@@ -827,13 +829,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -9,7 +9,7 @@ public class NPCController : MonoBehaviour
 
     private ChatController chatController;
     public List<string> textos;
-    public char stringSeparator = '#';
+    public string caminhoDaImagem;
 
     // Start is called before the first frame update
     void Start()
@@ -28,9 +28,8 @@ public class NPCController : MonoBehaviour
     public void InitInteraction(List<string> flagMissoesConcluidas)
     {
         // Habilito o chat
-        chatController.SetVisible(true);
-        Debug.Log(textos[0]);
-        chatController.IniciaDialogo(textos, flagMissoesConcluidas);
+       
+        chatController.IniciaDialogo(textos, flagMissoesConcluidas, caminhoDaImagem);
    
         
     }

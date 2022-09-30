@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ChatController : MonoBehaviour
 {
     private Text ObjetoTexto;
+    private Image ObjetoImagem;
     private string[] textos;
     private int indexOfText = 0;
     public char stringSeparator = '#';
@@ -16,6 +19,7 @@ public class ChatController : MonoBehaviour
     void Awake()
     {
         ObjetoTexto = GetComponentInChildren<Text>();
+        ObjetoImagem = GetComponentInChildren<Image>();
     }
 
     // Update is called once per frame
@@ -44,10 +48,27 @@ public class ChatController : MonoBehaviour
         gameObject.SetActive(status);
     }
 
+    public void setImage(string caminhoDaImagem) {
+
+        Texture2D myTexture = Resources.Load<Texture2D>(Application.dataPath+caminhoDaImagem);
+        Debug.Log(myTexture);
+        Debug.Log(Application.dataPath + caminhoDaImagem);
+        var sprite = Sprite.Create(myTexture, 
+            new Rect(0, 0, myTexture.width, myTexture.height), new Vector2(0.5f, 0.5f));
+        ObjetoImagem.sprite = sprite;
+        //var byt = imagemLoaded.Select(byte.Parse).ToArray();
+
+        //var ImageConverted = ImageConversion.LoadImage(ObjetoImagem.Get, byt, false);
+    }
     
     public void IniciaDialogo(List<string> textosNPCList, 
-        List<string> flagMissoesConcluidasPlayer)
+        List<string> flagMissoesConcluidasPlayer,
+        string caminhoDaImagem)
+        
     {
+        SetVisible(true);
+        setImage(caminhoDaImagem);
+
         string textoMandar = "";
 
         //Se o jogador não realizou nenhuma missão, ele seta como padrão a primeira. 
@@ -71,6 +92,8 @@ public class ChatController : MonoBehaviour
         }
 
        ConfigureText(textoMandar);
+
+        setImage(caminhoDaImagem);
 
         //Para o jogador
         GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(false);

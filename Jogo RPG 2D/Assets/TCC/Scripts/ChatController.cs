@@ -48,19 +48,6 @@ public class ChatController : MonoBehaviour
         gameObject.SetActive(status);
     }
 
-    public void SetImage(string caminhoDaImagem)
-    {
-
-        //Texture2D myTexture = Resources.Load<Texture2D>(Application.dataPath + caminhoDaImagem);
-        //Debug.Log(myTexture);
-        //Debug.Log(Application.dataPath + caminhoDaImagem);
-        //var sprite = Sprite.Create(myTexture,
-        //    new Rect(0, 0, myTexture.width, myTexture.height), new Vector2(0.5f, 0.5f));
-        //ObjetoImagem.sprite = sprite;
-        //var byt = imagemLoaded.Select(byte.Parse).ToArray();
-
-        //var ImageConverted = ImageConversion.LoadImage(ObjetoImagem.Get, byt, false);
-    }
 
     public void IniciaDialogo(List<string> textosNPCList,
         List<string> flagMissoesConcluidasPlayer,

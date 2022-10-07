@@ -1073,7 +1073,7 @@ MonoBehaviour:
   - "CORAMISSAO1#Aqui est\xE1 uma miss\xE3o.# Boa sorte."
   - "CORAMISSAO2#Ainda estou aguardando...#Voc\xEA concluir a miss\xE3o"
   - "CORAMISSAO3#Obrigada por concluir a miss\xE3o"
-  caminhoDaImagem: /Course/Sprites/Sprite Textures/NPCs/Cora/Cora_Portrait.png
+  retrato: {fileID: 719774538432170253, guid: 3178799b764c8f14f821ba06edc51375, type: 3}
 --- !u!61 &507666515
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51769,7 +51769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textos: []
-  caminhoDaImagem: 
+  retrato: {fileID: 0}
 --- !u!1001 &1089251746
 PrefabInstance:
   m_ObjectHideFlags: 0

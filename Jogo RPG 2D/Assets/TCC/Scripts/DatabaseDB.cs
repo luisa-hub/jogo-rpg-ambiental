@@ -21,7 +21,7 @@ public class DatabaseDB: MonoBehaviour
 
     public void DisplayUsers() 
     {
-        Debug.Log("oi");
+        //Debug.Log("oi");
         string dbName = "URI=file:" + Application.dataPath + "/Database/exemplo.db";
         using (var connection = new SqliteConnection(dbName)) 
         {
@@ -42,6 +42,32 @@ public class DatabaseDB: MonoBehaviour
             connection.Close();
         }
         
+    }
+
+    public List<string> Consultar(string consulta) {
+        string dbName = "URI=file:" + Application.dataPath + "/Database/exemplo.db";
+        using (var connection = new SqliteConnection(dbName))
+        {
+            connection.Open();
+            Debug.Log(dbName);
+            List<string> resultado = new List<string>();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = consulta;
+                using (IDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        resultado.Add(reader["Nome"].ToString()); 
+                    }
+                    reader.Close();
+                }
+            }
+            connection.Close();
+            return resultado;
+        }
+
     }
     
 }

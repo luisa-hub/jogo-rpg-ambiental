@@ -8,11 +8,17 @@ public class ComputerController : MonoBehaviour
 
     public TextMeshProUGUI mostra;
     public TMP_InputField consulta;
-    private DatabaseDB banco;
+    public DatabaseDB banco;
+    //private DatabaseDB banco;
 
-    //banco = this.getComponent(typeof(DatabaseDB)) as DatabaseDB;
+    void Awake()
+    {
+        banco = GetComponent<DatabaseDB>();
+        Debug.Log(banco.ToString());
+    }
     public void click() {
-        mostra.text = consulta.text;
+        List<string> resultado = banco.Consultar(consulta.text);
+        mostra.text = string.Join(",", resultado.ToArray());
 
     
     }

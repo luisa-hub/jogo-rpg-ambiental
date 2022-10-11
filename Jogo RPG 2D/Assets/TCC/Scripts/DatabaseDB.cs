@@ -1,12 +1,9 @@
 ﻿using Mono.Data.Sqlite;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-//using Mono.Data.Sqlite;
 using System.Data;
-using WDT;
+using UnityEngine;
 
-public class DatabaseDB: MonoBehaviour
+public class DatabaseDB : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -17,35 +14,39 @@ public class DatabaseDB: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void DisplayUsers() 
+    public void DisplayUsers()
     {
         //Debug.Log("oi");
         string dbName = "URI=file:" + Application.dataPath + "/Database/exemplo.db";
-        using (var connection = new SqliteConnection(dbName)) 
+        using (var connection = new SqliteConnection(dbName))
         {
             connection.Open();
             Debug.Log(dbName);
-            
-            using(var command = connection.CreateCommand())
+
+            using (var command = connection.CreateCommand())
             {
                 command.CommandText = "SELECT * FROM USER";
-                using (IDataReader reader = command.ExecuteReader()) 
+                using (IDataReader reader = command.ExecuteReader())
                 {
-                    while (reader.Read()) {
+                    while (reader.Read())
+                    {
                         Debug.Log(reader["Nome"]);
                     }
                     reader.Close();
                 }
-            } 
+            }
             connection.Close();
         }
-        
+
     }
 
-    public List<string> Consultar(string consulta) {
+    public List<string> Consultar(string consulta)
+    {
+
+
         string dbName = "URI=file:" + Application.dataPath + "/Database/exemplo.db";
         using (var connection = new SqliteConnection(dbName))
         {
@@ -61,7 +62,7 @@ public class DatabaseDB: MonoBehaviour
                     while (reader.Read())
                     {
                         reader.GetValue(1);
-                        resultado.Add(reader["Nome"].ToString()); 
+                        resultado.Add(reader["Nome"].ToString());
                     }
                     reader.Close();
                 }
@@ -73,68 +74,82 @@ public class DatabaseDB: MonoBehaviour
 
     }
 
+
+    /// <summary>
+    /// Método que pega o nome das colunas no banco de dados
+    /// </summary>
+    /// <returns>Retorna uma lista com o nome de todas as colunas do banco</returns>
     public List<string> colunas()
     {
+        List<string> colunas = new List<string>();
+        Debug.Log("colunas");
         string dbName = "URI=file:" + Application.dataPath + "/Database/exemplo.db";
         using (var connection = new SqliteConnection(dbName))
         {
-            var i = 0;
             connection.Open();
-            Debug.Log(dbName);
-            List<string> resultado = new List<string>();
 
             using (var command = connection.CreateCommand())
             {
+                command.CommandText = "SELECT * FROM user;";
+
                 using (IDataReader reader = command.ExecuteReader())
                 {
-                    while (reader.Read())
+
+                    for (int i = 0; i < reader.FieldCount; i++)
                     {
-                       
-                        resultado.Add(reader.GetValue(i).ToString());
-                        i++;
+                        colunas.Add(reader.GetName(i).ToString());
                     }
+
                     reader.Close();
                 }
+
             }
             connection.Close();
-            return resultado;
-        }
+            return colunas;
 
+        }
     }
 
-    public string[][] dados(string consulta)
+
+    public List<IList<object>> dados()
     {
+        Debug.Log("dados");
         string dbName = "URI=file:" + Application.dataPath + "/Database/exemplo.db";
         using (var connection = new SqliteConnection(dbName))
         {
             connection.Open();
-            Debug.Log(dbName);
-            int i = 0;
-            // List<List<string>> resultado = new List<List<string>>();
-            Dictionary<string, List<string>> resultado = new Dictionary<string, List< string >> ();
+
+            List<IList<object>> dados = new List<IList<object>>();
 
             using (var command = connection.CreateCommand())
             {
-                command.CommandText = consulta;
+                command.CommandText = $"SELECT * FROM user;";
                 using (IDataReader reader = command.ExecuteReader())
                 {
+
+
                     while (reader.Read())
                     {
-                        //Precisamos pegar nome da coluna, e dado delas. reader.read itera por cada linha, precisamos iterar por coluna
-                        List<string> valores = new List<string>();
-                        valores.Add(reader.ToString());
+                        List<object> valores = new List<object>();
 
-                        resultado.Add(reader.GetValue(i).ToString(), valores);
-                        i++;
+                        //para cada valor de cada coluna, adiciona o objeto numa lista de valores
+                        for (int i = 0; i < reader.FieldCount; i++)
+                        {
+                            valores.Add(reader.GetValue(i).ToString());
+                        }
+
+                        dados.Add(valores);
+
                     }
                     reader.Close();
                 }
             }
             connection.Close();
-            return resultado;
+            return dados;
         }
 
     }
 
 }
+
 

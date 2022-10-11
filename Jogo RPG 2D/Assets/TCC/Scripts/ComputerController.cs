@@ -18,14 +18,24 @@ public class ComputerController : MonoBehaviour
         banco = GetComponent<DatabaseDB>();
         Debug.Log(banco.ToString());
         table = GetComponent<TableController>();
+
+        table.MontarTabela(banco.colunas(), banco.dados());
     }
+
     public void click() {
-        List<string> resultado = banco.Consultar(consulta.text);
 
-        table.DefinirColunas(banco.colunas());
+        try
+        {
+            List<string> resultado = banco.Consultar(consulta.text);
+            
 
-        mostra.text = string.Join(",", resultado.ToArray());
-
+            mostra.text = string.Join(",", resultado.ToArray());
+           
+        }
+        catch (System.Exception ex)
+        {
+            mostra.text = string.Join(",", ex.Message);
+        }
     
     }
 

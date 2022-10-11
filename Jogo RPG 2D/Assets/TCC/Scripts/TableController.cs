@@ -20,26 +20,31 @@ namespace Assets.TCC.Scripts
         // Use this for initialization
         void Start()
         {
-            m_datas = new List<IList<object>>();
-            // name is necessary in columnDefs
-        //    m_columnDefs = new List<WColumnDef>
-        //{
-        //    new WColumnDef() {name = "ID", width = "40"},
-        //    new WColumnDef()
-        //    {
-        //        name = "A",
-        //        elementPrefabName = "ButtonElement",
-        //        headPrefabName = "TextElement"
-        //    },
-        //    new WColumnDef() {name = "B"},
-        //    new WColumnDef() {name = "C"},
-        //    new WColumnDef() {name = "D", width = "50%", disableSort = true}
-        //};
 
-            for (int i = 0; i < 30; i++)
+           
+        }
+
+        /// <summary>
+        /// Monta os dados da tabela de banco de dados que aparecerão na tela para o usuário
+        /// </summary>
+        /// <param name="nomeColunas">Lista com o nome das colunas em string</param>
+        /// <param name="dados">Uma lista de listas de objetos que compõe a tabela do banco</param>
+        public void MontarTabela(List<string> nomeColunas, List<IList<object>> dados)
+        {
+            //Definir as colunas da tabela
+            m_columnDefs = new List<WColumnDef>();
+            Debug.Log("Definir Colunas");
+
+            foreach (var nome in nomeColunas)
             {
-                m_datas.Add(GetRandomData(i));
+                m_columnDefs.Add(new WColumnDef() { name = nome, width = "60" });
+
             }
+
+            //Montar os dados com os respectivos valores
+            Debug.Log("Definir Dados");
+
+            m_datas = new List<IList<object>>(dados);
 
             if (testTextMeshPro)
             {
@@ -48,25 +53,6 @@ namespace Assets.TCC.Scripts
             }
             dataTable.msgHandle += HandleTableEvent;
             dataTable.InitDataTable(m_datas, m_columnDefs);
-        }
-
-        public void DefinirColunas(List<string> nomeColunas)
-        {
-            
-            foreach (var nome in nomeColunas)
-            {
-                m_columnDefs = new List<WColumnDef>
-                {
-                    new WColumnDef() {name = nome, width = "40"},
-         
-                };
-            }
-
-        }
-
-        public void DefinirDados(List<string> dados)
-        {
-
         }
 
         public void HandleTableEvent(WEventType messageType, params object[] args)

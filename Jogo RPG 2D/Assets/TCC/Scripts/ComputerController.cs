@@ -19,7 +19,7 @@ public class ComputerController : MonoBehaviour
         Debug.Log(banco.ToString());
         table = GetComponent<TableController>();
 
-        table.MontarTabela(banco.colunas(), banco.dados());
+        
     }
 
     public void click() {
@@ -27,7 +27,8 @@ public class ComputerController : MonoBehaviour
         try
         {
             List<string> resultado = banco.Consultar(consulta.text);
-            
+
+            table.MontarTabela(banco.colunas(consulta.text), banco.dados(consulta.text));
 
             mostra.text = string.Join(",", resultado.ToArray());
            

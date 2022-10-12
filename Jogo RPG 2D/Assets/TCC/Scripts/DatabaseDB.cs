@@ -61,8 +61,7 @@ public class DatabaseDB : MonoBehaviour
                 {
                     while (reader.Read())
                     {
-                        reader.GetValue(1);
-                        resultado.Add(reader["Nome"].ToString());
+                        //resultado.Add(reader["Nome"].ToString());
                     }
                     reader.Close();
                 }
@@ -79,7 +78,7 @@ public class DatabaseDB : MonoBehaviour
     /// Método que pega o nome das colunas no banco de dados
     /// </summary>
     /// <returns>Retorna uma lista com o nome de todas as colunas do banco</returns>
-    public List<string> colunas()
+    public List<string> colunas(string consulta)
     {
         List<string> colunas = new List<string>();
         Debug.Log("colunas");
@@ -90,7 +89,7 @@ public class DatabaseDB : MonoBehaviour
 
             using (var command = connection.CreateCommand())
             {
-                command.CommandText = "SELECT * FROM user;";
+                command.CommandText = consulta;
 
                 using (IDataReader reader = command.ExecuteReader())
                 {
@@ -111,7 +110,7 @@ public class DatabaseDB : MonoBehaviour
     }
 
 
-    public List<IList<object>> dados()
+    public List<IList<object>> dados(string consulta)
     {
         Debug.Log("dados");
         string dbName = "URI=file:" + Application.dataPath + "/Database/exemplo.db";
@@ -123,7 +122,7 @@ public class DatabaseDB : MonoBehaviour
 
             using (var command = connection.CreateCommand())
             {
-                command.CommandText = $"SELECT * FROM user;";
+                command.CommandText = consulta;
                 using (IDataReader reader = command.ExecuteReader())
                 {
 

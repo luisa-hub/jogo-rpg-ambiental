@@ -7,6 +7,7 @@ TagManager:
   - BoundsConfiner
   - NPC
   - ChatCanvasTag
+  - Computador
   layers:
   - Default
   - TransparentFX

@@ -56867,7 +56867,12 @@ PrefabInstance:
     - target: {fileID: 6067355721286555507, guid: e5ace7635923e484a81eb81b0ea240e0,
         type: 3}
       propertyPath: m_Name
-      value: TumbleweedThistle (1)
+      value: TEsteCOmputador
+      objectReference: {fileID: 0}
+    - target: {fileID: 6067355721286555507, guid: e5ace7635923e484a81eb81b0ea240e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Computador
       objectReference: {fileID: 0}
     - target: {fileID: 8791890674114176098, guid: e5ace7635923e484a81eb81b0ea240e0,
         type: 3}
@@ -56926,6 +56931,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5ace7635923e484a81eb81b0ea240e0, type: 3}
+--- !u!1 &1973616122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6067355721286555507, guid: e5ace7635923e484a81eb81b0ea240e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1920805811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1973616127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973616122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bad8b85b99ba6d42960dcdf90a1520c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  janela: CanvasSqlInteraction
 --- !u!1 &1988437614
 GameObject:
   m_ObjectHideFlags: 0

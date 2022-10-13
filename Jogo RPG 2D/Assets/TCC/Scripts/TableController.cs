@@ -6,6 +6,9 @@ using WDT;
 
 namespace Assets.TCC.Scripts
 {
+    /// <summary>
+    /// Configura o componente da tabela de banco de dados para mostrar as informações da maneira correta
+    /// </summary>
     public class TableController : MonoBehaviour
     {
         public WDataTable dataTable;

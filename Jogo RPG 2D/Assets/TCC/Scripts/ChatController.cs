@@ -7,6 +7,9 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Chat Controller é responsável por mostrar os dados da caixa de diálogos na tela
+/// </summary>
 public class ChatController : MonoBehaviour
 {
     private Text ObjetoTexto;
@@ -49,14 +52,20 @@ public class ChatController : MonoBehaviour
     }
 
 
+    /// <summary>
+    /// Inicia o diálogo com o NPC e mostra a caixa de diálogos junto com o retrato do NPC
+    /// </summary>
+    /// <param name="textosNPCList">Falas do Npc</param>
+    /// <param name="flagMissoesConcluidasPlayer">Flags das missões concluídas do jogador</param>
+    /// <param name="retratoNPC">Retrato do Npc que aparecerá na tela</param>
     public void IniciaDialogo(List<string> textosNPCList,
         List<string> flagMissoesConcluidasPlayer,
-        Sprite retrato)
+        Sprite retratoNPC)
 
     {
         SetVisible(true);
 
-        ObjetoImagem.sprite = retrato;
+        ObjetoImagem.sprite = retratoNPC;
 
         string textoMandar = "";
 

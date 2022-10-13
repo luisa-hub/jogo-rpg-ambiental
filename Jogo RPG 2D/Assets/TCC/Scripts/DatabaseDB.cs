@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Data;
 using UnityEngine;
 
+/// <summary>
+/// Faz a interação com o banco de dados, realizando consultas
+/// </summary>
 public class DatabaseDB : MonoBehaviour
 {
     // Start is called before the first frame update

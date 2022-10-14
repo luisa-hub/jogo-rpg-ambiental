@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Course/Scenes/PersistentScene.unity
+    guid: 2a1213a1535a45145a075439160377ce
+  - enabled: 1
+    path: Assets/Course/Scenes/Scene1_Farm.unity
+    guid: ddbda413a2879144b9dca337da8b8ca0
   m_configObjects: {}

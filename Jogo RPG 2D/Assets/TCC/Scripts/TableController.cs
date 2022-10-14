@@ -43,10 +43,12 @@ namespace Assets.TCC.Scripts
                 m_columnDefs.Add(new WColumnDef() { name = nome, width = "60" });
 
             }
+            
+
 
             //Montar os dados com os respectivos valores
             Debug.Log("Definir Dados");
-
+            
             m_datas = new List<IList<object>>(dados);
 
             if (testTextMeshPro)
@@ -89,6 +91,7 @@ namespace Assets.TCC.Scripts
         {
             dataTable.Clear();
         }
+
         private List<object> GetRandomData(int i = -1)
         {
             return new List<object>

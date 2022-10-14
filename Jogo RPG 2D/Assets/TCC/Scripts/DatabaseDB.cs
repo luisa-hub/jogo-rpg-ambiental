@@ -46,11 +46,11 @@ public class DatabaseDB : MonoBehaviour
 
     }
 
-    public List<string> Consultar(string consulta)
+    public List<string> Consultar(string consulta, string nome)
     {
 
 
-        string dbName = "URI=file:" + Application.dataPath + "/Database/exemplo.db";
+        string dbName = "URI=file:" + Application.dataPath + "/Database/"+nome+".db";
         using (var connection = new SqliteConnection(dbName))
         {
             connection.Open();
@@ -84,14 +84,15 @@ public class DatabaseDB : MonoBehaviour
     /// Método que pega o nome das colunas no banco de dados
     /// </summary>
     /// <returns>Retorna uma lista com o nome de todas as colunas do banco</returns>
-    public List<string> colunas(string consulta)
+    public List<string> colunas(string consulta, string nome)
     {
         
         Debug.Log("colunas");
-        string dbName = "URI=file:" + Application.dataPath + "/Database/exemplo.db";
+        string dbName = "URI=file:" + Application.dataPath + "/Database/"+nome+".db";
         using (var connection = new SqliteConnection(dbName))
         {
             List<string> colunas = new List<string>();
+            
             connection.Open();
 
             using (var command = connection.CreateCommand())
@@ -103,7 +104,9 @@ public class DatabaseDB : MonoBehaviour
 
                     for (int i = 0; i < reader.FieldCount; i++)
                     {
+                         
                         colunas.Add(reader.GetName(i).ToString());
+                        
                     }
 
                     reader.Close();
@@ -117,16 +120,16 @@ public class DatabaseDB : MonoBehaviour
     }
 
 
-    public List<IList<object>> dados(string consulta)
+    public List<IList<object>> dados(string consulta, string nome)
     {
         Debug.Log("dados");
-        string dbName = "URI=file:" + Application.dataPath + "/Database/exemplo.db";
+        string dbName = "URI=file:" + Application.dataPath + "/Database/"+nome+".db";
         using (var connection = new SqliteConnection(dbName))
         {
             connection.Open();
 
             List<IList<object>> dados = new List<IList<object>>();
-
+            List<IList<string>> dados2 = new List<IList<string>>();
             using (var command = connection.CreateCommand())
             {
                 command.CommandText = consulta;
@@ -137,14 +140,16 @@ public class DatabaseDB : MonoBehaviour
                     while (reader.Read())
                     {
                         List<object> valores = new List<object>();
-
+                        List<string> valores2 = new List<string>();
                         //para cada valor de cada coluna, adiciona o objeto numa lista de valores
                         for (int i = 0; i < reader.FieldCount; i++)
                         {
                             valores.Add(reader.GetValue(i).ToString());
+                            valores2.Add(reader.GetValue(i).ToString());
                         }
 
                         dados.Add(valores);
+                        dados2.Add(valores2);
 
                     }
                     reader.Close();

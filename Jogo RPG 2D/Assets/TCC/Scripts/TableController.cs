@@ -35,7 +35,7 @@ namespace Assets.TCC.Scripts
         public void MontarTabela(List<string> nomeColunas, List<IList<object>> dados)
         {
             //Definir as colunas da tabela
-            m_columnDefs = new List<WColumnDef>();
+            m_columnDefs = new List<WColumnDef>() { };
             Debug.Log("Definir Colunas");
 
             foreach (var nome in nomeColunas)
@@ -79,8 +79,16 @@ namespace Assets.TCC.Scripts
                     text.text = "Select Row" + rowIndex;
                 m_tempSelectIndex = rowIndex;
             }
+
         }
 
+        /// <summary>
+        /// Limpa a tabela de dados
+        /// </summary>
+        public void reset()
+        {
+            dataTable.Clear();
+        }
         private List<object> GetRandomData(int i = -1)
         {
             return new List<object>

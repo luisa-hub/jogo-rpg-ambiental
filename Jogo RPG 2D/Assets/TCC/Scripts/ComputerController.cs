@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using System.ComponentModel;
 using System;
+using Mono.Data.Sqlite;
 
 /// <summary>
 /// Computador é o controlador do banco de dados e do componente da tabela WDataTable
@@ -23,7 +24,7 @@ public class ComputerController : MonoBehaviour
         banco = GetComponent<DatabaseDB>();
         Debug.Log(banco.ToString());
         table = GetComponent<TableController>();
-
+        //table.gameObject.SetActive(true);
         
     }
 
@@ -38,9 +39,15 @@ public class ComputerController : MonoBehaviour
             mostra.text = string.Join(",", resultado.ToArray());
            
         }
-        catch (System.Exception ex) 
+        catch (SqliteException ex) 
         {
+            if (ex.ErrorCode == SQLiteErrorCode.Error)
+            {
+                mostra.text =  "Parece que a coluna que você está tentando acessar não existe nesse banco!";
+            }
 
+           
+            
             if (ExceptionContainsErrorCode(ex, 80004005))
             {
                 Debug.Log(ex);
@@ -53,7 +60,10 @@ public class ComputerController : MonoBehaviour
 
     public void fechar()
     {
-         GetComponent<ComputerController>().gameObject.SetActive(false);
+         this.gameObject.SetActive(false);
+
+        table.reset();
+       
 
         //Volta
         GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(true);

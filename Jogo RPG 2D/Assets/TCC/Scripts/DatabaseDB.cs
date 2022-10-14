@@ -54,6 +54,7 @@ public class DatabaseDB : MonoBehaviour
         using (var connection = new SqliteConnection(dbName))
         {
             connection.Open();
+            
             Debug.Log(dbName);
             List<string> resultado = new List<string>();
 
@@ -67,6 +68,8 @@ public class DatabaseDB : MonoBehaviour
                         //resultado.Add(reader["Nome"].ToString());
                     }
                     reader.Close();
+
+                   
                 }
             }
             connection.Close();
@@ -83,11 +86,12 @@ public class DatabaseDB : MonoBehaviour
     /// <returns>Retorna uma lista com o nome de todas as colunas do banco</returns>
     public List<string> colunas(string consulta)
     {
-        List<string> colunas = new List<string>();
+        
         Debug.Log("colunas");
         string dbName = "URI=file:" + Application.dataPath + "/Database/exemplo.db";
         using (var connection = new SqliteConnection(dbName))
         {
+            List<string> colunas = new List<string>();
             connection.Open();
 
             using (var command = connection.CreateCommand())

@@ -193,6 +193,23 @@ namespace WDT
             UpdateByRowInfo();
         }
 
+        /// <summary>
+        /// Reseta os valores da tabela de banco de dados
+        /// </summary>
+        public void Clear()
+        {
+            // copy
+            m_datas.Clear();
+            m_columnDefs.Clear();
+            m_rowInfos.Clear();
+            
+            UpdateColumnWidths();
+            m_head.SetColumnInfo(m_columnDefs, this);
+            m_scrollRect.prefabSource.prefabName = rowPrefab;
+            UpdateScrollRectSize();
+            UpdateByRowInfo();
+        }
+
         public IList<object> GetInfosByRowIndex(int rowIndex)
         {
             if (rowIndex < 0 || rowIndex >= m_datas.Count)

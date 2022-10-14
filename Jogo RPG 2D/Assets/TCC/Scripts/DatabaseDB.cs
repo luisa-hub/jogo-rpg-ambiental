@@ -129,7 +129,6 @@ public class DatabaseDB : MonoBehaviour
             connection.Open();
 
             List<IList<object>> dados = new List<IList<object>>();
-            List<IList<string>> dados2 = new List<IList<string>>();
             using (var command = connection.CreateCommand())
             {
                 command.CommandText = consulta;
@@ -140,16 +139,13 @@ public class DatabaseDB : MonoBehaviour
                     while (reader.Read())
                     {
                         List<object> valores = new List<object>();
-                        List<string> valores2 = new List<string>();
                         //para cada valor de cada coluna, adiciona o objeto numa lista de valores
                         for (int i = 0; i < reader.FieldCount; i++)
                         {
                             valores.Add(reader.GetValue(i).ToString());
-                            valores2.Add(reader.GetValue(i).ToString());
                         }
 
                         dados.Add(valores);
-                        dados2.Add(valores2);
 
                     }
                     reader.Close();

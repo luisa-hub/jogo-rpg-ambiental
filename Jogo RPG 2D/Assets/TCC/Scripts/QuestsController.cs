@@ -17,9 +17,6 @@ namespace Assets.TCC.Scripts
         public void verifyData(List<string> coluna, List<IList<object>> linhas)
         {
 
-
-            //Proximos passos: vamos tentar transformar a List<IList<object>> numa lista de strings para 
-            //poder mexer ocm ela com mais facilidade
             bool resultadoColunas = true;
             bool resultadoLinhas = true;
           

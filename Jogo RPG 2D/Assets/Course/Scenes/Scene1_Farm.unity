@@ -1070,9 +1070,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
-  - "CORAMISSAO1#Aqui est\xE1 uma miss\xE3o.# Boa sorte."
+  - "CORAMISSAO1#Aqui est\xE1 uma miss\xE3o.#Vai l\xE1 no arbusto secreto e pega
+    todos os usu\xE1rios...#...e uma coluna cheia de 42. Porque? Porque sim. Porque
+    eu to com vontade.# Boa sorte."
   - "CORAMISSAO2#Ainda estou aguardando...#Voc\xEA concluir a miss\xE3o"
   - "CORAMISSAO3#Obrigada por concluir a miss\xE3o"
+  - "CORAMISSAO4#Sim, voc\xEA completou a miss\xE3o muito bem"
   retrato: {fileID: 5304089592871775321, guid: 3178799b764c8f14f821ba06edc51375, type: 3}
 --- !u!61 &507666515
 BoxCollider2D:

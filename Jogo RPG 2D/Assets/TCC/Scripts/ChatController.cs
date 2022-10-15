@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assets.TCC.Scripts;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -17,6 +18,7 @@ public class ChatController : MonoBehaviour
     private string[] textos;
     private int indexOfText = 0;
     public char stringSeparator = '#';
+    public QuestsController questController;
 
     // Awake é chamado antes do start
     void Awake()
@@ -58,33 +60,30 @@ public class ChatController : MonoBehaviour
     /// <param name="textosNPCList">Falas do Npc</param>
     /// <param name="flagMissoesConcluidasPlayer">Flags das missões concluídas do jogador</param>
     /// <param name="retratoNPC">Retrato do Npc que aparecerá na tela</param>
-    public void IniciaDialogo(List<string> textosNPCList,
-        List<string> flagMissoesConcluidasPlayer,
-        Sprite retratoNPC)
-
+    public void IniciaDialogo(List<string> textosNPCList, List<string> flagMissoesConcluidasPlayer, Sprite retratoNPC)
     {
-        SetVisible(true);
+        
+        SetVisible(true); //ativa caixa de diálogo
+        ObjetoImagem.sprite = retratoNPC; //coloca o retrato do npc
+        string textoMandar = ""; //seta variável que vai mandar pro chat
 
-        ObjetoImagem.sprite = retratoNPC;
-
-        string textoMandar = "";
-
-        //Se o jogador não realizou nenhuma missão, ele seta como padrão a primeira. 
+        //Se o jogador não realizou nenhuma missão, ele manda como padrão a primeira linha de diálogo
         if (flagMissoesConcluidasPlayer.Count == 0)
         {
             textoMandar = textos[0];
         }
 
-        //Se o jogador já realizou alguma missão, ele 
+        //Se o jogador já realizou alguma missão, ele procura quais que realizou.
+        //Se tiver mais de uma, ele seleciona a última das flags do npc encontrada.
         else
         {
             string flag;
 
-            foreach (string texto in textosNPCList)
+            foreach (string texto in textosNPCList) //pra diálogo possível do npc, repete
             {
-                flag = texto.Split(stringSeparator)[0];
+                flag = texto.Split(stringSeparator)[0]; //pega flag que tem no começo de cada texto do npc
 
-                if (flagMissoesConcluidasPlayer.Contains(flag))
+                if (flagMissoesConcluidasPlayer.Contains(flag)) //vê se esse diálogo tá nas flags do jogador
                     textoMandar = texto;
             }
         }
@@ -102,14 +101,15 @@ public class ChatController : MonoBehaviour
 
     private void ConfigureText(string text)
     {
-
-        // Reseta o índice de texto (começa com 1, pois o index 0 é a flag da missão)
-        indexOfText = 1;
         // Divide a string recebida
         textos = text.Split(stringSeparator);
+        //manda pro questcontroller checar se isso muda uma flag
+        questController.verifyTalk(textos[0]);
+        //Inicia o índice de texto (começa com 1, pois o index 0 é a flag da missão)
+        indexOfText = 1;
+        
         // Define o texto inicial
         ObjetoTexto.text = textos[indexOfText];
-        GameObject.Find("Player").GetComponent<PlayerController>().updateTags(textos[0]);
 
     }
 

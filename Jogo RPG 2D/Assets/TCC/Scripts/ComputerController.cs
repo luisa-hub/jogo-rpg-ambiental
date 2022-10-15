@@ -43,6 +43,7 @@ public class ComputerController : MonoBehaviour
             table.MontarTabela(banco.colunas(consulta.text, "exemplo"), banco.dados(consulta.text, "exemplo"));
 
             botaoTip.gameObject.SetActive(false);
+            mostra.text = "";
            
         }
         catch (SqliteException ex) 
@@ -80,6 +81,7 @@ public class ComputerController : MonoBehaviour
     public void tip()
     {
         textoErro.SetText(messagemDeErro);
+        botaoTip.gameObject.SetActive(false);
 
     }
 

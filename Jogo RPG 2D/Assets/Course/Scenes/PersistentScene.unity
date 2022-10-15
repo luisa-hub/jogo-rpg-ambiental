@@ -511,6 +511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stringSeparator: 35
+  questController: {fileID: 1217807348}
 --- !u!114 &170046954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1585,6 +1586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   banco: {fileID: 175768536}
+  jogador: {fileID: 4548441709604419837}
 --- !u!4 &1217807349
 Transform:
   m_ObjectHideFlags: 0

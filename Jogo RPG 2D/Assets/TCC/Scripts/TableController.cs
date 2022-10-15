@@ -36,21 +36,17 @@ namespace Assets.TCC.Scripts
         {
             //Definir as colunas da tabela
             m_columnDefs = new List<WColumnDef>() { };
-            Debug.Log("Definir Colunas");
 
             foreach (var nome in nomeColunas)
             {
                 m_columnDefs.Add(new WColumnDef() { name = nome, width = "60" });
 
             }
-            
-
-
+  
             //Montar os dados com os respectivos valores
-            Debug.Log("Definir Dados");
-            
             m_datas = new List<IList<object>>(dados);
 
+            //Inicializa a tabela
             if (testTextMeshPro)
             {
                 dataTable.defaultHeadPrefabName = "TMPButtonElement";

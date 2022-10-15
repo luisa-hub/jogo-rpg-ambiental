@@ -22,14 +22,12 @@ public class ComputerController : MonoBehaviour
     private string messagemDeErro;
     public TextMeshProUGUI textoErro;
     public QuestsController quest;
-    //private DatabaseDB banco;
+    
 
     void Awake()
     {
         banco = GetComponent<DatabaseDB>();
-        Debug.Log(banco.ToString());
         table = GetComponent<TableController>();
-        //quest = GetComponent<QuestsController>();
         
         
     }
@@ -38,13 +36,12 @@ public class ComputerController : MonoBehaviour
 
         try
         {
-            List<string> resultado = banco.Consultar(consulta.text, "exemplo");
-
+            //A ideia aqui é que o questController consulte de uma tabela de backup, para que
+            //o resultado esperado seja sempre o mesmo. Por isso, é necessário fazer duas consultas verificando.
             quest.verifyData(banco.colunas(consulta.text, "exemplo"), banco.dados(consulta.text, "exemplo"));
 
             table.MontarTabela(banco.colunas(consulta.text, "exemplo"), banco.dados(consulta.text, "exemplo"));
 
-            mostra.text = string.Join(",", resultado.ToArray());
             botaoTip.gameObject.SetActive(false);
            
         }
@@ -58,15 +55,11 @@ public class ComputerController : MonoBehaviour
                 botaoTip.gameObject.SetActive(true);
                 
             }
-
-           
             
-            if (ExceptionContainsErrorCode(ex, 80004005))
-            {
-                Debug.Log(ex);
-                mostra.text = string.Join(",", ex.Message);
-            }
-            
+        }
+        catch (NullReferenceException)
+        {
+            mostra.text = "Cuidado, não clique levianamente em botões...!";
         }
     
     }
@@ -76,8 +69,10 @@ public class ComputerController : MonoBehaviour
          this.gameObject.SetActive(false);
 
         table.reset();
+        mostra.text = "";
+        botaoTip.gameObject.SetActive(false);
 
-        //Volta
+        //Retorna movimento ao Player
         GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(true);
         GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(true);
     }
@@ -85,7 +80,6 @@ public class ComputerController : MonoBehaviour
     public void tip()
     {
         textoErro.SetText(messagemDeErro);
-        
 
     }
 

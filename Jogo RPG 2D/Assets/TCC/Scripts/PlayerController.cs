@@ -35,7 +35,6 @@ public class PlayerController : MonoBehaviour
             if (lastGameObjectWithCollision && lastGameObjectWithCollision.tag.Equals("Computador"))
             {
                 windowController = lastGameObjectWithCollision.GetComponent<WindowController>();
-                Debug.Log("FUncionando");
                 windowController.InitInteraction();
             }
         }

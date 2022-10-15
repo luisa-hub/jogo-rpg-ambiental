@@ -198,6 +198,8 @@ namespace WDT
         /// </summary>
         public void Clear()
         {
+            if (m_datas.Count.Equals(0) || m_columnDefs.Count.Equals(0))
+                return;
             // copy
             m_datas.Clear();
             m_columnDefs.Clear();

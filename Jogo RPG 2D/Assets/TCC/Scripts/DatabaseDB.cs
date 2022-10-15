@@ -8,77 +8,6 @@ using UnityEngine;
 /// </summary>
 public class DatabaseDB : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        DisplayUsers();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public void DisplayUsers()
-    {
-        //Debug.Log("oi");
-        string dbName = "URI=file:" + Application.dataPath + "/Database/exemplo.db";
-        using (var connection = new SqliteConnection(dbName))
-        {
-            connection.Open();
-            Debug.Log(dbName);
-
-            using (var command = connection.CreateCommand())
-            {
-                command.CommandText = "SELECT * FROM USER";
-                using (IDataReader reader = command.ExecuteReader())
-                {
-                    while (reader.Read())
-                    {
-                        Debug.Log(reader["Nome"]);
-                    }
-                    reader.Close();
-                }
-            }
-            connection.Close();
-        }
-
-    }
-
-    public List<string> Consultar(string consulta, string nome)
-    {
-
-
-        string dbName = "URI=file:" + Application.dataPath + "/Database/"+nome+".db";
-        using (var connection = new SqliteConnection(dbName))
-        {
-            connection.Open();
-            
-            Debug.Log(dbName);
-            List<string> resultado = new List<string>();
-
-            using (var command = connection.CreateCommand())
-            {
-                command.CommandText = consulta;
-                using (IDataReader reader = command.ExecuteReader())
-                {
-                    while (reader.Read())
-                    {
-                        //resultado.Add(reader["Nome"].ToString());
-                    }
-                    reader.Close();
-
-                   
-                }
-            }
-            connection.Close();
-            return resultado;
-        }
-
-
-    }
-
 
     /// <summary>
     /// Método que pega o nome das colunas no banco de dados
@@ -87,7 +16,6 @@ public class DatabaseDB : MonoBehaviour
     public List<string> colunas(string consulta, string nome)
     {
         
-        Debug.Log("colunas");
         string dbName = "URI=file:" + Application.dataPath + "/Database/"+nome+".db";
         using (var connection = new SqliteConnection(dbName))
         {
@@ -122,7 +50,6 @@ public class DatabaseDB : MonoBehaviour
 
     public List<IList<object>> dados(string consulta, string nome)
     {
-        Debug.Log("dados");
         string dbName = "URI=file:" + Application.dataPath + "/Database/"+nome+".db";
         using (var connection = new SqliteConnection(dbName))
         {
@@ -134,7 +61,6 @@ public class DatabaseDB : MonoBehaviour
                 command.CommandText = consulta;
                 using (IDataReader reader = command.ExecuteReader())
                 {
-
 
                     while (reader.Read())
                     {

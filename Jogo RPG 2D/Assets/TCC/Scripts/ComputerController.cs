@@ -36,11 +36,12 @@ public class ComputerController : MonoBehaviour
 
         try
         {
-            //A ideia aqui é que o questController consulte de uma tabela de backup, para que
-            //o resultado esperado seja sempre o mesmo. Por isso, é necessário fazer duas consultas verificando.
-            quest.verifyData(banco.colunas(consulta.text, "exemplo"), banco.dados(consulta.text, "exemplo"));
+            List<string> colunas = banco.colunas(consulta.text, "exemplo");
+            List <IList<object>> linhas = banco.dados(consulta.text, "exemplo");
 
-            table.MontarTabela(banco.colunas(consulta.text, "exemplo"), banco.dados(consulta.text, "exemplo"));
+            quest.verifyData(colunas, linhas);
+
+            table.MontarTabela(colunas, linhas);
 
             botaoTip.gameObject.SetActive(false);
             mostra.text = "";

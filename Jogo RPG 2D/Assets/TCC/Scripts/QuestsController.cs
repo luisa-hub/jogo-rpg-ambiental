@@ -8,26 +8,31 @@ namespace Assets.TCC.Scripts
     public class QuestsController : MonoBehaviour
     {
         public DatabaseDB banco;
-        private string bancoreserva = "exemplo";
+        private string bancoReserva = "exemplo";
         public PlayerController jogador;
+
+        private List<IList<object>> linhasEsperadas;
+        private List<string> colunasEsperadas;
+
         private void Start()
         {
 
         }
 
 
-        public void verifyData(List<string> coluna, List<IList<object>> linhas)
+        public void verifyData(List<string> colunas, List<IList<object>> linhas)
         {
             //-----------------------------
 
             //Aqui, resultado de consulta esperada
             string consulta = "SELECT *, 42 FROM user;"; 
+
             //Pega resultados do banco de dados
-            List<IList<object>> linhasEsperadas = banco.dados(consulta, bancoreserva); 
-            List<string> colunasEsperadas = banco.colunas(consulta, bancoreserva);
+            linhasEsperadas = banco.dados(consulta, bancoReserva); 
+            colunasEsperadas = banco.colunas(consulta, bancoReserva);
 
             //Compara se os resultados são equivalentes
-            if (compara(coluna, linhas, linhasEsperadas, colunasEsperadas))
+            if (compara(colunas, linhas))
             {
                 //manda pra completar missão
                 jogador.updateTags("CORAMISSAO3");
@@ -62,17 +67,18 @@ namespace Assets.TCC.Scripts
 
         }
 
-        public bool compara(List<string> coluna, List<IList<object>> linhas, List<IList<object>> linhasEsperadas, List<string> colunasEsperadas) {
+        public bool compara(List<string> colunas, List<IList<object>> linhas) {
 
             bool resultadoColunas = false;
             bool resultadoLinhas = false;
+            List<bool> resultadosLinhaBool;
 
             //COMPARAÇÃO COLUNAS:
             //checa se há elementos que tem em uma que não tem em outra
-            var firstNotSecondc = coluna.Except(colunasEsperadas).ToList();
-            var secondNotFirstc = colunasEsperadas.Except(coluna).ToList();
+            var colunasSemColunasEsperadas = colunas.Except(colunasEsperadas).ToList();
+            var colunasEsperadasSemColunas = colunasEsperadas.Except(colunas).ToList();
             //vê se ficou vazio, sem nenhum elemento diferente. Se comparação deu que são iguais, vai ficar true!
-            resultadoColunas = !firstNotSecondc.Any() && !secondNotFirstc.Any();
+            resultadoColunas = !colunasSemColunasEsperadas.Any() && !colunasEsperadasSemColunas.Any();
 
             //Se comparação de colunas deu certo, tenta comparar linhas. Se não, nem precisa tentar
             if (resultadoColunas) { 
@@ -83,19 +89,21 @@ namespace Assets.TCC.Scripts
                     //percorre pela listde list
                     foreach (var linhaEsperada in linhasEsperadas)
                     {
+                        resultadosLinhaBool = new List<bool>();
+
                         foreach (var linha in linhas)
                         {
                             //compara com resultado esperado da mesma forma
-                            var firstNotSecond = linha.Except(linhaEsperada).ToList();
-                            var secondNotFirst = linhaEsperada.Except(linha).ToList();
-                            resultadoLinhas = !firstNotSecondc.Any() && !secondNotFirstc.Any();
-
-                            if (!resultadoLinhas)
-                            {
-                                //se entrar aqui, é porque deu errado
-                                break;
-                            }
+                            var linhaSemLinhaEsperada = linha.Except(linhaEsperada).ToList();
+                            var linhaEsperadaSemLinha = linhaEsperada.Except(linha).ToList();
+                            resultadosLinhaBool.Add(!linhaSemLinhaEsperada.Any() && !linhaEsperadaSemLinha.Any());
                         }
+
+                        resultadoLinhas = resultadosLinhaBool.Contains(true) ? true : false;
+                   
+                        if (!resultadoLinhas) break;
+                            
+                            
                     }
 
                 }
@@ -103,15 +111,9 @@ namespace Assets.TCC.Scripts
 
             //Checa se os dois é verdadeiro pra mandar o resultado!
             if (resultadoColunas && resultadoLinhas)
-            {
                 return true;
-            }
             else
-            {
                 return false;
-            }
-            
-
             
         }
 

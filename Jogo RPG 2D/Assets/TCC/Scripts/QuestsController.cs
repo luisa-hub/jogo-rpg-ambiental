@@ -19,34 +19,33 @@ namespace Assets.TCC.Scripts
 
         }
 
-
+        /// <summary>
+        /// Verifica se as colunas digitadas pelo usuário são iguais as colunas esperadas na missão
+        /// </summary>
         public void verifyData(List<string> colunas, List<IList<object>> linhas)
         {
-            //-----------------------------
 
             //Aqui, resultado de consulta esperada
-            string consulta = "SELECT *, 42 FROM user;"; 
+            string consulta = "SELECT *, 42 FROM user;";
 
             //Pega resultados do banco de dados
             linhasEsperadas = banco.dados(consulta, bancoReserva); 
             colunasEsperadas = banco.colunas(consulta, bancoReserva);
 
             //Compara se os resultados são equivalentes
-            if (compara(colunas, linhas))
+            if (compare(colunas, linhas))
             {
-                //manda pra completar missão
+                //Completa missão
                 jogador.updateTags("CORAMISSAO3");
-                Debug.Log("YEEEEY");
+                Debug.Log("Missão concluída");
             }
             else
             {
-                //Só pra testes pra saber no log se deu errado. Não impacta em jogo, usuário não receberá nenhum input até que dê certo.
-                Debug.Log("naaa");
+                Debug.Log("Missão não concluída");
             }
-
-            //-----------------------------
-
         }
+
+
         public void verifyTalk(string flag)
         {
             switch (flag)
@@ -67,7 +66,7 @@ namespace Assets.TCC.Scripts
 
         }
 
-        public bool compara(List<string> colunas, List<IList<object>> linhas) {
+        private bool compare(List<string> colunas, List<IList<object>> linhas) {
 
             bool resultadoColunas = false;
             bool resultadoLinhas = false;
@@ -77,6 +76,7 @@ namespace Assets.TCC.Scripts
             //checa se há elementos que tem em uma que não tem em outra
             var colunasSemColunasEsperadas = colunas.Except(colunasEsperadas).ToList();
             var colunasEsperadasSemColunas = colunasEsperadas.Except(colunas).ToList();
+
             //vê se ficou vazio, sem nenhum elemento diferente. Se comparação deu que são iguais, vai ficar true!
             resultadoColunas = !colunasSemColunasEsperadas.Any() && !colunasEsperadasSemColunas.Any();
 
@@ -101,8 +101,7 @@ namespace Assets.TCC.Scripts
 
                         resultadoLinhas = resultadosLinhaBool.Contains(true) ? true : false;
                    
-                        if (!resultadoLinhas) break;
-                            
+                        if (!resultadoLinhas) break;     
                             
                     }
 
@@ -116,6 +115,7 @@ namespace Assets.TCC.Scripts
                 return false;
             
         }
+
 
     }
 }

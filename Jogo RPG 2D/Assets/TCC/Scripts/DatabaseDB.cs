@@ -83,6 +83,30 @@ public class DatabaseDB : MonoBehaviour
 
     }
 
+    public void consulta(string consulta, string nome)
+    {
+
+        string dbName = "URI=file:" + Application.dataPath + "/Database/" + nome + ".db";
+        using (var connection = new SqliteConnection(dbName))
+        {
+            List<string> colunas = new List<string>();
+
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = consulta;
+                IDataReader reader = command.ExecuteReader();
+                reader.Close();
+
+            }
+            connection.Close();
+            return;
+
+        }
+    }
+
+
 }
 
 

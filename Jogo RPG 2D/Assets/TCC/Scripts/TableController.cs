@@ -83,7 +83,7 @@ namespace Assets.TCC.Scripts
         /// <summary>
         /// Limpa a tabela de dados
         /// </summary>
-        public void reset()
+        public void clearTable()
         {
             dataTable.Clear();
         }

@@ -8,7 +8,7 @@ namespace Assets.TCC.Scripts
     public class QuestsController : MonoBehaviour
     {
         public DatabaseDB banco;
-        private string bancoReserva = "exemplo";
+        private string bancoReserva = "missao1Backup";
         public PlayerController jogador;
 
         private List<IList<object>> linhasEsperadas;
@@ -19,32 +19,73 @@ namespace Assets.TCC.Scripts
 
         }
 
+     
         /// <summary>
-        /// Verifica se as colunas digitadas pelo usuário são iguais as colunas esperadas na missão
+        /// Verifica a missão que o usuário está realizando e a consulta esperada
         /// </summary>
-        public void verifyData(List<string> colunas, List<IList<object>> linhas)
+        /// <param name="colunas">Colunas da consulta do usuário</param>
+        /// <param name="linhas">LInhas da consulta do usuário</param>
+        public void verifyMissionDB(List<string> colunas, List<IList<object>> linhas)
         {
+            //
 
-            //Aqui, resultado de consulta esperada
-            string consulta = "SELECT *, 42 FROM user;";
+            foreach (var flag in jogador.flagMissoesConcluidas)
+            {
+                switch (flag)
+                {
+                    case "CORAMISSAO1":
+                        var consulta = "SELECT * FROM doacoes_3879;";
+                        if(verifyData(colunas, linhas, consulta))
+                        {
+                            jogador.updateTags("CORAMISSAO3");
+                        }
 
+                        break;
+
+                    case "CORAMISSAO3":
+                       // jogador.updateTags("CORAMISSAO4");
+                        break;
+                    case "CORAMISSAO30":
+                        // code block
+                        break;
+                    default:
+                        // code block
+                        break;
+                }
+
+            }
+
+
+        }
+
+        /// <summary>
+        /// Verifica se a consulta digitada pelo usuário é igual à consulta esperada na missão
+        /// </summary>
+        private bool verifyData(List<string> colunas, List<IList<object>> linhas, string consulta)
+        {
+            bool missaoConcluida = false;
             //Pega resultados do banco de dados
-            linhasEsperadas = banco.dados(consulta, bancoReserva); 
+            linhasEsperadas = banco.dados(consulta, bancoReserva);
             colunasEsperadas = banco.colunas(consulta, bancoReserva);
 
             //Compara se os resultados são equivalentes
             if (compare(colunas, linhas))
             {
                 //Completa missão
-                jogador.updateTags("CORAMISSAO3");
+
                 Debug.Log("Missão concluída");
+                missaoConcluida = true;
+                return missaoConcluida;
             }
             else
             {
                 Debug.Log("Missão não concluída");
+                return missaoConcluida;
             }
-        }
 
+
+
+        }
 
         public void verifyTalk(string flag)
         {
@@ -52,6 +93,7 @@ namespace Assets.TCC.Scripts
             {
                 case "CORAMISSAO1":
                     jogador.updateTags("CORAMISSAO2");
+
                     break;
                 case "CORAMISSAO3":
                     jogador.updateTags("CORAMISSAO4");

@@ -22,6 +22,7 @@ public class ComputerController : MonoBehaviour
     private string messagemDeErro;
     public TextMeshProUGUI textoErro;
     public QuestsController quest;
+    public string bancoPrimario = "missao1";
     
 
     void Awake()
@@ -36,10 +37,10 @@ public class ComputerController : MonoBehaviour
 
         try
         {
-            List<string> colunas = banco.colunas(consulta.text, "exemplo");
-            List <IList<object>> linhas = banco.dados(consulta.text, "exemplo");
+            List<string> colunas = banco.colunas(consulta.text, bancoPrimario);
+            List <IList<object>> linhas = banco.dados(consulta.text, bancoPrimario);
 
-            quest.verifyData(colunas, linhas);
+            quest.verifyMissionDB(colunas, linhas);
 
             table.MontarTabela(colunas, linhas);
 
@@ -70,13 +71,23 @@ public class ComputerController : MonoBehaviour
     {
          this.gameObject.SetActive(false);
 
-        table.reset();
+        table.clearTable();
         mostra.text = "";
         botaoTip.gameObject.SetActive(false);
 
         //Retorna movimento ao Player
         GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(true);
         GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(true);
+    }
+
+    public void resetaBanco() {
+
+        Debug.Log("POP");
+        string dbName =  Application.dataPath + "/Database/" + "missao1Backup" + ".db";
+        Debug.Log("ATTACH DATABASE "+"missao1Backup.db"+" AS bancoNovo; " + "bancoPrimario");
+        banco.consulta("ATTACH DATABASE '" + dbName+"' AS 'bancoNovo;'", bancoPrimario);
+        Debug.Log("Foi?");
+        
     }
 
     public void tip()

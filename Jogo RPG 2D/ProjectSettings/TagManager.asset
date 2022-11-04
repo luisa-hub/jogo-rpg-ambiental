@@ -8,6 +8,7 @@ TagManager:
   - NPC
   - ChatCanvasTag
   - Computador
+  - Porta
   layers:
   - Default
   - TransparentFX

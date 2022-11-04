@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.TCC.Scripts;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public List<string> flagMissoesConcluidas;
     NPCController nPCController;
     WindowController windowController;
+    Porta porta;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +38,12 @@ public class PlayerController : MonoBehaviour
             {
                 windowController = lastGameObjectWithCollision.GetComponent<WindowController>();
                 windowController.InitInteraction();
+            }
+
+            if (lastGameObjectWithCollision && lastGameObjectWithCollision.tag.Equals("Porta"))
+            {
+                porta = lastGameObjectWithCollision.GetComponent<Porta>();
+                porta.InitInteraction();
             }
         }
 

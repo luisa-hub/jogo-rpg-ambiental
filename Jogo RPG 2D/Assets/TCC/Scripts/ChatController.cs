@@ -95,6 +95,8 @@ public class ChatController : MonoBehaviour
         //Para o jogador
         GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(false);
         GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(false);
+        GameObject.Find("Player").GetComponent<Player>().xInput = 0;
+        GameObject.Find("Player").GetComponent<Player>().yInput = 0;
 
     }
 

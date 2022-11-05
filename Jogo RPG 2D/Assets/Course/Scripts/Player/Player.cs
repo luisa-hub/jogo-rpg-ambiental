@@ -4,8 +4,8 @@ using UnityEngine;
 public class Player : SingletonMonobehaviour<Player>
 {
 
-    private float xInput;
-    private float yInput;
+    public float xInput;
+    public float yInput;
     private bool isWalking;
     private bool isRunning;
     private bool isIdle;

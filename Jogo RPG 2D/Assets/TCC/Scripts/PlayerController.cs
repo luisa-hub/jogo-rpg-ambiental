@@ -1,4 +1,5 @@
 ﻿using Assets.TCC.Scripts;
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,11 +12,12 @@ public class PlayerController : MonoBehaviour
     NPCController nPCController;
     WindowController windowController;
     Porta porta;
+    public GameObject enter;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -46,6 +48,15 @@ public class PlayerController : MonoBehaviour
                 porta.InitInteraction();
             }
         }
+        if (lastGameObjectWithCollision != null && _canInteract) { 
+        if (_canInteract && (lastGameObjectWithCollision.tag.Equals("NPC") || lastGameObjectWithCollision.tag.Equals("Computador") || lastGameObjectWithCollision.tag.Equals("Porta")))
+        {
+            enter.GetComponent<SpriteRenderer>().enabled = true;
+        }
+        }
+        else {
+            enter.GetComponent<SpriteRenderer>().enabled = false;
+        }
 
        
     }
@@ -57,6 +68,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.tag.Equals("Computador") || collision.gameObject.tag.Equals("NPC") || collision.gameObject.tag.Equals("Porta"))
         lastGameObjectWithCollision = collision.gameObject;
     }
 

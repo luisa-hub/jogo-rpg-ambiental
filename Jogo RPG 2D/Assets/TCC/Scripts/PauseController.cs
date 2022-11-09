@@ -11,6 +11,7 @@ public class PauseController : MonoBehaviour
     // Start is called before the first frame update
     public GameObject botãoConfig;
     GameObject objeto;
+    int pausado = 0;
 
 
     private void Start()
@@ -30,6 +31,7 @@ public class PauseController : MonoBehaviour
         GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(false);
 
         botãoConfig.SetActive(false);
+        pausado = 1;
     }
 
     // Update is called once per frame
@@ -42,5 +44,27 @@ public class PauseController : MonoBehaviour
         GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(true);
 
         botãoConfig.SetActive(true);
+        pausado = 0;
+    }
+
+    public void esc() {
+        if (pausado == 0)
+        {
+            pausa();
+        }
+        else {
+            despausa();
+        }
+    
+    
+    }
+
+
+    public void sair() {
+
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #endif
+        Application.Quit();
     }
 }

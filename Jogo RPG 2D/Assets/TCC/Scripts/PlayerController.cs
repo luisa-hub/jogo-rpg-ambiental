@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     WindowController windowController;
     Porta porta;
     public GameObject enter;
+    public PauseController pause;
 
     // Start is called before the first frame update
     void Start()
@@ -56,6 +57,12 @@ public class PlayerController : MonoBehaviour
         }
         else {
             enter.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pause.esc();
+
         }
 
        

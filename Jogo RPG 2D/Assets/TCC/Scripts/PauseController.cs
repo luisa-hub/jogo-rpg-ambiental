@@ -10,6 +10,7 @@ public class PauseController : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject botãoConfig;
+    public GameObject janelaCreditos;
     GameObject objeto;
     int pausado = 0;
 
@@ -59,6 +60,15 @@ public class PauseController : MonoBehaviour
     
     }
 
+
+    public void creditos() {
+
+        janelaCreditos.SetActive(true);
+    }
+
+    public void fechaCreditos() {
+        janelaCreditos.SetActive(false);
+    }
 
     public void sair() {
 

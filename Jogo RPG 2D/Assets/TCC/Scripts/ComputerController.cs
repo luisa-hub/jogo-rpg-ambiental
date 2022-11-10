@@ -22,7 +22,7 @@ public class ComputerController : MonoBehaviour
     private string messagemDeErro;
     public TextMeshProUGUI textoErro;
     public QuestsController quest;
-    public string bancoPrimario = "missao1";
+    public string bancoPrimario = "exemplo"; //"missao1"
     
 
     void Awake()

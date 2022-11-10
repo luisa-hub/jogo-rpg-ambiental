@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
             if (lastGameObjectWithCollision && lastGameObjectWithCollision.tag.Equals("Porta"))
             {
                 porta = lastGameObjectWithCollision.GetComponent<Porta>();
-                porta.InitInteraction();
+                porta.InitInteraction(flagMissoesConcluidas);
             }
         }
         if (lastGameObjectWithCollision != null && _canInteract) { 

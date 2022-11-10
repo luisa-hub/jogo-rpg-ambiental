@@ -15,7 +15,7 @@ public class NPCController : MonoBehaviour
     void Start()
     {
 
-        chatController = GameObject.Find("Canvas").transform.GetChild(0).gameObject.GetComponentInChildren<ChatController>();
+        chatController = GameObject.Find("ChatBox").transform.GetChild(0).gameObject.GetComponentInChildren<ChatController>();
     }
 
     // Update is called once per frame

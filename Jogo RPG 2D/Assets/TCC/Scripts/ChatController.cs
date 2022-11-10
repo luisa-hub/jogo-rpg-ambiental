@@ -64,13 +64,19 @@ public class ChatController : MonoBehaviour
     {
         
         SetVisible(true); //ativa caixa de diálogo
-        ObjetoImagem.sprite = retratoNPC; //coloca o retrato do npc
+        try
+        {
+            if (retratoNPC!= null)
+            ObjetoImagem.sprite = retratoNPC; //coloca o retrato do npc
+        }
+        catch { }
+        
         string textoMandar = ""; //seta variável que vai mandar pro chat
 
         //Se o jogador não realizou nenhuma missão, ele manda como padrão a primeira linha de diálogo
         if (flagMissoesConcluidasPlayer.Count == 0)
         {
-            textoMandar = textos[0];
+            textoMandar = textosNPCList[0];
         }
 
         //Se o jogador já realizou alguma missão, ele procura quais que realizou.

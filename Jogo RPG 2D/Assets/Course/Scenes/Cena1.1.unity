@@ -194,6 +194,9 @@ MonoBehaviour:
   outraPorta: {fileID: 589784917}
   cobre: {fileID: 1763895051}
   player: {fileID: 0}
+  chave: vazia
+  stringSeparator: 35
+  textoTrancando: 
 --- !u!1 &181005595
 GameObject:
   m_ObjectHideFlags: 0
@@ -16660,6 +16663,9 @@ MonoBehaviour:
   outraPorta: {fileID: 1697491092}
   cobre: {fileID: 1488036431}
   player: {fileID: 0}
+  chave: vazia
+  stringSeparator: 35
+  textoTrancando: 
 --- !u!1 &564333988
 GameObject:
   m_ObjectHideFlags: 0
@@ -16814,6 +16820,9 @@ MonoBehaviour:
   outraPorta: {fileID: 152253797}
   cobre: {fileID: 1763895051}
   player: {fileID: 0}
+  chave: vazia
+  stringSeparator: 35
+  textoTrancando: 
 --- !u!1 &653533566
 GameObject:
   m_ObjectHideFlags: 0
@@ -17779,7 +17788,7 @@ GameObject:
   - component: {fileID: 892372316}
   - component: {fileID: 892372315}
   m_Layer: 0
-  m_Name: PortaSaidaEdgar (1)
+  m_Name: PortaSaidaEdgar
   m_TagString: Porta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17840,6 +17849,9 @@ MonoBehaviour:
   outraPorta: {fileID: 1604853104}
   cobre: {fileID: 1066688113}
   player: {fileID: 0}
+  chave: vazia
+  stringSeparator: 35
+  textoTrancando: 
 --- !u!1 &923993641
 GameObject:
   m_ObjectHideFlags: 0
@@ -17994,6 +18006,9 @@ MonoBehaviour:
   outraPorta: {fileID: 1199889275}
   cobre: {fileID: 653533568}
   player: {fileID: 0}
+  chave: vazia
+  stringSeparator: 35
+  textoTrancando: 
 --- !u!1 &1010964396
 GameObject:
   m_ObjectHideFlags: 0
@@ -25440,6 +25455,9 @@ MonoBehaviour:
   outraPorta: {fileID: 1416657668}
   cobre: {fileID: 1305093748}
   player: {fileID: 0}
+  chave: CORAMISSAO2
+  stringSeparator: 35
+  textoTrancando: Porta trancada!
 --- !u!1 &1046551895
 GameObject:
   m_ObjectHideFlags: 0
@@ -25473,6 +25491,9 @@ MonoBehaviour:
   outraPorta: {fileID: 1246627955}
   cobre: {fileID: 1612131103}
   player: {fileID: 0}
+  chave: vazia
+  stringSeparator: 35
+  textoTrancando: 
 --- !u!4 &1046551897
 Transform:
   m_ObjectHideFlags: 0
@@ -26378,6 +26399,9 @@ MonoBehaviour:
   outraPorta: {fileID: 992533536}
   cobre: {fileID: 653533568}
   player: {fileID: 0}
+  chave: vazia
+  stringSeparator: 35
+  textoTrancando: 
 --- !u!1 &1202932432
 GameObject:
   m_ObjectHideFlags: 0
@@ -27160,6 +27184,9 @@ MonoBehaviour:
   outraPorta: {fileID: 1046551896}
   cobre: {fileID: 1612131103}
   player: {fileID: 0}
+  chave: vazia
+  stringSeparator: 35
+  textoTrancando: 
 --- !u!61 &1246627956
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27502,6 +27529,9 @@ MonoBehaviour:
   outraPorta: {fileID: 1045467396}
   cobre: {fileID: 1305093748}
   player: {fileID: 0}
+  chave: vazia
+  stringSeparator: 35
+  textoTrancando: 
 --- !u!1 &1436427398
 GameObject:
   m_ObjectHideFlags: 0
@@ -44476,6 +44506,9 @@ MonoBehaviour:
   outraPorta: {fileID: 892372316}
   cobre: {fileID: 1066688113}
   player: {fileID: 0}
+  chave: vazia
+  stringSeparator: 35
+  textoTrancando: 
 --- !u!1 &1609721245
 GameObject:
   m_ObjectHideFlags: 0
@@ -44711,6 +44744,9 @@ MonoBehaviour:
   outraPorta: {fileID: 502999043}
   cobre: {fileID: 1488036431}
   player: {fileID: 0}
+  chave: vazia
+  stringSeparator: 35
+  textoTrancando: 
 --- !u!1 &1734941159
 GameObject:
   m_ObjectHideFlags: 0

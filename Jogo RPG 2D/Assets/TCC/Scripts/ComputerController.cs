@@ -22,7 +22,7 @@ public class ComputerController : MonoBehaviour
     private string messagemDeErro;
     public TextMeshProUGUI textoErro;
     public QuestsController quest;
-    public string bancoPrimario = "exemplo"; //"missao1"
+    public string bancoPrimario; //"missao1"
     
 
     void Awake()
@@ -37,6 +37,7 @@ public class ComputerController : MonoBehaviour
 
         try
         {
+           
             List<string> colunas = banco.colunas(consulta.text, bancoPrimario);
             List <IList<object>> linhas = banco.dados(consulta.text, bancoPrimario);
 

@@ -15,10 +15,11 @@ public class DatabaseDB : MonoBehaviour
     /// <returns>Retorna uma lista com o nome de todas as colunas do banco</returns>
     public List<string> colunas(string consulta, string nome)
     {
-        
-        string dbName = "URI=file:" + Application.dataPath + "/Database/"+nome+".db";
+        Debug.Log("colunas");
+        string dbName = "URI=file:" + Application.dataPath + "/Database/"+ nome +".db";
         using (var connection = new SqliteConnection(dbName))
         {
+            Debug.Log("esse" +dbName);
             List<string> colunas = new List<string>();
             
             connection.Open();
@@ -50,9 +51,11 @@ public class DatabaseDB : MonoBehaviour
 
     public List<IList<object>> dados(string consulta, string nome)
     {
-        string dbName = "URI=file:" + Application.dataPath + "/Database/"+nome+".db";
+        Debug.Log("dados");
+        string dbName = "URI=file:" + Application.dataPath + "/Database/"+ nome +".db";
         using (var connection = new SqliteConnection(dbName))
         {
+            Debug.Log("esse" + dbName);
             connection.Open();
 
             List<IList<object>> dados = new List<IList<object>>();

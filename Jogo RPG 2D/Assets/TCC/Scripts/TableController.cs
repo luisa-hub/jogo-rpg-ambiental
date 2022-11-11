@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -39,10 +40,11 @@ namespace Assets.TCC.Scripts
 
             foreach (var nome in nomeColunas)
             {
-                m_columnDefs.Add(new WColumnDef() { name = nome, width = "60" });
+                m_columnDefs.Add(new WColumnDef() 
+                { name = nome, width = nome.Contains("Id") ? "60" : "100" });
 
             }
-  
+
             //Montar os dados com os respectivos valores
             m_datas = new List<IList<object>>(dados);
 

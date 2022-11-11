@@ -29,7 +29,7 @@ namespace Assets.TCC.Scripts
         {
             //
 
-            foreach (var flag in jogador.flagMissoesConcluidas)
+            foreach (var flag in jogador.flagMissoesConcluidas.ToList())
             {
                 switch (flag)
                 {

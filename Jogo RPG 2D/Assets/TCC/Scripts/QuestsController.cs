@@ -8,7 +8,7 @@ namespace Assets.TCC.Scripts
     public class QuestsController : MonoBehaviour
     {
         public DatabaseDB banco;
-        private string bancoReserva = "exemplo"; //"missao1Backup"
+        private string bancoReserva = "missao1Banckup"; //"missao1Backup"
         public PlayerController jogador;
 
         private List<IList<object>> linhasEsperadas;
@@ -34,7 +34,7 @@ namespace Assets.TCC.Scripts
                 switch (flag)
                 {
                     case "CORAMISSAO1":
-                        var consulta = "SELECT * FROM user;";
+                        var consulta = "SELECT * FROM doacoes_3879;";
                         if(verifyData(colunas, linhas, consulta))
                         {
                             jogador.updateTags("CORAMISSAO3");

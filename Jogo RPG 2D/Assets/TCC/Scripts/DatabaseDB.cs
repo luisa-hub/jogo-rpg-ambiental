@@ -105,7 +105,6 @@ public class DatabaseDB : MonoBehaviour
             }
             connection.Close();
             return;
-
         }
     }
 

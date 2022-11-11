@@ -1007,7 +1007,7 @@ MonoBehaviour:
   botaoTip: {fileID: 715766653}
   textoErro: {fileID: 1382769124}
   quest: {fileID: 1217807348}
-  bancoPrimario: exemplo
+  bancoPrimario: missao1Banckup
 --- !u!114 &175768536
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -81,7 +81,8 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        lastGameObjectWithCollision = null;
+        if(collision.gameObject == lastGameObjectWithCollision)
+            lastGameObjectWithCollision = null;
     }
 
     public void updateTags(string novaTag) {

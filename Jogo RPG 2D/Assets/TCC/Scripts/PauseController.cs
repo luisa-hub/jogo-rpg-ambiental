@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using Assets.TCC.Scripts;
+using UnityEngine.SceneManagement;
 
 public class PauseController : MonoBehaviour
 {
@@ -68,6 +69,13 @@ public class PauseController : MonoBehaviour
 
     public void fechaCreditos() {
         janelaCreditos.SetActive(false);
+    }
+
+    public void menu() {
+        SceneManager.LoadScene(0);
+
+
+
     }
 
     public void sair() {

@@ -24,6 +24,7 @@ public class ComputerController : MonoBehaviour
     public TextMeshProUGUI textoErro;
     public QuestsController quest;
     public string bancoPrimario; //"missao1"
+    public TMP_InputField input;
     
 
     void Awake()

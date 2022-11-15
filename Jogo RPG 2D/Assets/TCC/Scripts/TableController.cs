@@ -41,7 +41,7 @@ namespace Assets.TCC.Scripts
             foreach (var nome in nomeColunas)
             {
                 m_columnDefs.Add(new WColumnDef() 
-                { name = nome, width = nome.Contains("Id") ? "60" : "100" });
+                { name = nome, width = nome.Contains("Id") ? "80" : "100" });
 
             }
 
@@ -70,7 +70,7 @@ namespace Assets.TCC.Scripts
                 Text tText = element.GetComponent<Text>();
                 if (tText == null)
                     return;
-                tText.color = columnIndex % 2 == 0 ? Color.blue : Color.red;
+                tText.color = columnIndex % 2 == 0 ? new Color(0, (float)0.3, 1, 1) : Color.blue;
             }
             else if (messageType == WEventType.SELECT_ROW)
             {

@@ -19,6 +19,8 @@ public class ChatController : MonoBehaviour
     private int indexOfText = 0;
     public char stringSeparator = '#';
     public QuestsController questController;
+    public Text objetoNome;
+    public GameObject panelNome;
 
     // Awake é chamado antes do start
     void Awake()
@@ -60,7 +62,7 @@ public class ChatController : MonoBehaviour
     /// <param name="textosNPCList">Falas do Npc</param>
     /// <param name="flagMissoesConcluidasPlayer">Flags das missões concluídas do jogador</param>
     /// <param name="retratoNPC">Retrato do Npc que aparecerá na tela</param>
-    public void IniciaDialogo(List<string> textosNPCList, List<string> flagMissoesConcluidasPlayer, Sprite retratoNPC)
+    public void IniciaDialogo(List<string> textosNPCList, List<string> flagMissoesConcluidasPlayer, Sprite retratoNPC, String nome)
     {
         
         SetVisible(true); //ativa caixa de diálogo
@@ -70,7 +72,17 @@ public class ChatController : MonoBehaviour
             ObjetoImagem.sprite = retratoNPC; //coloca o retrato do npc
         }
         catch { }
-        
+
+        try
+        {
+            if (nome != null) { 
+                panelNome.SetActive(true);
+            objetoNome.text = nome;
+            }//coloca o nome do npc
+            else { panelNome.SetActive(false); }
+        }
+        catch { panelNome.SetActive(false); }
+
         string textoMandar = ""; //seta variável que vai mandar pro chat
 
         //Se o jogador não realizou nenhuma missão, ele manda como padrão a primeira linha de diálogo

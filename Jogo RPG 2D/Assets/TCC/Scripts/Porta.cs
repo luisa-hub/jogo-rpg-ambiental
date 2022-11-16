@@ -69,7 +69,7 @@ namespace Assets.TCC.Scripts
             chatController = GameObject.Find("ChatBox").transform.GetChild(0).gameObject.GetComponentInChildren<ChatController>();
             List<string> dialogo = new List<string> {"aaaaa#"+textoTrancando};
             List<string> flagMissoesConcluidas = new List<string> {};
-            chatController.IniciaDialogo(dialogo, flagMissoesConcluidas, null);
+            chatController.IniciaDialogo(dialogo, flagMissoesConcluidas, null, null);
 
         }
     }       

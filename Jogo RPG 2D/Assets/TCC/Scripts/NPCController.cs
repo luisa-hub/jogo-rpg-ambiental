@@ -10,6 +10,7 @@ public class NPCController : MonoBehaviour
     private ChatController chatController;
     public List<string> textos;
     public Sprite retrato;
+    public String nome;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +29,7 @@ public class NPCController : MonoBehaviour
     {
         // Habilito o chat
        
-        chatController.IniciaDialogo(textos, flagMissoesConcluidas, retrato);
+        chatController.IniciaDialogo(textos, flagMissoesConcluidas, retrato, nome);
    
         
     }

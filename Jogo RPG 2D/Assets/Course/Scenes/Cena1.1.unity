@@ -17674,6 +17674,7 @@ MonoBehaviour:
   - "CORAMISSAO3#Obrigada por concluir a miss\xE3o"
   - "CORAMISSAO4#Sim, voc\xEA completou a miss\xE3o muito bem"
   retrato: {fileID: 21300000, guid: 9baaddbbd6c64234eab7e7138d1b67d1, type: 3}
+  nome: Edgar
 --- !u!61 &799398192
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45235,6 +45236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos: []
   retrato: {fileID: 0}
+  nome: 
 --- !u!4 &2079674207
 Transform:
   m_ObjectHideFlags: 0

@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     Porta porta;
     public GameObject enter;
     public PauseController pause;
+    public VanishController vanishController;
 
     // Start is called before the first frame update
     void Start()
@@ -88,6 +89,7 @@ public class PlayerController : MonoBehaviour
     public void updateTags(string novaTag) {
         if (flagMissoesConcluidas.Contains(novaTag)==false) {
             flagMissoesConcluidas.Add(novaTag);
+            vanishController.acoes();
         }
 
 

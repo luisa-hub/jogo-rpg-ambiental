@@ -1724,7 +1724,7 @@ GameObject:
   - component: {fileID: 376553207}
   - component: {fileID: 376553206}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: PanelComputer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6811,6 +6811,7 @@ GameObject:
   - component: {fileID: 4548441709604419835}
   - component: {fileID: 4548441709604419836}
   - component: {fileID: 4548441709604419837}
+  - component: {fileID: 4548441709604419838}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -6911,6 +6912,20 @@ MonoBehaviour:
   - CORAMISSAO1
   enter: {fileID: 1170919976}
   pause: {fileID: 900371859}
+  vanishController: {fileID: 4548441709604419838}
+--- !u!114 &4548441709604419838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4548441709604419833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cf4131b22f7fc4496bf53286a80136, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jogador: {fileID: 4548441709604419837}
 --- !u!1 &4686568465519428239
 GameObject:
   m_ObjectHideFlags: 0

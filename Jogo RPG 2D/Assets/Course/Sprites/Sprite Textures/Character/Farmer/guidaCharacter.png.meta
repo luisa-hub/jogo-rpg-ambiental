@@ -1,0 +1,6152 @@
+fileFormatVersion: 2
+guid: 7f0390337b3550e49a4ac482536715ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2351642864208687539
+    second: guidaCharacter_0
+  - first:
+      213: -115126329073597122
+    second: guidaCharacter_1
+  - first:
+      213: -8382604173141064253
+    second: guidaCharacter_2
+  - first:
+      213: 643976992046197230
+    second: guidaCharacter_3
+  - first:
+      213: 8200427984373949209
+    second: guidaCharacter_4
+  - first:
+      213: 7122076069398886884
+    second: guidaCharacter_5
+  - first:
+      213: -6034220488483691371
+    second: guidaCharacter_6
+  - first:
+      213: 2666460190928158627
+    second: guidaCharacter_7
+  - first:
+      213: 1947554530115424707
+    second: guidaCharacter_8
+  - first:
+      213: -3881151269629760017
+    second: guidaCharacter_9
+  - first:
+      213: 5024994717670022483
+    second: guidaCharacter_10
+  - first:
+      213: 2567885507707900597
+    second: guidaCharacter_11
+  - first:
+      213: -3762655410063861488
+    second: guidaCharacter_12
+  - first:
+      213: 4207652133199665687
+    second: guidaCharacter_13
+  - first:
+      213: -5210121047668506334
+    second: guidaCharacter_14
+  - first:
+      213: 5002684620860920067
+    second: guidaCharacter_15
+  - first:
+      213: -8988097669472648749
+    second: guidaCharacter_16
+  - first:
+      213: -4389330435508797662
+    second: guidaCharacter_17
+  - first:
+      213: -8373542931242264259
+    second: guidaCharacter_18
+  - first:
+      213: 9028899413693431849
+    second: guidaCharacter_19
+  - first:
+      213: -2671592444836789295
+    second: guidaCharacter_20
+  - first:
+      213: -4160346322907084716
+    second: guidaCharacter_21
+  - first:
+      213: 4226652917627833950
+    second: guidaCharacter_22
+  - first:
+      213: 3365115896955017582
+    second: guidaCharacter_23
+  - first:
+      213: -2925643312253368356
+    second: guidaCharacter_24
+  - first:
+      213: 6644285994323969621
+    second: guidaCharacter_25
+  - first:
+      213: 4488114513559734361
+    second: guidaCharacter_26
+  - first:
+      213: 9059502317044664126
+    second: guidaCharacter_27
+  - first:
+      213: -3608764600701575156
+    second: guidaCharacter_28
+  - first:
+      213: 9048275847529239156
+    second: guidaCharacter_29
+  - first:
+      213: 1801808974042749819
+    second: guidaCharacter_30
+  - first:
+      213: -5731866760663721326
+    second: guidaCharacter_31
+  - first:
+      213: -146673833605082518
+    second: guidaCharacter_32
+  - first:
+      213: -2006349585404670855
+    second: guidaCharacter_33
+  - first:
+      213: -1752083167668259484
+    second: guidaCharacter_34
+  - first:
+      213: 3933736333772055124
+    second: guidaCharacter_35
+  - first:
+      213: 385942653160430490
+    second: guidaCharacter_36
+  - first:
+      213: -5746954899220319080
+    second: guidaCharacter_37
+  - first:
+      213: -7226319215459450824
+    second: guidaCharacter_38
+  - first:
+      213: 2438639969914265573
+    second: guidaCharacter_39
+  - first:
+      213: -7373311227539615600
+    second: guidaCharacter_40
+  - first:
+      213: -192643310605880632
+    second: guidaCharacter_41
+  - first:
+      213: -4643746256031502589
+    second: guidaCharacter_42
+  - first:
+      213: -2536145206097296472
+    second: guidaCharacter_43
+  - first:
+      213: -5418881881641425993
+    second: guidaCharacter_44
+  - first:
+      213: -2387944916260872714
+    second: guidaCharacter_45
+  - first:
+      213: 5612821651228185041
+    second: guidaCharacter_46
+  - first:
+      213: 2021869744024757279
+    second: guidaCharacter_47
+  - first:
+      213: -8833372921802718250
+    second: guidaCharacter_48
+  - first:
+      213: -7085462890771707562
+    second: guidaCharacter_49
+  - first:
+      213: -7376493798348279215
+    second: guidaCharacter_50
+  - first:
+      213: -7329105547105002642
+    second: guidaCharacter_51
+  - first:
+      213: -4105061845802173891
+    second: guidaCharacter_52
+  - first:
+      213: 6565713070830624143
+    second: guidaCharacter_53
+  - first:
+      213: -618739692759997545
+    second: guidaCharacter_54
+  - first:
+      213: -5037081321556714425
+    second: guidaCharacter_55
+  - first:
+      213: -3593506998396834410
+    second: guidaCharacter_56
+  - first:
+      213: 4705704923493351418
+    second: guidaCharacter_57
+  - first:
+      213: 3406588054649806730
+    second: guidaCharacter_58
+  - first:
+      213: 5792112844868912610
+    second: guidaCharacter_59
+  - first:
+      213: -426772511423909700
+    second: guidaCharacter_60
+  - first:
+      213: -4238858396548249942
+    second: guidaCharacter_61
+  - first:
+      213: 4403479317035385385
+    second: guidaCharacter_62
+  - first:
+      213: 4565242754715636686
+    second: guidaCharacter_63
+  - first:
+      213: -3968151710283565998
+    second: guidaCharacter_64
+  - first:
+      213: -4061783960531538534
+    second: guidaCharacter_65
+  - first:
+      213: 6323489308801321856
+    second: guidaCharacter_66
+  - first:
+      213: 8809796158874507969
+    second: guidaCharacter_67
+  - first:
+      213: 1777216490845715967
+    second: guidaCharacter_68
+  - first:
+      213: -3176497637297597983
+    second: guidaCharacter_69
+  - first:
+      213: 7398408975555263693
+    second: guidaCharacter_70
+  - first:
+      213: 7247904779401418886
+    second: guidaCharacter_71
+  - first:
+      213: 1271505446992816654
+    second: guidaCharacter_72
+  - first:
+      213: -6062438067460215426
+    second: guidaCharacter_73
+  - first:
+      213: -8435953603571308703
+    second: guidaCharacter_74
+  - first:
+      213: 578600350841236072
+    second: guidaCharacter_75
+  - first:
+      213: 7959516259609686178
+    second: guidaCharacter_76
+  - first:
+      213: 6232255599128830058
+    second: guidaCharacter_77
+  - first:
+      213: 4126602509017838209
+    second: guidaCharacter_78
+  - first:
+      213: -8703622155421547237
+    second: guidaCharacter_79
+  - first:
+      213: 3389922750778244153
+    second: guidaCharacter_80
+  - first:
+      213: -7980565293505880020
+    second: guidaCharacter_81
+  - first:
+      213: -7610001363336823928
+    second: guidaCharacter_82
+  - first:
+      213: 5971069022720668011
+    second: guidaCharacter_83
+  - first:
+      213: -5131761998157783568
+    second: guidaCharacter_84
+  - first:
+      213: -7752215975827253066
+    second: guidaCharacter_85
+  - first:
+      213: 7043942994381613390
+    second: guidaCharacter_86
+  - first:
+      213: -2546012117298740546
+    second: guidaCharacter_87
+  - first:
+      213: 8268029322770220056
+    second: guidaCharacter_88
+  - first:
+      213: -2794791409277700499
+    second: guidaCharacter_89
+  - first:
+      213: 5327870641032778822
+    second: guidaCharacter_90
+  - first:
+      213: -203024570844663770
+    second: guidaCharacter_91
+  - first:
+      213: 6917553169388636607
+    second: guidaCharacter_92
+  - first:
+      213: -4678377999028996361
+    second: guidaCharacter_93
+  - first:
+      213: -8052365220967999634
+    second: guidaCharacter_94
+  - first:
+      213: 2297299682568499165
+    second: guidaCharacter_95
+  - first:
+      213: -1481744090888055255
+    second: guidaCharacter_96
+  - first:
+      213: 8628955687677930745
+    second: guidaCharacter_97
+  - first:
+      213: -8471321766424983428
+    second: guidaCharacter_98
+  - first:
+      213: 7289323444242656896
+    second: guidaCharacter_99
+  - first:
+      213: 7738745599867014216
+    second: guidaCharacter_100
+  - first:
+      213: -2592498336383970016
+    second: guidaCharacter_101
+  - first:
+      213: -4190744761061743161
+    second: guidaCharacter_102
+  - first:
+      213: 2295035116423955709
+    second: guidaCharacter_103
+  - first:
+      213: 1284273840376714421
+    second: guidaCharacter_104
+  - first:
+      213: -1750109906969950760
+    second: guidaCharacter_105
+  - first:
+      213: -2197228369144966567
+    second: guidaCharacter_106
+  - first:
+      213: 7920818761538642470
+    second: guidaCharacter_107
+  - first:
+      213: -2740849312779419838
+    second: guidaCharacter_108
+  - first:
+      213: -3080155721162813158
+    second: guidaCharacter_109
+  - first:
+      213: -8399009239171397628
+    second: guidaCharacter_110
+  - first:
+      213: -821684473263910385
+    second: guidaCharacter_111
+  - first:
+      213: -948392733211701971
+    second: guidaCharacter_112
+  - first:
+      213: -4256021814834970083
+    second: guidaCharacter_113
+  - first:
+      213: -2238289918169457489
+    second: guidaCharacter_114
+  - first:
+      213: -377875846978628675
+    second: guidaCharacter_115
+  - first:
+      213: 1260685276035917364
+    second: guidaCharacter_116
+  - first:
+      213: 5760088362002340311
+    second: guidaCharacter_117
+  - first:
+      213: -6023426296767689897
+    second: guidaCharacter_118
+  - first:
+      213: 4894388229262686280
+    second: guidaCharacter_119
+  - first:
+      213: 6889246162684953743
+    second: guidaCharacter_120
+  - first:
+      213: 7252894715680138342
+    second: guidaCharacter_121
+  - first:
+      213: -4147611544213584612
+    second: guidaCharacter_122
+  - first:
+      213: 3688182216731195457
+    second: guidaCharacter_123
+  - first:
+      213: -7345618298480949722
+    second: guidaCharacter_124
+  - first:
+      213: 8352544577226025681
+    second: guidaCharacter_125
+  - first:
+      213: 6235998247953824785
+    second: guidaCharacter_126
+  - first:
+      213: 5916437995008209898
+    second: guidaCharacter_127
+  - first:
+      213: -7376487105794735811
+    second: guidaCharacter_128
+  - first:
+      213: 2623040856221658294
+    second: guidaCharacter_129
+  - first:
+      213: 6270975250320742388
+    second: guidaCharacter_130
+  - first:
+      213: -6382768579519259225
+    second: guidaCharacter_131
+  - first:
+      213: 1640073420327817525
+    second: guidaCharacter_132
+  - first:
+      213: -5553824382239727107
+    second: guidaCharacter_133
+  - first:
+      213: 911449346437094062
+    second: guidaCharacter_134
+  - first:
+      213: -419529800705847574
+    second: guidaCharacter_135
+  - first:
+      213: -1587523297997220475
+    second: guidaCharacter_136
+  - first:
+      213: 467892295564988701
+    second: guidaCharacter_137
+  - first:
+      213: -1750527739979613744
+    second: guidaCharacter_138
+  - first:
+      213: 5777857679053604241
+    second: guidaCharacter_139
+  - first:
+      213: 4808488378191010617
+    second: guidaCharacter_140
+  - first:
+      213: 4366957838457849206
+    second: guidaCharacter_141
+  - first:
+      213: -4280989166137385174
+    second: guidaCharacter_142
+  - first:
+      213: -2322336859583097617
+    second: guidaCharacter_143
+  - first:
+      213: -746848496216062801
+    second: guidaCharacter_144
+  - first:
+      213: 8745936692738127784
+    second: guidaCharacter_145
+  - first:
+      213: 5262634435024142974
+    second: guidaCharacter_146
+  - first:
+      213: -7635690481977498438
+    second: guidaCharacter_147
+  - first:
+      213: 8687056060231414835
+    second: guidaCharacter_148
+  - first:
+      213: 2140623632304245466
+    second: guidaCharacter_149
+  - first:
+      213: 6330153773199412327
+    second: guidaCharacter_150
+  - first:
+      213: -4794371691515863011
+    second: guidaCharacter_151
+  - first:
+      213: 8693522535299996086
+    second: guidaCharacter_152
+  - first:
+      213: 7137344218545194557
+    second: guidaCharacter_153
+  - first:
+      213: 6050232652799562764
+    second: guidaCharacter_154
+  - first:
+      213: -7535632531912289096
+    second: guidaCharacter_155
+  - first:
+      213: 5730742918536180794
+    second: guidaCharacter_156
+  - first:
+      213: -8125477900335431258
+    second: guidaCharacter_157
+  - first:
+      213: -7769605798416747909
+    second: guidaCharacter_158
+  - first:
+      213: 3367953045264717206
+    second: guidaCharacter_159
+  - first:
+      213: 8052992783491262895
+    second: guidaCharacter_160
+  - first:
+      213: 8607284652855191884
+    second: guidaCharacter_161
+  - first:
+      213: -7844473817500153244
+    second: guidaCharacter_162
+  - first:
+      213: -4845558348788230698
+    second: guidaCharacter_163
+  - first:
+      213: -7810144417457229486
+    second: guidaCharacter_164
+  - first:
+      213: -1347688342740727185
+    second: guidaCharacter_165
+  - first:
+      213: -6199289369693174636
+    second: guidaCharacter_166
+  - first:
+      213: -2489089532858607899
+    second: guidaCharacter_167
+  - first:
+      213: 7563221111205091949
+    second: guidaCharacter_168
+  - first:
+      213: -510565882444955841
+    second: guidaCharacter_169
+  - first:
+      213: 91715074619041095
+    second: guidaCharacter_170
+  - first:
+      213: -1798849885177980271
+    second: guidaCharacter_171
+  - first:
+      213: 1061372965989596998
+    second: guidaCharacter_172
+  - first:
+      213: -8188831510474383026
+    second: guidaCharacter_173
+  - first:
+      213: -7666714134592950180
+    second: guidaCharacter_174
+  - first:
+      213: 5128287293260574219
+    second: guidaCharacter_175
+  - first:
+      213: 2062321953695044656
+    second: guidaCharacter_176
+  - first:
+      213: 2262737511203443200
+    second: guidaCharacter_177
+  - first:
+      213: -1116044039713003358
+    second: guidaCharacter_178
+  - first:
+      213: -8005453958792591911
+    second: guidaCharacter_179
+  - first:
+      213: 3217872093370094289
+    second: guidaCharacter_180
+  - first:
+      213: 1115241574446268520
+    second: guidaCharacter_181
+  - first:
+      213: -4971752090356349139
+    second: guidaCharacter_182
+  - first:
+      213: -7002122695070435005
+    second: guidaCharacter_183
+  - first:
+      213: 205012985773102816
+    second: guidaCharacter_184
+  - first:
+      213: 7408122935302758099
+    second: guidaCharacter_185
+  - first:
+      213: 1847901443297040636
+    second: guidaCharacter_186
+  - first:
+      213: 5883458494481872311
+    second: guidaCharacter_187
+  - first:
+      213: -2459183973702012807
+    second: guidaCharacter_188
+  - first:
+      213: 7943088213771747010
+    second: guidaCharacter_189
+  - first:
+      213: -5121742101510286860
+    second: guidaCharacter_190
+  - first:
+      213: 3692573429068696810
+    second: guidaCharacter_191
+  - first:
+      213: 19190086960485542
+    second: guidaCharacter_192
+  - first:
+      213: 3675664047047659644
+    second: guidaCharacter_193
+  - first:
+      213: -3081013985783597994
+    second: guidaCharacter_194
+  - first:
+      213: -5161098336555707464
+    second: guidaCharacter_195
+  - first:
+      213: 6164612596155902224
+    second: guidaCharacter_196
+  - first:
+      213: 7064663786241431199
+    second: guidaCharacter_197
+  - first:
+      213: -8103997180957395302
+    second: guidaCharacter_198
+  - first:
+      213: -5067424078802739739
+    second: guidaCharacter_199
+  - first:
+      213: 529972668687724147
+    second: guidaCharacter_200
+  - first:
+      213: -4574605937199238366
+    second: guidaCharacter_201
+  - first:
+      213: 4422280606079006925
+    second: guidaCharacter_202
+  - first:
+      213: -7885812561592063232
+    second: guidaCharacter_203
+  - first:
+      213: -8161263869278550693
+    second: guidaCharacter_204
+  - first:
+      213: 2078385736393418139
+    second: guidaCharacter_205
+  - first:
+      213: -4297759943548399983
+    second: guidaCharacter_206
+  - first:
+      213: -5365231103129607840
+    second: guidaCharacter_207
+  - first:
+      213: -8477947592888563203
+    second: guidaCharacter_208
+  - first:
+      213: 3279772472498628709
+    second: guidaCharacter_209
+  - first:
+      213: -9089824359940631471
+    second: guidaCharacter_210
+  - first:
+      213: -8713407361608069287
+    second: guidaCharacter_211
+  - first:
+      213: 4931195478374988127
+    second: guidaCharacter_212
+  - first:
+      213: 8243902140725437827
+    second: guidaCharacter_213
+  - first:
+      213: -520522397398232482
+    second: guidaCharacter_214
+  - first:
+      213: -4847453512704465904
+    second: guidaCharacter_215
+  - first:
+      213: 9023450730343319680
+    second: guidaCharacter_216
+  - first:
+      213: 551777832788242336
+    second: guidaCharacter_217
+  - first:
+      213: -7472009198758355122
+    second: guidaCharacter_218
+  - first:
+      213: -3120561147908239430
+    second: guidaCharacter_219
+  - first:
+      213: -5576309235632690242
+    second: guidaCharacter_220
+  - first:
+      213: 5861676734981556390
+    second: guidaCharacter_221
+  - first:
+      213: -6545342111111187795
+    second: guidaCharacter_222
+  - first:
+      213: -8000574573148774751
+    second: guidaCharacter_223
+  - first:
+      213: 7621046055072678669
+    second: guidaCharacter_224
+  - first:
+      213: 5018637753186887511
+    second: guidaCharacter_225
+  - first:
+      213: -8500366878972434029
+    second: guidaCharacter_226
+  - first:
+      213: -5601507206774263722
+    second: guidaCharacter_227
+  - first:
+      213: -6332969260485125732
+    second: guidaCharacter_228
+  - first:
+      213: 3884454788913963482
+    second: guidaCharacter_229
+  - first:
+      213: 5480060874234548238
+    second: guidaCharacter_230
+  - first:
+      213: -8917885731206758900
+    second: guidaCharacter_231
+  - first:
+      213: -814810614471862938
+    second: guidaCharacter_232
+  - first:
+      213: 5040386502782393893
+    second: guidaCharacter_233
+  - first:
+      213: 8355699865439975740
+    second: guidaCharacter_234
+  - first:
+      213: -8861678738071028500
+    second: guidaCharacter_235
+  - first:
+      213: 2294815733401576544
+    second: guidaCharacter_236
+  - first:
+      213: -5516268120870363006
+    second: guidaCharacter_237
+  - first:
+      213: 4153669637746725844
+    second: guidaCharacter_238
+  - first:
+      213: -1528331920007611012
+    second: guidaCharacter_239
+  - first:
+      213: 2551057914919174934
+    second: guidaCharacter_240
+  - first:
+      213: -5063322401136826181
+    second: guidaCharacter_241
+  - first:
+      213: -7911425676712080396
+    second: guidaCharacter_242
+  - first:
+      213: 1657497889929912834
+    second: guidaCharacter_243
+  - first:
+      213: 8201773597065204662
+    second: guidaCharacter_244
+  - first:
+      213: -5892261919222645133
+    second: guidaCharacter_245
+  - first:
+      213: -8425633447336432502
+    second: guidaCharacter_246
+  - first:
+      213: 4824747625855430794
+    second: guidaCharacter_247
+  - first:
+      213: -8869456454217830213
+    second: guidaCharacter_248
+  - first:
+      213: -907262349556834931
+    second: guidaCharacter_249
+  - first:
+      213: -7793935236869423910
+    second: guidaCharacter_250
+  - first:
+      213: -3173178932941538445
+    second: guidaCharacter_251
+  - first:
+      213: 179522804815683428
+    second: guidaCharacter_252
+  - first:
+      213: 6939566297680218301
+    second: guidaCharacter_253
+  - first:
+      213: -7392951021578591331
+    second: guidaCharacter_254
+  - first:
+      213: 5717071152883605280
+    second: guidaCharacter_255
+  - first:
+      213: 1476259063421929049
+    second: guidaCharacter_256
+  - first:
+      213: -7468497173572611167
+    second: guidaCharacter_257
+  - first:
+      213: -7848836747728507631
+    second: guidaCharacter_258
+  - first:
+      213: -7018972878382194205
+    second: guidaCharacter_259
+  - first:
+      213: -6886100068064157210
+    second: guidaCharacter_260
+  - first:
+      213: -7373068955446831954
+    second: guidaCharacter_261
+  - first:
+      213: 5382572369385410950
+    second: guidaCharacter_262
+  - first:
+      213: 753060459970127982
+    second: guidaCharacter_263
+  - first:
+      213: 3845896924934360128
+    second: guidaCharacter_264
+  - first:
+      213: 3121363771966749628
+    second: guidaCharacter_265
+  - first:
+      213: -232787042801877617
+    second: guidaCharacter_266
+  - first:
+      213: 8937031876259983657
+    second: guidaCharacter_267
+  - first:
+      213: 5236147832756604492
+    second: guidaCharacter_268
+  - first:
+      213: 2952577243755866470
+    second: guidaCharacter_269
+  - first:
+      213: -8853496508159827555
+    second: guidaCharacter_270
+  - first:
+      213: -3403558327159685627
+    second: guidaCharacter_271
+  - first:
+      213: -2136036410248364086
+    second: guidaCharacter_272
+  - first:
+      213: -845041739380219141
+    second: guidaCharacter_273
+  - first:
+      213: 9197744128471260080
+    second: guidaCharacter_274
+  - first:
+      213: 8790425883270793613
+    second: guidaCharacter_275
+  - first:
+      213: 2434377930971905107
+    second: guidaCharacter_276
+  - first:
+      213: -7327056898574926012
+    second: guidaCharacter_277
+  - first:
+      213: 2201813901295860534
+    second: guidaCharacter_278
+  - first:
+      213: -7770401492322141547
+    second: guidaCharacter_279
+  - first:
+      213: -7289748986719481596
+    second: guidaCharacter_280
+  - first:
+      213: -688549182258386893
+    second: guidaCharacter_281
+  - first:
+      213: -8585879401809035773
+    second: guidaCharacter_282
+  - first:
+      213: -4642549082421762593
+    second: guidaCharacter_283
+  - first:
+      213: 1588929141500845413
+    second: guidaCharacter_284
+  - first:
+      213: 3205271695867393118
+    second: guidaCharacter_285
+  - first:
+      213: 3015162472907051886
+    second: guidaCharacter_286
+  - first:
+      213: 3207279868816982808
+    second: guidaCharacter_287
+  - first:
+      213: -7558505474308684096
+    second: guidaCharacter_288
+  - first:
+      213: -7425182082012667791
+    second: guidaCharacter_289
+  - first:
+      213: -7160027240272485353
+    second: guidaCharacter_290
+  - first:
+      213: -3383186474218090803
+    second: guidaCharacter_291
+  - first:
+      213: -3241052643522783674
+    second: guidaCharacter_292
+  - first:
+      213: -512139457827592197
+    second: guidaCharacter_293
+  - first:
+      213: 6491545960223341851
+    second: guidaCharacter_294
+  - first:
+      213: -2568731265664003
+    second: guidaCharacter_295
+  - first:
+      213: -1212009858451631378
+    second: guidaCharacter_296
+  - first:
+      213: 4863156334193173487
+    second: guidaCharacter_297
+  - first:
+      213: 8543442048108643988
+    second: guidaCharacter_298
+  - first:
+      213: 4173371041129626227
+    second: guidaCharacter_299
+  - first:
+      213: -2159584899338403833
+    second: guidaCharacter_300
+  - first:
+      213: 4755693626806082146
+    second: guidaCharacter_301
+  - first:
+      213: -1152633183611359734
+    second: guidaCharacter_302
+  - first:
+      213: 5347265307125480861
+    second: guidaCharacter_303
+  - first:
+      213: 8722827046743702264
+    second: guidaCharacter_304
+  - first:
+      213: 94022950650851875
+    second: guidaCharacter_305
+  - first:
+      213: -4995649489854074486
+    second: guidaCharacter_306
+  - first:
+      213: -6493542220916202856
+    second: guidaCharacter_307
+  - first:
+      213: -1739402510528497491
+    second: guidaCharacter_308
+  - first:
+      213: 6585049816172464126
+    second: guidaCharacter_309
+  - first:
+      213: 9142641014601959216
+    second: guidaCharacter_310
+  - first:
+      213: 695501913613450945
+    second: guidaCharacter_311
+  - first:
+      213: 9167234320445480854
+    second: guidaCharacter_312
+  - first:
+      213: -4252821271660823871
+    second: guidaCharacter_313
+  - first:
+      213: 2918197349051296862
+    second: guidaCharacter_314
+  - first:
+      213: -3574249116429497249
+    second: guidaCharacter_315
+  - first:
+      213: -7042686711236139492
+    second: guidaCharacter_316
+  - first:
+      213: 1388616260716046911
+    second: guidaCharacter_317
+  - first:
+      213: -6140199695120011762
+    second: guidaCharacter_318
+  - first:
+      213: -6910627616212684334
+    second: guidaCharacter_319
+  - first:
+      213: -3825546496003262782
+    second: guidaCharacter_320
+  - first:
+      213: 2469890277173790406
+    second: guidaCharacter_321
+  - first:
+      213: -5991117222096348918
+    second: guidaCharacter_322
+  - first:
+      213: 1802808086032541694
+    second: guidaCharacter_323
+  - first:
+      213: 5575200768961817425
+    second: guidaCharacter_324
+  - first:
+      213: -5666711334298563448
+    second: guidaCharacter_325
+  - first:
+      213: -9200280737767030668
+    second: guidaCharacter_326
+  - first:
+      213: -7920077059161385249
+    second: guidaCharacter_327
+  - first:
+      213: -9119861258685093167
+    second: guidaCharacter_328
+  - first:
+      213: -487268754644758389
+    second: guidaCharacter_329
+  - first:
+      213: -3250957012249240250
+    second: guidaCharacter_330
+  - first:
+      213: -6684646669904165034
+    second: guidaCharacter_331
+  - first:
+      213: -18400620858304955
+    second: guidaCharacter_332
+  - first:
+      213: 5654868159918925637
+    second: guidaCharacter_333
+  - first:
+      213: -2092579890289777341
+    second: guidaCharacter_334
+  - first:
+      213: -7049350496506927752
+    second: guidaCharacter_335
+  - first:
+      213: -6239517859093595009
+    second: guidaCharacter_336
+  - first:
+      213: -7680239560487836004
+    second: guidaCharacter_337
+  - first:
+      213: 406196019853927128
+    second: guidaCharacter_338
+  - first:
+      213: -938258207820627455
+    second: guidaCharacter_339
+  - first:
+      213: -8806321788009714638
+    second: guidaCharacter_340
+  - first:
+      213: 5176740684198104151
+    second: guidaCharacter_341
+  - first:
+      213: -1267132414254725741
+    second: guidaCharacter_342
+  - first:
+      213: -2525136736811399793
+    second: guidaCharacter_343
+  - first:
+      213: 7131912065822469184
+    second: guidaCharacter_344
+  - first:
+      213: 6482132986533724015
+    second: guidaCharacter_345
+  - first:
+      213: -1897946534723503038
+    second: guidaCharacter_346
+  - first:
+      213: -7518919769427238908
+    second: guidaCharacter_347
+  - first:
+      213: 8729140761759643278
+    second: guidaCharacter_348
+  - first:
+      213: 6081527932380922034
+    second: guidaCharacter_349
+  - first:
+      213: -5473426810691545405
+    second: guidaCharacter_350
+  - first:
+      213: 7493725354286201653
+    second: guidaCharacter_351
+  - first:
+      213: 2466285677314949537
+    second: guidaCharacter_352
+  - first:
+      213: 8324449981712118434
+    second: guidaCharacter_353
+  - first:
+      213: -2947921921606484873
+    second: guidaCharacter_354
+  - first:
+      213: -3577018151339778991
+    second: guidaCharacter_355
+  - first:
+      213: 615547898777640365
+    second: guidaCharacter_356
+  - first:
+      213: 157297725014317832
+    second: guidaCharacter_357
+  - first:
+      213: -240695423500483289
+    second: guidaCharacter_358
+  - first:
+      213: 233223953947096159
+    second: guidaCharacter_359
+  - first:
+      213: -5149047644455067448
+    second: guidaCharacter_360
+  - first:
+      213: 5442310258579233733
+    second: guidaCharacter_361
+  - first:
+      213: -3918682488082000015
+    second: guidaCharacter_362
+  - first:
+      213: -3410502113492744778
+    second: guidaCharacter_363
+  - first:
+      213: 1817560911895360323
+    second: guidaCharacter_364
+  - first:
+      213: 7043551038730996138
+    second: guidaCharacter_365
+  - first:
+      213: 5897581847063126802
+    second: guidaCharacter_366
+  - first:
+      213: -4108465734372781175
+    second: guidaCharacter_367
+  - first:
+      213: 8234024140201502396
+    second: guidaCharacter_368
+  - first:
+      213: -6562634501075483492
+    second: guidaCharacter_369
+  - first:
+      213: -3816426463282685248
+    second: guidaCharacter_370
+  - first:
+      213: 6289654701001421986
+    second: guidaCharacter_371
+  - first:
+      213: -6926354605046572556
+    second: guidaCharacter_372
+  - first:
+      213: 8031491462084319818
+    second: guidaCharacter_373
+  - first:
+      213: -9088206642308463537
+    second: guidaCharacter_374
+  - first:
+      213: 949197025671881741
+    second: guidaCharacter_375
+  - first:
+      213: 3859566740718370290
+    second: guidaCharacter_376
+  - first:
+      213: 8250192954350131507
+    second: guidaCharacter_377
+  - first:
+      213: 7780117474343163842
+    second: guidaCharacter_378
+  - first:
+      213: 2324863360529719160
+    second: guidaCharacter_379
+  - first:
+      213: -1600845203612709897
+    second: guidaCharacter_380
+  - first:
+      213: 9079369560118964171
+    second: guidaCharacter_381
+  - first:
+      213: 7085715260087025014
+    second: guidaCharacter_382
+  - first:
+      213: 7210829406740613253
+    second: guidaCharacter_383
+  - first:
+      213: 6351698661610677188
+    second: guidaCharacter_384
+  - first:
+      213: -7093009494968110928
+    second: guidaCharacter_385
+  - first:
+      213: -6148895394098116105
+    second: guidaCharacter_386
+  - first:
+      213: -509010186290507674
+    second: guidaCharacter_387
+  - first:
+      213: -7170906549567449013
+    second: guidaCharacter_388
+  - first:
+      213: 2108923055488207658
+    second: guidaCharacter_389
+  - first:
+      213: 2875855810987296515
+    second: guidaCharacter_390
+  - first:
+      213: -2864549801644343432
+    second: guidaCharacter_391
+  - first:
+      213: 8710381059915914264
+    second: guidaCharacter_392
+  - first:
+      213: 8854826756023251644
+    second: guidaCharacter_393
+  - first:
+      213: -5640412987038293403
+    second: guidaCharacter_394
+  - first:
+      213: -5699415049224985354
+    second: guidaCharacter_395
+  - first:
+      213: -1718497428173689023
+    second: guidaCharacter_396
+  - first:
+      213: -460634447592830968
+    second: guidaCharacter_397
+  - first:
+      213: -7950604848333340700
+    second: guidaCharacter_398
+  - first:
+      213: 931864330270066799
+    second: guidaCharacter_399
+  - first:
+      213: 9184846136428217210
+    second: guidaCharacter_400
+  - first:
+      213: 1483213091560210884
+    second: guidaCharacter_401
+  - first:
+      213: 5234587567414540112
+    second: guidaCharacter_402
+  - first:
+      213: 636349331671277648
+    second: guidaCharacter_403
+  - first:
+      213: -6394318340598903218
+    second: guidaCharacter_404
+  - first:
+      213: -6765144886422790297
+    second: guidaCharacter_405
+  - first:
+      213: 8802345728292000275
+    second: guidaCharacter_406
+  - first:
+      213: 4672593081826411651
+    second: guidaCharacter_407
+  - first:
+      213: 9004844414516142792
+    second: guidaCharacter_408
+  - first:
+      213: 682058331687447580
+    second: guidaCharacter_409
+  - first:
+      213: -1968412564232485986
+    second: guidaCharacter_410
+  - first:
+      213: -8305289242671279806
+    second: guidaCharacter_411
+  - first:
+      213: -8364797670080779437
+    second: guidaCharacter_412
+  - first:
+      213: -5176506723554364325
+    second: guidaCharacter_413
+  - first:
+      213: 9032406085272375877
+    second: guidaCharacter_414
+  - first:
+      213: -2079944060024308213
+    second: guidaCharacter_415
+  - first:
+      213: -367590763168018990
+    second: guidaCharacter_416
+  - first:
+      213: -8676946932849027453
+    second: guidaCharacter_417
+  - first:
+      213: -3630017318417216686
+    second: guidaCharacter_418
+  - first:
+      213: 4504372044538453700
+    second: guidaCharacter_419
+  - first:
+      213: 3762800683595895448
+    second: guidaCharacter_420
+  - first:
+      213: 126490013124556655
+    second: guidaCharacter_421
+  - first:
+      213: 8871923754851410445
+    second: guidaCharacter_422
+  - first:
+      213: -1621675752205710305
+    second: guidaCharacter_423
+  - first:
+      213: -9118948104751675433
+    second: guidaCharacter_424
+  - first:
+      213: -5497849721960155312
+    second: guidaCharacter_425
+  - first:
+      213: 2393569322043869078
+    second: guidaCharacter_426
+  - first:
+      213: -6108147722589697645
+    second: guidaCharacter_427
+  - first:
+      213: -977998250157369159
+    second: guidaCharacter_428
+  - first:
+      213: 8752873025136326650
+    second: guidaCharacter_429
+  - first:
+      213: 1743359847833204873
+    second: guidaCharacter_430
+  - first:
+      213: 8874000003461868927
+    second: guidaCharacter_431
+  - first:
+      213: -8202614275764399880
+    second: guidaCharacter_432
+  - first:
+      213: 8325191750151017825
+    second: guidaCharacter_433
+  - first:
+      213: -8127575255350504778
+    second: guidaCharacter_434
+  - first:
+      213: 6080524524416727513
+    second: guidaCharacter_435
+  - first:
+      213: 8453142960541076793
+    second: guidaCharacter_436
+  - first:
+      213: 1745358972884602967
+    second: guidaCharacter_437
+  - first:
+      213: 6199092318547844138
+    second: guidaCharacter_438
+  - first:
+      213: -6353077631213706290
+    second: guidaCharacter_439
+  - first:
+      213: -3287533292516875546
+    second: guidaCharacter_440
+  - first:
+      213: 7798705098117806813
+    second: guidaCharacter_441
+  - first:
+      213: 633687991842451347
+    second: guidaCharacter_442
+  - first:
+      213: -8874678323518489649
+    second: guidaCharacter_443
+  - first:
+      213: -5132850815437846059
+    second: guidaCharacter_444
+  - first:
+      213: -8306198959531684452
+    second: guidaCharacter_445
+  - first:
+      213: -3056911904289459762
+    second: guidaCharacter_446
+  - first:
+      213: -7969365287701450791
+    second: guidaCharacter_447
+  - first:
+      213: 7334127916307110285
+    second: guidaCharacter_448
+  - first:
+      213: 5426583744565721236
+    second: guidaCharacter_449
+  - first:
+      213: 2969704352804254684
+    second: guidaCharacter_450
+  - first:
+      213: 3862947283881131675
+    second: guidaCharacter_451
+  - first:
+      213: -9079502878470087538
+    second: guidaCharacter_452
+  - first:
+      213: 1316688360360728638
+    second: guidaCharacter_453
+  - first:
+      213: 3406619355037842319
+    second: guidaCharacter_454
+  - first:
+      213: 976769313467482617
+    second: guidaCharacter_455
+  - first:
+      213: 4990908822710857814
+    second: guidaCharacter_456
+  - first:
+      213: -6253623406140877166
+    second: guidaCharacter_457
+  - first:
+      213: -7723515012961643860
+    second: guidaCharacter_458
+  - first:
+      213: 765599040891025784
+    second: guidaCharacter_459
+  - first:
+      213: -1460313269424481527
+    second: guidaCharacter_460
+  - first:
+      213: 2233405505133963236
+    second: guidaCharacter_461
+  - first:
+      213: 2278843375586732349
+    second: guidaCharacter_462
+  - first:
+      213: 5667868104358645339
+    second: guidaCharacter_463
+  - first:
+      213: -1592209239491833032
+    second: guidaCharacter_464
+  - first:
+      213: -5408576105361657649
+    second: guidaCharacter_465
+  - first:
+      213: 371893910387974245
+    second: guidaCharacter_466
+  - first:
+      213: -1607857539390219462
+    second: guidaCharacter_467
+  - first:
+      213: -6278078643131796191
+    second: guidaCharacter_468
+  - first:
+      213: 4086774384875145284
+    second: guidaCharacter_469
+  - first:
+      213: -784250919695958187
+    second: guidaCharacter_470
+  - first:
+      213: -4688389216977956498
+    second: guidaCharacter_471
+  - first:
+      213: 7932407956823602965
+    second: guidaCharacter_472
+  - first:
+      213: 3868505023063434916
+    second: guidaCharacter_473
+  - first:
+      213: 5909602567576325822
+    second: guidaCharacter_474
+  - first:
+      213: -6740931693633460465
+    second: guidaCharacter_475
+  - first:
+      213: -8274048695400115701
+    second: guidaCharacter_476
+  - first:
+      213: -7571116925804529252
+    second: guidaCharacter_477
+  - first:
+      213: 3146834196589482211
+    second: guidaCharacter_478
+  - first:
+      213: 6436898715372551199
+    second: guidaCharacter_479
+  - first:
+      213: -7465955823920505927
+    second: guidaCharacter_480
+  - first:
+      213: 6493830724243170998
+    second: guidaCharacter_481
+  - first:
+      213: -1903710324599155938
+    second: guidaCharacter_482
+  - first:
+      213: 1124641307606438083
+    second: guidaCharacter_483
+  - first:
+      213: 866553634108290282
+    second: guidaCharacter_484
+  - first:
+      213: 9186193612833686577
+    second: guidaCharacter_485
+  - first:
+      213: -8061220715298561781
+    second: guidaCharacter_486
+  - first:
+      213: 616327428417753976
+    second: guidaCharacter_487
+  - first:
+      213: 5177000789209884506
+    second: guidaCharacter_488
+  - first:
+      213: -7426384146556084587
+    second: guidaCharacter_489
+  - first:
+      213: -5431440530016153836
+    second: guidaCharacter_490
+  - first:
+      213: -8499912314344557990
+    second: guidaCharacter_491
+  - first:
+      213: 5733288367726700312
+    second: guidaCharacter_492
+  - first:
+      213: 2973590794173142899
+    second: guidaCharacter_493
+  - first:
+      213: -277980330077338313
+    second: guidaCharacter_494
+  - first:
+      213: 2093689967726162987
+    second: guidaCharacter_495
+  - first:
+      213: 2740594417758925474
+    second: guidaCharacter_496
+  - first:
+      213: -8420776348109544383
+    second: guidaCharacter_497
+  - first:
+      213: -8177962965604800917
+    second: guidaCharacter_498
+  - first:
+      213: -158100995244612780
+    second: guidaCharacter_499
+  - first:
+      213: -6836039589442835055
+    second: guidaCharacter_500
+  - first:
+      213: 8004604542024784912
+    second: guidaCharacter_501
+  - first:
+      213: -6159675861455629215
+    second: guidaCharacter_502
+  - first:
+      213: -6696089343054098692
+    second: guidaCharacter_503
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: guidaCharacter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e424846494d5fd0800000000000000
+      internalID: -2351642864208687539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e350643b63df66ef0800000000000000
+      internalID: -115126329073597122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5483fdae10bab80800000000000000
+      internalID: -8382604173141064253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9207e89addfe800800000000000000
+      internalID: 643976992046197230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91328c6ddc5cdc170800000000000000
+      internalID: 8200427984373949209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9b4d36372b6d260800000000000000
+      internalID: 7122076069398886884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594ab87bf64224ca0800000000000000
+      internalID: -6034220488483691371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af3ef78a6b210520800000000000000
+      internalID: 2666460190928158627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c19b3cc68a170b10800000000000000
+      internalID: 1947554530115424707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed6926cb71632ac0800000000000000
+      internalID: -3881151269629760017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d9fe8721e5cb540800000000000000
+      internalID: 5024994717670022483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b29dc69346f2a320800000000000000
+      internalID: 2567885507707900597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01911f607dc58cbc0800000000000000
+      internalID: -3762655410063861488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ad7c17255946a30800000000000000
+      internalID: 4207652133199665687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221cee4f28ee1b7b0800000000000000
+      internalID: -5210121047668506334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30199b5482b1d6540800000000000000
+      internalID: 5002684620860920067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d101946accd34380800000000000000
+      internalID: -8988097669472648749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fffad7937f513c0800000000000000
+      internalID: -4389330435508797662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3952d7a1133bcb80800000000000000
+      internalID: -8373542931242264259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9200ee9fd281d4d70800000000000000
+      internalID: 9028899413693431849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3c2ec73d89cead0800000000000000
+      internalID: -2671592444836789295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4584580df0b7346c0800000000000000
+      internalID: -4160346322907084716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e43105f6618aa30800000000000000
+      internalID: 4226652917627833950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 640
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e691602441b43be20800000000000000
+      internalID: 3365115896955017582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd704a188e60667d0800000000000000
+      internalID: -2925643312253368356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55688cda8ee353c50800000000000000
+      internalID: 6644285994323969621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958c00cfe5cf84e30800000000000000
+      internalID: 4488114513559734361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e378649ab51d9bd70800000000000000
+      internalID: 9059502317044664126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00ad2937b71bedc0800000000000000
+      internalID: -3608764600701575156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4721ab981fee19d70800000000000000
+      internalID: 9048275847529239156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bddea27bf410910800000000000000
+      internalID: 1801808974042749819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a15c6cc815470b0800000000000000
+      internalID: -5731866760663721326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62df1aece8e6fdf0800000000000000
+      internalID: -146673833605082518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cc3b2aea30824e0800000000000000
+      internalID: -2006349585404670855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465313654a95fa7e0800000000000000
+      internalID: -1752083167668259484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452e78e8a50779630800000000000000
+      internalID: 3933736333772055124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b9c495cc42b5500800000000000000
+      internalID: 385942653160430490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_37
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89438c3c7f6be30b0800000000000000
+      internalID: -5746954899220319080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_38
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830c5f0d5f4f6bb90800000000000000
+      internalID: -7226319215459450824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_39
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef1fc5d12ac7d120800000000000000
+      internalID: 2438639969914265573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0901a18018cbca990800000000000000
+      internalID: -7373311227539615600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_41
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c23bfefde7935df0800000000000000
+      internalID: -192643310605880632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_42
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f213e32691e8fb0800000000000000
+      internalID: -4643746256031502589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_43
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3c2c34f5dcdccd0800000000000000
+      internalID: -2536145206097296472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b366fc93a34cc4b0800000000000000
+      internalID: -5418881881641425993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_45
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd121320c05cded0800000000000000
+      internalID: -2387944916260872714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_46
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1d315cd8fb4ed40800000000000000
+      internalID: 5612821651228185041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_47
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 608
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14a4b2e1df1f0c10800000000000000
+      internalID: 2021869744024757279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3056bf02e896580800000000000000
+      internalID: -8833372921802718250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659075e8a016bad90800000000000000
+      internalID: -7085462890771707562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152349509fd61a990800000000000000
+      internalID: -7376493798348279215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b167f0659c94a90800000000000000
+      internalID: -7329105547105002642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ab3f33004e707c0800000000000000
+      internalID: -4105061845802173891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d9ff350491e1b50800000000000000
+      internalID: 6565713070830624143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7932b94178bc967f0800000000000000
+      internalID: -618739692759997545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c5bd3c931b81ab0800000000000000
+      internalID: -5037081321556714425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d2da69c6c412ec0800000000000000
+      internalID: -3593506998396834410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affb0ae22b50e4140800000000000000
+      internalID: 4705704923493351418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f9d7d69c1a64f20800000000000000
+      internalID: 3406588054649806730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e58369c1f7b16050800000000000000
+      internalID: 5792112844868912610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb03da879acc31af0800000000000000
+      internalID: -426772511423909700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_61
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa64f8c2fbc8c25c0800000000000000
+      internalID: -4238858396548249942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_62
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9228ca3bb1d4c1d30800000000000000
+      internalID: 4403479317035385385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_63
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3504409100b5f30800000000000000
+      internalID: 4565242754715636686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25470bd2b0b4ee8c0800000000000000
+      internalID: -3968151710283565998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_65
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d63261205a1a7c0800000000000000
+      internalID: -4061783960531538534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_66
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b4518e50c81c750800000000000000
+      internalID: 6323489308801321856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_67
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cad0512eeea24a70800000000000000
+      internalID: 8809796158874507969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_68
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd33d97bf0f9a810800000000000000
+      internalID: 1777216490845715967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_69
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1520b8a30dae3d0800000000000000
+      internalID: -3176497637297597983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_70
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc780bc3cd6ca660800000000000000
+      internalID: 7398408975555263693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_71
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 576
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688d31eeefab59460800000000000000
+      internalID: 7247904779401418886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a2bf1a77b45a110800000000000000
+      internalID: 1271505446992816654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_73
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d6a34a2b4eddba0800000000000000
+      internalID: -6062438067460215426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_74
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167a475a4e87dea80800000000000000
+      internalID: -8435953603571308703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_75
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86aeeca14f9970800800000000000000
+      internalID: 578600350841236072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a03bf5edd1e57e60800000000000000
+      internalID: 7959516259609686178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_77
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60638f827b6d7650800000000000000
+      internalID: 6232255599128830058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1827e374e13a44930800000000000000
+      internalID: 4126602509017838209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_79
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1501ee63c5863780800000000000000
+      internalID: -8703622155421547237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cf62008cc6b0f20800000000000000
+      internalID: 3389922750778244153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2065cdf5265f3190800000000000000
+      internalID: -7980565293505880020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bf11e5418d36690800000000000000
+      internalID: -7610001363336823928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_83
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61ba9cd3af7dd250800000000000000
+      internalID: 5971069022720668011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_84
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdd4f3e6a158c8b0800000000000000
+      internalID: -5131761998157783568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_85
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b855ba94a89a6490800000000000000
+      internalID: -7752215975827253066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_86
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49a73e35dc11c160800000000000000
+      internalID: 7043942994381613390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_87
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2819af77fbaacd0800000000000000
+      internalID: -2546012117298740546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_88
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8148b38fcd0fdb270800000000000000
+      internalID: 8268029322770220056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_89
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 544
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6670bc4508e639d0800000000000000
+      internalID: -2794791409277700499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644ddf7ae1660f940800000000000000
+      internalID: 5327870641032778822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_91
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620b02e7a36be2df0800000000000000
+      internalID: -203024570844663770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_92
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb98940f4f5100060800000000000000
+      internalID: 6917553169388636607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_93
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6bfda3fff031fb0800000000000000
+      internalID: -4678377999028996361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e671e7aae70404090800000000000000
+      internalID: -8052365220967999634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_95
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfec12c3e5a1ef10800000000000000
+      internalID: 2297299682568499165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92655969999cf6be0800000000000000
+      internalID: -1481744090888055255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_97
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc21a2da7530c770800000000000000
+      internalID: 8628955687677930745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7844368cb1df6a80800000000000000
+      internalID: -8471321766424983428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_99
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ea2035d01e82560800000000000000
+      internalID: 7289323444242656896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_100
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cc0371f1c856b60800000000000000
+      internalID: 7738745599867014216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_101
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025da0baf78950cd0800000000000000
+      internalID: -2592498336383970016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_102
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5e594e7db77d5c0800000000000000
+      internalID: -4190744761061743161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_103
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df44f7d574a99df10800000000000000
+      internalID: 2295035116423955709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_104
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b41bf1e048a2d110800000000000000
+      internalID: 1284273840376714421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_105
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d50a25ef4c56b7e0800000000000000
+      internalID: -1750109906969950760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_106
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95214be8070e181e0800000000000000
+      internalID: -2197228369144966567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_107
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 512
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622a2c382b66ced60800000000000000
+      internalID: 7920818761538642470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fb8e8521c86f9d0800000000000000
+      internalID: -2740849312779419838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_109
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a111433e0b61145d0800000000000000
+      internalID: -3080155721162813158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_110
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40807f9c899b07b80800000000000000
+      internalID: -8399009239171397628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_111
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0296a5335ac894f0800000000000000
+      internalID: -821684473263910385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_112
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dca5d75d1a6d2f0800000000000000
+      internalID: -948392733211701971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_113
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12c27275b29fe4c0800000000000000
+      internalID: -4256021814834970083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_114
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facdb2bad2fffe0e0800000000000000
+      internalID: -2238289918169457489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_115
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db393a35be381caf0800000000000000
+      internalID: -377875846978628675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436afa3449ade7110800000000000000
+      internalID: 1260685276035917364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_117
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9d204d8d1ffef40800000000000000
+      internalID: 5760088362002340311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_118
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b4a6252bd786ca0800000000000000
+      internalID: -6023426296767689897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_119
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8483e06b92c5ce340800000000000000
+      internalID: 4894388229262686280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_120
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f844f0952e48b9f50800000000000000
+      internalID: 6889246162684953743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_121
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6642c61015577a460800000000000000
+      internalID: 7252894715680138342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_122
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1507d88649b076c0800000000000000
+      internalID: -4147611544213584612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_123
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148fc2f6f2e0f2330800000000000000
+      internalID: 3688182216731195457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_124
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6260f67831f1f0a90800000000000000
+      internalID: -7345618298480949722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_125
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 480
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da2c201a033ae370800000000000000
+      internalID: 8352544577226025681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cfe35ed57ba8650800000000000000
+      internalID: 6235998247953824785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_127
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3b61482096b1250800000000000000
+      internalID: 5916437995008209898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_128
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d310bd04f0471a990800000000000000
+      internalID: -7376487105794735811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_129
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcad62e2c9e66420800000000000000
+      internalID: 2623040856221658294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_130
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f752aed3caf60750800000000000000
+      internalID: 6270975250320742388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_131
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adda365bc9db67a0800000000000000
+      internalID: -6382768579519259225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_132
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53113381616b2c610800000000000000
+      internalID: 1640073420327817525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_133
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1a2b7562adce2b0800000000000000
+      internalID: -5553824382239727107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_134
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa152df95e16ac00800000000000000
+      internalID: 911449346437094062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_135
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeecc387ed78d2af0800000000000000
+      internalID: -419529800705847574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_136
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5851836b8fbf7f9e0800000000000000
+      internalID: -1587523297997220475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_137
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d111b4650994e7600800000000000000
+      internalID: 467892295564988701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_138
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d93c019b40e4b7e0800000000000000
+      internalID: -1750527739979613744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_139
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195c0ca52f21f2050800000000000000
+      internalID: 5777857679053604241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_140
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b5ba814be2bb240800000000000000
+      internalID: 4808488378191010617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_141
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6754366540d8a9c30800000000000000
+      internalID: 4366957838457849206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_142
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fd519f80fd694c0800000000000000
+      internalID: -4280989166137385174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_143
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 448
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4d0c33ee665cfd0800000000000000
+      internalID: -2322336859583097617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4c10aef39a2a5f0800000000000000
+      internalID: -746848496216062801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_145
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7f5b6851fcf5970800000000000000
+      internalID: 8745936692738127784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_146
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e724a52d222a80940800000000000000
+      internalID: 5262634435024142974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_147
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab466e656f3980690800000000000000
+      internalID: -7635690481977498438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3347ff5f57f9e8870800000000000000
+      internalID: 8687056060231414835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_149
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada0d412ad505bd10800000000000000
+      internalID: 2140623632304245466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c4621715939d750800000000000000
+      internalID: 6330153773199412327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_151
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1022062958f67db0800000000000000
+      internalID: -4794371691515863011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_152
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9d8638fa895a870800000000000000
+      internalID: 8693522535299996086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_153
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36031260c0fc0360800000000000000
+      internalID: 7137344218545194557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_154
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04569eca8eb6f350800000000000000
+      internalID: 6050232652799562764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_155
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b49d71432e0c6790800000000000000
+      internalID: -7535632531912289096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_156
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a343f665250b78f40800000000000000
+      internalID: 5730742918536180794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_157
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1483876e08c3f80800000000000000
+      internalID: -8125477900335431258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_158
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72fd8401b0dc2490800000000000000
+      internalID: -7769605798416747909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_159
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695d233537f5dbe20800000000000000
+      internalID: 3367953045264717206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_160
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9e7ce154af1cf60800000000000000
+      internalID: 8052992783491262895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_161
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 416
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49ea16d9c7337770800000000000000
+      internalID: 8607284652855191884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a0d02ff94d22390800000000000000
+      internalID: -7844473817500153244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_163
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d59c0aca5e11ccb0800000000000000
+      internalID: -4845558348788230698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_164
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25136f0480bcc9390800000000000000
+      internalID: -7810144417457229486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_165
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a0107b79c0c4de0800000000000000
+      internalID: -1347688342740727185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_166
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494459bd923b7f9a0800000000000000
+      internalID: -6199289369693174636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_167
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6d1d3f14af47dd0800000000000000
+      internalID: -2489089532858607899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_168
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a5d1b6785f5f860800000000000000
+      internalID: 7563221111205091949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_169
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f3f66f80b1ae8f0800000000000000
+      internalID: -510565882444955841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_170
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745673bdf56d54100800000000000000
+      internalID: 91715074619041095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_171
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ad6b56f833907e0800000000000000
+      internalID: -1798849885177980271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_172
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f3304d611cabe00800000000000000
+      internalID: 1061372965989596998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_173
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4126a4a02d6b5e80800000000000000
+      internalID: -8188831510474383026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_174
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50fe155d1c5a9590800000000000000
+      internalID: -7666714134592950180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_175
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e22f45f165b2740800000000000000
+      internalID: 5128287293260574219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_176
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0349b76e3e6de9c10800000000000000
+      internalID: 2062321953695044656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_177
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0029b3727cbd66f10800000000000000
+      internalID: 2262737511203443200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_178
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8e633ebd30380f0800000000000000
+      internalID: -1116044039713003358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_179
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d54c680a0ae6e090800000000000000
+      internalID: -8005453958792591911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d297f1be9d28ac20800000000000000
+      internalID: 3217872093370094289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_181
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8600e9b9d422a7f00800000000000000
+      internalID: 1115241574446268520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_182
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d270107b0d9c00bb0800000000000000
+      internalID: -4971752090356349139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_183
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34930a6f18673de90800000000000000
+      internalID: -7002122695070435005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_184
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6195f693a58d200800000000000000
+      internalID: 205012985773102816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_185
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de152b4f80fec660800000000000000
+      internalID: 7408122935302758099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_186
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8d6a3729015a910800000000000000
+      internalID: 1847901443297040636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_187
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5b85e245e36a150800000000000000
+      internalID: 5883458494481872311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_188
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970782a84393fddd0800000000000000
+      internalID: -2459183973702012807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_189
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cef47965a48b3e60800000000000000
+      internalID: 7943088213771747010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_190
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f11150e1baebe8b0800000000000000
+      internalID: -5121742101510286860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_191
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec8faa38f7ae3330800000000000000
+      internalID: 3692573429068696810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_192
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a41d7c484d244000800000000000000
+      internalID: 19190086960485542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_193
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7053fde9f4920330800000000000000
+      internalID: 3675664047047659644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_194
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654bb559a1a0e35d0800000000000000
+      internalID: -3081013985783597994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_195
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3dcb658681068b0800000000000000
+      internalID: -5161098336555707464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_196
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01965c3ae7a1d8550800000000000000
+      internalID: 6164612596155902224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_197
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f969c7c884aba0260800000000000000
+      internalID: 7064663786241431199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_198
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9674403081d88f80800000000000000
+      internalID: -8103997180957395302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_199
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed93b016a4eca9b0800000000000000
+      internalID: -5067424078802739739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_200
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e2cc19557da5700800000000000000
+      internalID: 529972668687724147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_201
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223b8dd232cb380c0800000000000000
+      internalID: -4574605937199238366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_202
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8307ee7c81f5d30800000000000000
+      internalID: 4422280606079006925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_203
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bedfc8147ff8290800000000000000
+      internalID: -7885812561592063232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_204
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b550c6940cd5dbe80800000000000000
+      internalID: -8161263869278550693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_205
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95e7f3c0d8e7dc10800000000000000
+      internalID: 2078385736393418139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_206
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e05e21a1a4b54c0800000000000000
+      internalID: -4297759943548399983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_207
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0612518ecbeda85b0800000000000000
+      internalID: -5365231103129607840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_208
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9cf751597485a80800000000000000
+      internalID: -8477947592888563203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_209
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568a26fcfa7148d20800000000000000
+      internalID: 3279772472498628709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_210
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154db0397e47ad180800000000000000
+      internalID: -9089824359940631471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_211
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fc3149b22c31780800000000000000
+      internalID: -8713407361608069287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_212
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59bd8639202f6440800000000000000
+      internalID: 4931195478374988127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_213
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385a505a159386270800000000000000
+      internalID: 8243902140725437827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_214
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52917d23abb6c8f0800000000000000
+      internalID: -520522397398232482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guidaCharacter_215
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 16, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014e70e86b26abcb0800000000000000
+      internalID: -4847453512704465904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

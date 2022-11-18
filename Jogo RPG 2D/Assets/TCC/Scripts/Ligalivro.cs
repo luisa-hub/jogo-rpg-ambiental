@@ -5,16 +5,10 @@ using UnityEngine;
 public class Ligalivro : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject botãoLivro;
+    public GameObject botaoLivro;
+  
     public GameObject objeto;
 
-
-    private void Start()
-    {
-        //objeto = GameObject.Find("LivroCanvas").transform.GetChild(0).gameObject;
-  
-
-    }
 
     public void abre()
     {
@@ -27,7 +21,7 @@ public class Ligalivro : MonoBehaviour
         GameObject.Find("Player").GetComponent<Player>().yInput = 0;
         GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(false);
 
-        botãoLivro.SetActive(false);
+        botaoLivro.SetActive(false);
     }
 
     // Update is called once per frame
@@ -39,6 +33,6 @@ public class Ligalivro : MonoBehaviour
         GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(true);
         GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(true);
 
-        botãoLivro.SetActive(true);
+        botaoLivro.SetActive(true);
     }
 }

@@ -32,7 +32,7 @@ public class Player : SingletonMonobehaviour<Player>
     private bool idleLeft;
     private bool idleRight;
 
-    private bool canMove = true;
+    public bool canMove = true;
 
 
     private Rigidbody2D rigidbody2D;

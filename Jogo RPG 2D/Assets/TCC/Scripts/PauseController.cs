@@ -14,7 +14,7 @@ public class PauseController : MonoBehaviour
     public GameObject janelaCreditos;
     GameObject objeto;
     int pausado = 0;
-
+    private bool verificaMovimentoAnterior = true;
 
     private void Start()
     {
@@ -25,6 +25,11 @@ public class PauseController : MonoBehaviour
     {
         
         objeto.SetActive(true);
+
+        if (!GameObject.Find("Player").GetComponent<Player>().canMove)
+            verificaMovimentoAnterior = false;
+        else
+            verificaMovimentoAnterior = true;
 
         //Para o jogador
         GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(false);
@@ -41,8 +46,10 @@ public class PauseController : MonoBehaviour
     {
         objeto.SetActive(false);
 
-        //Para o jogador
-        GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(true);
+        if (verificaMovimentoAnterior)
+            //Para o jogador
+            GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(true);
+        
         GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(true);
 
         botãoConfig.SetActive(true);

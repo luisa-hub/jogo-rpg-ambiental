@@ -17,7 +17,7 @@ public class ComputerController : MonoBehaviour
 
     public TextMeshProUGUI mostra;
     public TMP_InputField consulta;
-    public DatabaseDB banco;
+    public DatabaseController banco;
     public TableController table;
     public Button botaoTip;
     private string messagemDeErro;
@@ -29,7 +29,7 @@ public class ComputerController : MonoBehaviour
 
     void Awake()
     {
-        banco = GetComponent<DatabaseDB>();
+        banco = GetComponent<DatabaseController>();
         table = GetComponent<TableController>();
         
         
@@ -86,23 +86,7 @@ public class ComputerController : MonoBehaviour
     }
 
     public void resetaBanco() {
-        //TextAsset textFile;
-        //var caminho = Application.dataPath + "/Database/Backups/" + "doacoes_3879.txt";
-        //Debug.Log(caminho);
-        //textFile = Resources.Load<TextAsset>(caminho);
-        //Debug.Log(textFile);
-        //var text = textFile.text;
 
-        //banco.consulta(text, bancoPrimario);
-        //Debug.Log("Foi?");
-
-        //string path = Application.dataPath + "/Database/Backups/" + "doacoes_3879.txt";
-        ////Read the text from directly from the test.txt file
-        //StreamReader reader = new StreamReader(path);
-        //Debug.Log(reader.ReadToEnd());
-        //String consulta_ = reader.ReadToEnd();
-        //banco.consulta(consulta_, bancoPrimario);
-        //reader.Close();
 
         String con = @"BEGIN TRANSACTION;
                         DROP TABLE IF EXISTS doacoes_3879;

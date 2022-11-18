@@ -7,7 +7,7 @@ namespace Assets.TCC.Scripts
 
     public class QuestsController : MonoBehaviour
     {
-        public DatabaseDB banco;
+        public DatabaseController banco;
         private string bancoReserva = "missao1Banckup"; //"missao1Backup"
         public PlayerController jogador;
 

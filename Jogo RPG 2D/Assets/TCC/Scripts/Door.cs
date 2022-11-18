@@ -4,9 +4,9 @@ using System.Linq;
 namespace Assets.TCC.Scripts
 {
 
-    public class Porta : MonoBehaviour
+    public class Door : MonoBehaviour
     {
-        public Porta outraPorta;
+        public Door outraPorta;
         public SpriteRenderer cobre;
         public Player player;
         public string chave = "vazia";

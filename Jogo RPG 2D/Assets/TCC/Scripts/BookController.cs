@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ligalivro : MonoBehaviour
+public class BookController : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject botaoLivro;

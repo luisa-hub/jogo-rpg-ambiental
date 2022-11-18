@@ -6,7 +6,7 @@ using UnityEngine;
 /// <summary>
 /// Faz a interação com o banco de dados, realizando consultas
 /// </summary>
-public class DatabaseDB : MonoBehaviour
+public class DatabaseController : MonoBehaviour
 {
 
     /// <summary>

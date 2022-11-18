@@ -11,16 +11,10 @@ public class PlayerController : MonoBehaviour
     public List<string> flagMissoesConcluidas;
     NPCController nPCController;
     WindowController windowController;
-    Porta porta;
+    Door porta;
     public GameObject enter;
     public PauseController pause;
     public VanishController vanishController;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
@@ -46,7 +40,7 @@ public class PlayerController : MonoBehaviour
 
             if (lastGameObjectWithCollision && lastGameObjectWithCollision.tag.Equals("Porta"))
             {
-                porta = lastGameObjectWithCollision.GetComponent<Porta>();
+                porta = lastGameObjectWithCollision.GetComponent<Door>();
                 porta.InitInteraction(flagMissoesConcluidas);
             }
         }

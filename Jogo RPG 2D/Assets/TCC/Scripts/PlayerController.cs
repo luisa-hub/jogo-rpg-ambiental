@@ -45,7 +45,8 @@ public class PlayerController : MonoBehaviour
             if (DoorObject())
             {
                 porta = lastGameObjectWithCollision.GetComponent<DoorController>();
-                porta.InitInteraction(flagMissoesConcluidas);
+                bool aberto = porta.InitInteraction(flagMissoesConcluidas);
+                if (!aberto) { Player.Instance.PlayerPauseInteraction(); }
             }
         }
 

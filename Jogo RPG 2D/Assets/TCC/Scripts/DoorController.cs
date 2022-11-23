@@ -13,15 +13,17 @@ namespace Assets.TCC.Scripts
         public char stringSeparator = '#';
         private ChatController chatController;
         public string textoTrancando= "Porta Trancada!";
-        public void InitInteraction(List<string> flagMissoesConcluidas)
+        public bool InitInteraction(List<string> flagMissoesConcluidas)
         {
 
             if (confereTranca(flagMissoesConcluidas))
             {
                 atravessar();
+                return true;
             }
             else {
                 trancado();
+                return false;
             
             }
 

@@ -4,9 +4,9 @@ using System.Linq;
 namespace Assets.TCC.Scripts
 {
 
-    public class Door : MonoBehaviour
+    public class DoorController : MonoBehaviour
     {
-        public Door outraPorta;
+        public DoorController outraPorta;
         public SpriteRenderer cobre;
         public Player player;
         public string chave = "vazia";
@@ -27,11 +27,9 @@ namespace Assets.TCC.Scripts
 
         }
 
-
-
         private void atravessar()
         {
-            player = GameObject.Find("Player").GetComponent<Player>();
+            
             if (cobre.enabled)
             {
                 cobre.enabled = false;
@@ -40,7 +38,7 @@ namespace Assets.TCC.Scripts
             {
                 cobre.enabled = true;
             }
-            player.gameObject.transform.position = outraPorta.transform.position;
+            Player.Instance.transform.position = outraPorta.transform.position;
 
         }
 
@@ -62,7 +60,6 @@ namespace Assets.TCC.Scripts
             }
             return false;
         }
-
 
         private void trancado()
         {

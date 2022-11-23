@@ -9,29 +9,13 @@ public class Player : SingletonMonobehaviour<Player>
     private bool isWalking;
     private bool isRunning;
     private bool isIdle;
-    private bool isCarrying = false;
-    private ToolEffect toolEffect = ToolEffect.none;
-    private bool isUsingToolRight;
-    private bool isUsingToolLeft;
-    private bool isUsingToolUp;
-    private bool isUsingToolDown;
-    private bool isLiftingToolRight;
-    private bool isLiftingToolLeft;
-    private bool isLiftingToolUp;
-    private bool isLiftingToolDown;
-    private bool isPickingRight;
-    private bool isPickingLeft;
-    private bool isPickingUp;
-    private bool isPickingDown;
-    private bool isSwingingToolRight;
-    private bool isSwingingToolLeft;
-    private bool isSwingingToolUp;
-    private bool isSwingingToolDown;
     private bool idleUp;
     private bool idleDown;
     private bool idleLeft;
     private bool idleRight;
 
+
+    public bool firstInteraction = false;
     public bool canMove = true;
 
 
@@ -47,10 +31,12 @@ public class Player : SingletonMonobehaviour<Player>
     {
         get => _playerInputIsDisabled; set => _playerInputIsDisabled = value;
     }
-    
+
+    public PlayerController playerController;
     protected override void Awake()
     {
         base.Awake();
+
 
         rigidbody2D = GetComponent<Rigidbody2D>();
     }
@@ -59,28 +45,22 @@ public class Player : SingletonMonobehaviour<Player>
     {
         #region
 
-        ResetAnimationTriggers();
-
         PlayerMovementInput();
 
         PlayerWalkInput();
 
-        EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying, toolEffect,
-        isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
-        isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
-        isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
-        isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
+        EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle,
         false, false, false, false);
         #endregion
     }
 
     private void FixedUpdate()
     {
-   
+
         PlayerMovement();
     }
 
-    public void PlayerMovementState( bool status )
+    public void PlayerMovementState(bool status)
     {
         canMove = status;
     }
@@ -94,27 +74,49 @@ public class Player : SingletonMonobehaviour<Player>
         rigidbody2D.MovePosition(rigidbody2D.position + move);
     }
 
-    private void ResetAnimationTriggers()
+
+    //Impede que o jogador interaja com o ambiente caso esteja realizando alguma interação
+    public void PlayerPauseInteraction(bool isMenu = false)
     {
-        isPickingRight = false;
-        isPickingLeft = false;
-        isPickingUp = false;
-        isPickingDown = false;
-        isUsingToolRight = false;
-        isUsingToolLeft = false;
-        isUsingToolUp = false;
-        isUsingToolDown = false;
-        isLiftingToolRight = false;
-        isLiftingToolLeft = false;
-        isLiftingToolUp = false;
-        isLiftingToolDown = false;
-        isSwingingToolRight = false;
-        isSwingingToolLeft = false;
-        isSwingingToolUp = false;
-        isSwingingToolDown = false;
-        toolEffect = ToolEffect.none;
+        if (isMenu && !canMove)
+            firstInteraction = false;
+        else
+        {
+
+            PlayerMovementState(false);
+
+            xInput = 0;
+            yInput = 0;
+
+            GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(false);
+
+            firstInteraction = true;
+        }
+       
 
     }
+
+    public void PlayerReturnInteraction()
+    {
+        if (firstInteraction)
+        {
+            PlayerMovementState(true);
+            GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(true);
+           
+        }
+        else
+        {
+            PlayerMovementState(false);
+            GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(false);
+            firstInteraction = true;
+
+
+        }
+
+
+    }
+
+
 
     private void PlayerMovementInput()
     {
@@ -126,7 +128,7 @@ public class Player : SingletonMonobehaviour<Player>
         yInput = Input.GetAxisRaw("Vertical");
 
 
-        if(xInput != 0 || yInput != 0)
+        if (xInput != 0 || yInput != 0)
         {
             isRunning = true;
             isWalking = false;
@@ -134,12 +136,12 @@ public class Player : SingletonMonobehaviour<Player>
             movementSpeed = Settings.runningSpeed;
 
             //Capture player direction for save game
-            if(xInput < 0)
+            if (xInput < 0)
             {
                 playerDirection = Direction.left;
             }
 
-            else if(xInput > 0)
+            else if (xInput > 0)
             {
                 playerDirection = Direction.right;
             }
@@ -157,7 +159,7 @@ public class Player : SingletonMonobehaviour<Player>
 
         }
 
-        else if(xInput == 0 && yInput == 0)
+        else if (xInput == 0 && yInput == 0)
         {
             isRunning = false;
             isWalking = false;
@@ -167,7 +169,7 @@ public class Player : SingletonMonobehaviour<Player>
 
     private void PlayerWalkInput()
     {
-        if(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
         {
             isRunning = false;
             isWalking = true;
@@ -184,4 +186,4 @@ public class Player : SingletonMonobehaviour<Player>
         }
     }
 }
-   
+

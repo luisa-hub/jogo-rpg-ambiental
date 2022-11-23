@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public delegate void MovementDelegate(float xInput, float yInput, bool isWalking, bool isRunning, bool isIdle, bool isCarrying, ToolEffect toolEffect, bool isUsingToolRight, 
-    bool IsUsingToolLeft, bool isUsingToolUp, bool isUsingToolDown, bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolUp, bool isLiftingToolDown, bool isPickingRight, 
-    bool isPickingLeft, bool isPickingUp, bool isPickingDown, bool isSwingingToolRight, bool isSwingingToolLeft, bool isSwingingToolUp, bool isSwingingToolDown, bool idleUp, bool idleDown, 
+public delegate void MovementDelegate(float xInput, float yInput, bool isWalking, bool isRunning, bool isIdle, 
+ bool idleUp, bool idleDown, 
     bool idleLeft, bool idleRight); 
 
 public static class EventHandler
@@ -17,16 +16,12 @@ public static class EventHandler
 
     //movement event call for publishers
 
-    public static void CallMovementEvent(float xInput, float yInput, bool isWalking, bool isRunning, bool isIdle, bool isCarrying, ToolEffect toolEffect, bool isUsingToolRight,
-    bool IsUsingToolLeft, bool isUsingToolUp, bool isUsingToolDown, bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolUp, bool isLiftingToolDown, bool isPickingRight,
-    bool isPickingLeft, bool isPickingUp, bool isPickingDown, bool isSwingingToolRight, bool isSwingingToolLeft, bool isSwingingToolUp, bool isSwingingToolDown, bool idleUp, bool idleDown,
+    public static void CallMovementEvent(float xInput, float yInput, bool isWalking, bool isRunning, bool isIdle,
+    bool idleUp, bool idleDown,
     bool idleLeft, bool idleRight)
     {
         if (MovementEvent!=null) {
-            MovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying, toolEffect, isUsingToolRight,
-            IsUsingToolLeft, isUsingToolUp, isUsingToolDown, isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown, isPickingRight,
-            isPickingLeft, isPickingUp, isPickingDown, isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown, idleUp, idleDown,
-            idleLeft, idleRight);
+            MovementEvent(xInput, yInput, isWalking, isRunning, isIdle, idleUp, idleDown, idleLeft, idleRight);
         }
     }
 }

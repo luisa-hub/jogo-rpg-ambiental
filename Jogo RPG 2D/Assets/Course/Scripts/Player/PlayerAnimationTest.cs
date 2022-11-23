@@ -34,11 +34,12 @@ public class PlayerAnimationTest : MonoBehaviour
 
     private void Update()
     {
-        EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying, toolEffect,
-        isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
-        isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
-        isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
-        isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
+        EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, 
+        //isCarrying, toolEffect,
+        //isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
+        //isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
+        //isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
+        //isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
         idleUp, idleDown, idleLeft, idleRight);
 
     }

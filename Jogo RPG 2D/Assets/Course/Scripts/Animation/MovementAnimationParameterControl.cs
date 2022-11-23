@@ -22,53 +22,13 @@ public class MovementAnimationParameterControl : MonoBehaviour
         EventHandler.MovementEvent -= SetAnimationParameter;
     }
 
-    private void SetAnimationParameter(float xInput, float yInput, bool isWalking, bool isRunning, bool isIdle, bool isCarrying, ToolEffect toolEffect, bool isUsingToolRight,
-    bool IsUsingToolLeft, bool isUsingToolUp, bool isUsingToolDown, bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolUp, bool isLiftingToolDown, bool isPickingRight,
-    bool isPickingLeft, bool isPickingUp, bool isPickingDown, bool isSwingingToolRight, bool isSwingingToolLeft, bool isSwingingToolUp, bool isSwingingToolDown, bool idleUp, bool idleDown,
+    private void SetAnimationParameter(float xInput, float yInput, bool isWalking, bool isRunning, bool isIdle,  bool idleUp, bool idleDown,
     bool idleLeft, bool idleRight)
     {
         animator.SetFloat(Settings.xInput, xInput);
         animator.SetFloat(Settings.yInput, yInput);
         animator.SetBool(Settings.isWalking, isWalking);
         animator.SetBool(Settings.isRunning, isRunning);
-
-        animator.SetInteger(Settings.toolEffect, (int)toolEffect);
-
-        if (isUsingToolRight)
-            animator.SetTrigger(Settings.isUsingToolRight);
-        if (IsUsingToolLeft)
-            animator.SetTrigger(Settings.isUsingToolLeft);
-        if (isUsingToolUp)
-            animator.SetTrigger(Settings.isUsingToolUp);
-        if (isUsingToolDown)
-            animator.SetTrigger(Settings.isUsingToolDown);
-
-        if (isLiftingToolRight)
-            animator.SetTrigger(Settings.isLiftingToolRight);
-        if (isLiftingToolLeft)
-            animator.SetTrigger(Settings.isLiftingToolLeft);
-        if (isLiftingToolUp)
-            animator.SetTrigger(Settings.isLiftingToolUp);
-        if (isLiftingToolDown)
-            animator.SetTrigger(Settings.isLiftingToolDown);
-
-        if (isPickingRight)
-            animator.SetTrigger(Settings.isPickingRight);
-        if (isPickingLeft)
-            animator.SetTrigger(Settings.isPickingLeft);
-        if (isPickingUp)
-            animator.SetTrigger(Settings.isPickingUp);
-        if (isPickingDown)
-            animator.SetTrigger(Settings.isPickingDown);
-
-        if (isSwingingToolRight)
-            animator.SetTrigger(Settings.isSwingingToolRight);
-        if (isSwingingToolLeft)
-            animator.SetTrigger(Settings.isSwingingToolLeft);
-        if (isSwingingToolUp)
-            animator.SetTrigger(Settings.isSwingingToolUp);
-        if (isSwingingToolDown)
-            animator.SetTrigger(Settings.isSwingingToolDown);
 
         if (idleRight)
             animator.SetTrigger(Settings.idleRight);

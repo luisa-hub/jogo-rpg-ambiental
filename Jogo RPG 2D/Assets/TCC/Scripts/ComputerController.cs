@@ -81,8 +81,7 @@ public class ComputerController : MonoBehaviour
         botaoTip.gameObject.SetActive(false);
 
         //Retorna movimento ao Player
-        GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(true);
-        GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(true);
+        Player.Instance.PlayerReturnInteraction();
     }
 
     public void resetaBanco() {

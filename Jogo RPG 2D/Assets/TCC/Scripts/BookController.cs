@@ -6,7 +6,6 @@ public class BookController : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject botaoLivro;
-  
     public GameObject objeto;
 
 
@@ -15,11 +14,7 @@ public class BookController : MonoBehaviour
 
         objeto.SetActive(true);
 
-        //Para o jogador
-        GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(false);
-        GameObject.Find("Player").GetComponent<Player>().xInput = 0;
-        GameObject.Find("Player").GetComponent<Player>().yInput = 0;
-        GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(false);
+       Player.Instance.PlayerPauseInteraction();
 
         botaoLivro.SetActive(false);
     }
@@ -29,9 +24,7 @@ public class BookController : MonoBehaviour
     {
         objeto.SetActive(false);
 
-        //Para o jogador
-        GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(true);
-        GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(true);
+        Player.Instance.PlayerReturnInteraction();
 
         botaoLivro.SetActive(true);
     }

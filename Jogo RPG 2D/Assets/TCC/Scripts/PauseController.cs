@@ -10,72 +10,54 @@ using UnityEngine.SceneManagement;
 public class PauseController : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject botãoConfig;
-    public GameObject janelaCreditos;
-    GameObject objeto;
-    int pausado = 0;
-    private bool verificaMovimentoAnterior = true;
+    public GameObject configButton;
+    public GameObject creditWindow;
+    GameObject pauseMenu;
+    public bool isPaused = false;
 
     private void Start()
     {
-        objeto = GameObject.Find("PauseMenu").transform.GetChild(0).gameObject;
-    }
-    
-    public void pausa()
-    {
-        
-        objeto.SetActive(true);
-
-        if (!GameObject.Find("Player").GetComponent<Player>().canMove)
-            verificaMovimentoAnterior = false;
-        else
-            verificaMovimentoAnterior = true;
-
-        //Para o jogador
-        GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(false);
-        GameObject.Find("Player").GetComponent<Player>().xInput = 0;
-        GameObject.Find("Player").GetComponent<Player>().yInput = 0;
-        GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(false);
-
-        botãoConfig.SetActive(false);
-        pausado = 1;
+        pauseMenu = GameObject.Find("PauseMenu").transform.GetChild(0).gameObject;
     }
 
-    // Update is called once per frame
-    public void despausa()
+
+    public void Pause()
     {
-        objeto.SetActive(false);
-
-        if (verificaMovimentoAnterior)
-            //Para o jogador
-            GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(true);
         
-        GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(true);
+        pauseMenu.SetActive(true);
+        configButton.SetActive(false);
+        Player.Instance.PlayerPauseInteraction(true);
+        Time.timeScale = 0;
 
-        botãoConfig.SetActive(true);
-        pausado = 0;
+        GC.Collect();
+        isPaused = true;
+    }
+
+    public void UnPause()
+    {
+        pauseMenu.SetActive(false);
+        configButton.SetActive(true);
+        Player.Instance.PlayerReturnInteraction();
+        Time.timeScale = 1;
+        isPaused = false;
     }
 
     public void esc() {
-        if (pausado == 0)
-        {
-            pausa();
-        }
-        else {
-            despausa();
-        }
-    
-    
+        if (!isPaused)
+            Pause();
+        
+        else
+            UnPause();
     }
 
 
     public void creditos() {
 
-        janelaCreditos.SetActive(true);
+        creditWindow.SetActive(true);
     }
 
     public void fechaCreditos() {
-        janelaCreditos.SetActive(false);
+        creditWindow.SetActive(false);
     }
 
     public void menu() {

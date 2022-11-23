@@ -22,6 +22,7 @@ public class ChatController : MonoBehaviour
     public Text objetoNome;
     public GameObject panelNome;
 
+
     // Awake é chamado antes do start
     void Awake()
     {
@@ -32,21 +33,24 @@ public class ChatController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Return) && Player.Instance.firstInteraction)
         {
-            try
-            {
-                ObjetoTexto.text = textos[++indexOfText];
-            }
-            catch
-            {
-                // Retorna o movimento ao jogador
-                GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(true);
-                // Desabilita o Canvas de Chat
-                gameObject.SetActive(false);
 
-                GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(true);
+            indexOfText = indexOfText < textos.Length ? ++indexOfText : indexOfText;
+
+            if (indexOfText == textos.Length)
+            {
+
+                gameObject.SetActive(false);
+                Player.Instance.PlayerReturnInteraction();
             }
+
+            else
+            {
+                ObjetoTexto.text = textos[indexOfText];
+            }
+
+
         }
     }
 
@@ -64,7 +68,7 @@ public class ChatController : MonoBehaviour
     /// <param name="retratoNPC">Retrato do Npc que aparecerá na tela</param>
     public void IniciaDialogo(List<string> textosNPCList, List<string> flagMissoesConcluidasPlayer, Sprite retratoNPC, String nome)
     {
-        
+     
         SetVisible(true); //ativa caixa de diálogo
         try
         {
@@ -77,7 +81,7 @@ public class ChatController : MonoBehaviour
         {
             if (nome != null) { 
                 panelNome.SetActive(true);
-            objetoNome.text = nome;
+                objetoNome.text = nome;
             }//coloca o nome do npc
             else { panelNome.SetActive(false); }
         }
@@ -107,14 +111,6 @@ public class ChatController : MonoBehaviour
         }
 
         ConfigureText(textoMandar);
-
-
-
-        //Para o jogador
-        GameObject.Find("Player").GetComponent<Player>().PlayerMovementState(false);
-        GameObject.Find("Player").GetComponent<PlayerController>().CanInteract(false);
-        GameObject.Find("Player").GetComponent<Player>().xInput = 0;
-        GameObject.Find("Player").GetComponent<Player>().yInput = 0;
 
     }
 

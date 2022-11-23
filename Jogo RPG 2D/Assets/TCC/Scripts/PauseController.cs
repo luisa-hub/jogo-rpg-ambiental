@@ -26,7 +26,7 @@ public class PauseController : MonoBehaviour
         
         pauseMenu.SetActive(true);
         configButton.SetActive(false);
-        Player.Instance.PlayerPauseInteraction(true);
+        Player.Instance.PlayerPauseInteraction(isMenu: true);
         Time.timeScale = 0;
 
         GC.Collect();

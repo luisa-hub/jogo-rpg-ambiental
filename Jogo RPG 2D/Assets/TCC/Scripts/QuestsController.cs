@@ -7,12 +7,12 @@ namespace Assets.TCC.Scripts
 
     public class QuestsController : MonoBehaviour
     {
-        public DatabaseController banco;
+        public DatabaseController database;
         private string bancoReserva = "missao1Banckup"; //"missao1Backup"
         public PlayerController jogador;
 
-        private List<IList<object>> linhasEsperadas;
-        private List<string> colunasEsperadas;
+        private List<IList<object>> expectedLines;
+        private List<string> expectedColumns;
 
         private void Start()
         {
@@ -33,19 +33,19 @@ namespace Assets.TCC.Scripts
             {
                 switch (flag)
                 {
-                    case "CORAMISSAO1":
+                    case "MISSAO1":
                         var consulta = "SELECT * FROM doacoes_3879;";
                         if(verifyData(colunas, linhas, consulta))
                         {
-                            jogador.updateTags("CORAMISSAO3");
+                            jogador.updateTags("MISSAO3");
                         }
 
                         break;
 
-                    case "CORAMISSAO3":
-                       // jogador.updateTags("CORAMISSAO4");
+                    case "MISSAO3":
+                       // jogador.updateTags("MISSAO4");
                         break;
-                    case "CORAMISSAO30":
+                    case "MISSAO5":
                         // code block
                         break;
                     default:
@@ -61,26 +61,24 @@ namespace Assets.TCC.Scripts
         /// <summary>
         /// Verifica se a consulta digitada pelo usuário é igual à consulta esperada na missão
         /// </summary>
-        private bool verifyData(List<string> colunas, List<IList<object>> linhas, string consulta)
+        private bool verifyData(List<string> columns, List<IList<object>> lines, string query)
         {
-            bool missaoConcluida = false;
-            //Pega resultados do banco de dados
-            linhasEsperadas = banco.dados(consulta, bancoReserva);
-            colunasEsperadas = banco.colunas(consulta, bancoReserva);
+            bool isMissionCompleted = false;
+         
+            expectedLines = database.dados(query, bancoReserva);
+            expectedColumns = database.colunas(query, bancoReserva);
 
-            //Compara se os resultados são equivalentes
-            if (compare(colunas, linhas))
+            if (compare(columns, lines))
             {
-                //Completa missão
 
                 Debug.Log("Missão concluída");
-                missaoConcluida = true;
-                return missaoConcluida;
+                isMissionCompleted = true;
+                return isMissionCompleted;
             }
             else
             {
                 Debug.Log("Missão não concluída");
-                return missaoConcluida;
+                return isMissionCompleted;
             }
 
 
@@ -116,8 +114,8 @@ namespace Assets.TCC.Scripts
 
             //COMPARAÇÃO COLUNAS:
             //checa se há elementos que tem em uma que não tem em outra
-            var colunasSemColunasEsperadas = colunas.Except(colunasEsperadas).ToList();
-            var colunasEsperadasSemColunas = colunasEsperadas.Except(colunas).ToList();
+            var colunasSemColunasEsperadas = colunas.Except(expectedColumns).ToList();
+            var colunasEsperadasSemColunas = expectedColumns.Except(colunas).ToList();
 
             //vê se ficou vazio, sem nenhum elemento diferente. Se comparação deu que são iguais, vai ficar true!
             resultadoColunas = !colunasSemColunasEsperadas.Any() && !colunasEsperadasSemColunas.Any();
@@ -126,10 +124,10 @@ namespace Assets.TCC.Scripts
             if (resultadoColunas) { 
 
                 //ai, checa se número bate. Se não, nem precisa continuar
-                if (linhasEsperadas.Count == linhas.Count)
+                if (expectedLines.Count == linhas.Count)
                 {
                     //percorre pela listde list
-                    foreach (var linhaEsperada in linhasEsperadas)
+                    foreach (var linhaEsperada in expectedLines)
                     {
                         resultadosLinhaBool = new List<bool>();
 

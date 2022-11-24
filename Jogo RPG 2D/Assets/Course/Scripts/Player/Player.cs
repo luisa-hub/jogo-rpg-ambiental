@@ -17,13 +17,13 @@ public class Player : SingletonMonobehaviour<Player>
 
     public bool firstInteraction = false;
     public bool canMove = true;
-
-
     private Rigidbody2D rigidbody2D;
+    public PlayerController playerController;
+    private float movementSpeed;
 
     private Direction playerDirection;
 
-    private float movementSpeed;
+    
 
     private bool _playerInputIsDisabled = false;
 
@@ -32,7 +32,7 @@ public class Player : SingletonMonobehaviour<Player>
         get => _playerInputIsDisabled; set => _playerInputIsDisabled = value;
     }
 
-    public PlayerController playerController;
+   
     protected override void Awake()
     {
         base.Awake();

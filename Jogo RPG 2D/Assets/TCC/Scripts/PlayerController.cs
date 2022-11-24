@@ -26,39 +26,32 @@ public class PlayerController : MonoBehaviour
         // Se o jogador puder interagir e tirver pressionado enter
         if (CanInteractAndPressEnter())
         {
-            if (NpcObject())
+            if (isNpcObject())
             {
                 nPCController = lastGameObjectWithCollision.GetComponent<NPCController>();
                 Player.Instance.PlayerPauseInteraction();
                 nPCController.InitInteraction(flagMissoesConcluidas);
-
             }
 
-            if (ComputerObject())
+            if (isComputerObject())
             {
                 windowController = lastGameObjectWithCollision.GetComponent<WindowController>();
                 Player.Instance.PlayerPauseInteraction();
                 windowController.InitInteraction();
-
             }
 
-            if (DoorObject())
+            if (isDoorObject())
             {
                 porta = lastGameObjectWithCollision.GetComponent<DoorController>();
                 porta.InitInteraction(flagMissoesConcluidas);
             }
         }
 
-        //Responsável pela Sprite de Enter que aparece na tela
         EnterInteractionSprite();
 
         if (OpenPauseMenu())
-        {
             pause.esc();
-            
-
-        }
-
+        
 
     }
 
@@ -72,17 +65,17 @@ public class PlayerController : MonoBehaviour
         return _canInteract && Input.GetKeyDown(KeyCode.Return);
     }
 
-    private bool DoorObject()
+    private bool isDoorObject()
     {
         return lastGameObjectWithCollision && lastGameObjectWithCollision.tag.Equals("Porta");
     }
 
-    private bool ComputerObject()
+    private bool isComputerObject()
     {
         return lastGameObjectWithCollision && lastGameObjectWithCollision.tag.Equals("Computador");
     }
 
-    private bool NpcObject()
+    private bool isNpcObject()
     {
         return lastGameObjectWithCollision && lastGameObjectWithCollision.tag.Equals("NPC");
     }

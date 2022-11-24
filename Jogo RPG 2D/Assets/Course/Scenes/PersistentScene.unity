@@ -3038,7 +3038,7 @@ MonoBehaviour:
     Breno Rocha Maia
     & Luisa Farias
 
-    Coordenador Leonador Bravo
+    Orientador Leonador Bravo
 
 
 
@@ -4234,7 +4234,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 900371859}
-        m_MethodName: pausa
+        m_MethodName: Pause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

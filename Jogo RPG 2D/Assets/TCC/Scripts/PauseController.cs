@@ -58,6 +58,7 @@ public class PauseController : MonoBehaviour
     }
 
     public void menu() {
+        UnPause();
         SceneManager.LoadScene(0);
 
 

@@ -177,7 +177,6 @@ MonoBehaviour:
   - "CORAMISSAO4#Sim, voc\xEA completou a miss\xE3o muito bem"
   retrato: {fileID: 21300000, guid: e0f7c1ac5585b5c45b5aead9a1174d3d, type: 3}
   nome: Sr. Van Rossum
-  isChatting: 0
 --- !u!61 &28597417
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -643,7 +642,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   janela: CanvasSqlInteraction
-  isOpened: 0
 --- !u!95 &231901090
 Animator:
   serializedVersion: 3
@@ -17828,15 +17826,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatController: {fileID: 0}
   textos:
-  - "CORAMISSAO1#Aqui est\xE1 uma miss\xE3o.#Vai l\xE1 no arbusto secreto e pega
-    todos os usu\xE1rios...#...e uma coluna cheia de 42. Porque? Porque sim. Porque
-    eu to com vontade.# Boa sorte."
+  - "CORAMISSAO1#Ol\xE1, sou Edgar, o gerente daqui.#Aqui est\xE1 uma miss\xE3o.#Vai
+    l\xE1 no arbusto secreto e pega todos os usu\xE1rios...#...e uma coluna cheia
+    de 42. Porque? Porque sim. Porque eu to com vontade.# Boa sorte."
   - "CORAMISSAO2#Ainda estou aguardando...#Voc\xEA concluir a miss\xE3o"
   - "CORAMISSAO3#Obrigada por concluir a miss\xE3o"
   - "CORAMISSAO4#Sim, voc\xEA completou a miss\xE3o muito bem"
+  - "CORAMISSAO4#Sim, voc\xEA completou a miss\xE3o muito bem"
   retrato: {fileID: 21300000, guid: 9baaddbbd6c64234eab7e7138d1b67d1, type: 3}
   nome: Edgar
-  isChatting: 0
 --- !u!61 &799398192
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26293,7 +26291,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   janela: CanvasSqlInteraction
-  isOpened: 0
 --- !u!95 &1135294177
 Animator:
   serializedVersion: 3
@@ -45305,7 +45302,6 @@ MonoBehaviour:
   textos: []
   retrato: {fileID: 0}
   nome: 
-  isChatting: 0
 --- !u!4 &2079674207
 Transform:
   m_ObjectHideFlags: 0

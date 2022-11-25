@@ -8,6 +8,7 @@ namespace Assets.TCC.Scripts
     {
         public DoorController outraPorta;
         public SpriteRenderer cobre;
+        public SpriteRenderer cobreOpcional;
         public Player player;
         public string chave = "vazia";
         public char stringSeparator = '#';
@@ -39,6 +40,17 @@ namespace Assets.TCC.Scripts
             else
             {
                 cobre.enabled = true;
+            }
+            if (cobreOpcional)
+            {
+                if (cobreOpcional.enabled)
+                {
+                    cobreOpcional.enabled = false;
+                }
+                else
+                {
+                    cobreOpcional.enabled = true;
+                }
             }
             Player.Instance.transform.position = outraPorta.transform.position;
 

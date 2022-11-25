@@ -66,10 +66,10 @@ public class ComputerController : MonoBehaviour
             }
             
         }
-        //catch (NullReferenceException)
-        //{
-        //    mostra.text = "Cuidado, não clique levianamente em botões...!";
-        //}
+        catch (NullReferenceException)
+        {
+            mostra.text = "Cuidado, não clique levianamente em botões...!";
+        }
     
     }
 

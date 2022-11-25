@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour
     public GameObject botoes;
     // Start is called before the first frame update
     public void PlayGame (){
+        
         SceneManager.LoadScene(1);
         SceneManager.LoadScene(2, LoadSceneMode.Additive);
     }

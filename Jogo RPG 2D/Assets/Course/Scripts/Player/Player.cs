@@ -14,6 +14,8 @@ public class Player : SingletonMonobehaviour<Player>
     private bool idleLeft;
     private bool idleRight;
 
+    
+
 
     public bool firstInteraction = false;
     public bool canMove = true;

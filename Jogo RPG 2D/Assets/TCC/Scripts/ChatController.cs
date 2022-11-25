@@ -21,7 +21,8 @@ public class ChatController : MonoBehaviour
     public QuestsController questController;
     public Text objetoNome;
     public GameObject panelNome;
-
+    private String mandarQuestController;
+    public Sprite vazio;
 
     // Awake é chamado antes do start
     void Awake()
@@ -43,6 +44,7 @@ public class ChatController : MonoBehaviour
 
                 gameObject.SetActive(false);
                 Player.Instance.PlayerReturnInteraction();
+                questController.verifyTalk(mandarQuestController);
             }
 
             else
@@ -72,14 +74,15 @@ public class ChatController : MonoBehaviour
         SetVisible(true); //ativa caixa de diálogo
         try
         {
-            if (retratoNPC!= null)
-            ObjetoImagem.sprite = retratoNPC; //coloca o retrato do npc
+            if (retratoNPC != null)
+                ObjetoImagem.sprite = retratoNPC; //coloca o retrato do npc
+            else { ObjetoImagem.sprite = vazio; }
         }
         catch { }
 
         try
         {
-            if (nome != null) { 
+            if (nome != null && nome != "") { 
                 panelNome.SetActive(true);
                 objetoNome.text = nome;
             }//coloca o nome do npc
@@ -108,6 +111,10 @@ public class ChatController : MonoBehaviour
                 if (flagMissoesConcluidasPlayer.Contains(flag)) //vê se esse diálogo tá nas flags do jogador
                     textoMandar = texto;
             }
+
+            if (textoMandar == "") {
+                textoMandar = textosNPCList[0];
+            }
         }
 
         ConfigureText(textoMandar);
@@ -117,10 +124,12 @@ public class ChatController : MonoBehaviour
 
     private void ConfigureText(string text)
     {
+
         // Divide a string recebida
         textos = text.Split(stringSeparator);
         //manda pro questcontroller checar se isso muda uma flag
-        questController.verifyTalk(textos[0]);
+        //questController.verifyTalk(textos[0]);
+        mandarQuestController = textos[0];
         //Inicia o índice de texto (começa com 1, pois o index 0 é a flag da missão)
         indexOfText = 1;
         

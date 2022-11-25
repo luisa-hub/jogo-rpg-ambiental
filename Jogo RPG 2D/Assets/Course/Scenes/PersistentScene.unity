@@ -852,6 +852,7 @@ MonoBehaviour:
   questController: {fileID: 1217807348}
   objetoNome: {fileID: 1061155826}
   panelNome: {fileID: 160318947}
+  vazio: {fileID: 21300000, guid: bfeba87c7b4c92d44a24875e49de89a0, type: 3}
 --- !u!114 &170046954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4520,8 +4521,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 74.79999, y: 65.899994}
-  m_SizeDelta: {x: 2534.2532, y: 312.51743}
+  m_AnchoredPosition: {x: 90.22, y: 70.57}
+  m_SizeDelta: {x: 2372.6853, y: 266.7994}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1374752696
 MonoBehaviour:

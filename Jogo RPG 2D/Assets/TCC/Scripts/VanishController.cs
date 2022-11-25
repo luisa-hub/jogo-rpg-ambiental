@@ -26,9 +26,11 @@ public class VanishController : MonoBehaviour
         {
             switch (flag)
             {
-                case "CORAMISSAO1":
-                    //do thing
-
+                case "BOLINHA1":
+                    vanish("BolinhaDePapel1");
+                    break;
+                case "BOLINHA2":
+                    vanish("BolinhaDePapel2");
                     break;
                 case "CORAMISSAO2":
                     //vanish("Edgar");

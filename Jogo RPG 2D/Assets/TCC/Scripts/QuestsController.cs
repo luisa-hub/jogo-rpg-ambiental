@@ -96,8 +96,33 @@ namespace Assets.TCC.Scripts
                 case "CORAMISSAO3":
                     jogador.updateTags("CORAMISSAO4");
                     break;
-                case "CORAMISSAO30":
-                    // code block
+                case "BOLINHA1":
+                    jogador.updateTags("BOLINHA1");
+                    break;
+                case "BOLINHA2":
+                    jogador.updateTags("BOLINHA2");
+                    break;
+                case "PRIVADA1":
+                    jogador.updateTags("PRIVADA2");
+                    break;
+                case "PRIVADA2":
+                    jogador.updateTags("PRIVADA3");
+                    break;
+                case "PRIVADA3":
+                    jogador.updateTags("PRIVADA4");
+                    break;
+                case "LEAO1":
+                    jogador.updateTags("LEAO2");
+                    break;
+                case "LEAO2":
+                    jogador.updateTags("BOLINHOS2");
+                    break;
+                case "BOLINHOS2":
+                    jogador.updateTags("COMBOLINHO");
+                    jogador.updateTags("PEGOUBOLINHO");
+                    break;
+                case "COMBOLINHO":
+                    jogador.updateTags("COMBOLINHO2");
                     break;
                 default:
                     // code block

@@ -31,26 +31,29 @@ namespace Assets.TCC.Scripts
 
             foreach (var flag in jogador.flagMissoesConcluidas.ToList())
             {
-                switch (flag)
+                if (bancoReserva == "missao1Banckup")
                 {
-                    case "CORAMISSAO2":
-                        var consulta = "SELECT * FROM doacoes_3879;";
-                        if(verifyData(colunas, linhas, consulta))
-                        {
-                            jogador.updateTags("CORAMISSAO3");
-                        }
+                    switch (flag)
+                    {
+                        case "CORAMISSAO2":
+                            var consulta = "SELECT * FROM doacoes_3879;";
+                            if (verifyData(colunas, linhas, consulta))
+                            {
+                                jogador.updateTags("CORAMISSAO3");
+                            }
 
-                        break;
+                            break;
 
-                    case "MISSAO3":
-                       // jogador.updateTags("MISSAO4");
-                        break;
-                    case "MISSAO5":
-                        // code block
-                        break;
-                    default:
-                        // code block
-                        break;
+                        case "MISSAO3":
+                            // jogador.updateTags("MISSAO4");
+                            break;
+                        case "MISSAO5":
+                            // code block
+                            break;
+                        default:
+                            // code block
+                            break;
+                    }
                 }
 
             }

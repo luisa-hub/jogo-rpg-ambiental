@@ -1157,7 +1157,7 @@ MonoBehaviour:
   botaoTip: {fileID: 715766653}
   textoErro: {fileID: 1382769124}
   quest: {fileID: 1217807348}
-  bancoPrimario: missao1Banckup
+  bancoPrimario: 
   input: {fileID: 171109462}
 --- !u!114 &175768536
 MonoBehaviour:
@@ -4051,7 +4051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 008dac7fc23f0a844bc0e6a8ba890d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  database: {fileID: 0}
+  database: {fileID: 175768536}
   jogador: {fileID: 4548441709604419837}
 --- !u!4 &1217807349
 Transform:

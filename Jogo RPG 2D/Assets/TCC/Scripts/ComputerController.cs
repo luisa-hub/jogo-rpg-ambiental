@@ -23,14 +23,16 @@ public class ComputerController : MonoBehaviour
     private string messagemDeErro;
     public TextMeshProUGUI textoErro;
     public QuestsController quest;
-    public string bancoPrimario; //"missao1"
+    public string bancoPrimario; //"missao1" "missao1Banckup"
     public TMP_InputField input;
-    
+    private Dictionary<string, string> backups = new Dictionary<string, string>();
+
 
     void Awake()
     {
         banco = GetComponent<DatabaseController>();
         table = GetComponent<TableController>();
+        prepareBackups();
         
         
     }
@@ -43,9 +45,8 @@ public class ComputerController : MonoBehaviour
             List<string> colunas = banco.colunas(consulta.text, bancoPrimario);
             List <IList<object>> linhas = banco.dados(consulta.text, bancoPrimario);
 
-            Debug.Log(linhas);
 
-            quest.verifyMissionDB(colunas, linhas);
+            quest.verifyMissionDB(colunas, linhas, bancoPrimario);
 
             table.MontarTabela(colunas, linhas);
 
@@ -65,10 +66,10 @@ public class ComputerController : MonoBehaviour
             }
             
         }
-        catch (NullReferenceException)
-        {
-            mostra.text = "Cuidado, não clique levianamente em botões...!";
-        }
+        //catch (NullReferenceException)
+        //{
+        //    mostra.text = "Cuidado, não clique levianamente em botões...!";
+        //}
     
     }
 
@@ -85,9 +86,38 @@ public class ComputerController : MonoBehaviour
     }
 
     public void resetaBanco() {
+        
+
+        banco.consulta(backups[bancoPrimario], bancoPrimario);
 
 
-        String con = @"BEGIN TRANSACTION;
+    }
+
+    public void tip()
+    {
+        textoErro.SetText(messagemDeErro);
+        botaoTip.gameObject.SetActive(false);
+
+    }
+
+    private bool ExceptionContainsErrorCode(Exception e, int ErrorCode)
+    {
+        Win32Exception winEx = e as Win32Exception;
+        if (winEx != null && ErrorCode == winEx.ErrorCode)
+            return true;
+
+        if (e.InnerException != null)
+            return ExceptionContainsErrorCode(e.InnerException, ErrorCode);
+
+        return false;
+    }
+
+    
+
+    private void prepareBackups() { 
+
+        backups.Add
+    ("missao1Banckup", @"BEGIN TRANSACTION;
                         DROP TABLE IF EXISTS doacoes_3879;
                         CREATE TABLE IF NOT EXISTS doacoes_3879(
                             Id    INTEGER NOT NULL,
@@ -196,31 +226,7 @@ public class ComputerController : MonoBehaviour
                     INSERT INTO doacoes_3879 VALUES(98, 3231.98, '3980-02-23', 11);
                     INSERT INTO doacoes_3879 VALUES(99, 1857.08, '3980-02-24', 27);
                     INSERT INTO doacoes_3879 VALUES(100, 1759.4, '3980-02-25', 14);
-                    COMMIT;";
-
-        banco.consulta(con, bancoPrimario);
-
-
+                    COMMIT;");
     }
-
-    public void tip()
-    {
-        textoErro.SetText(messagemDeErro);
-        botaoTip.gameObject.SetActive(false);
-
-    }
-
-    private bool ExceptionContainsErrorCode(Exception e, int ErrorCode)
-    {
-        Win32Exception winEx = e as Win32Exception;
-        if (winEx != null && ErrorCode == winEx.ErrorCode)
-            return true;
-
-        if (e.InnerException != null)
-            return ExceptionContainsErrorCode(e.InnerException, ErrorCode);
-
-        return false;
-    }
-
 
 }

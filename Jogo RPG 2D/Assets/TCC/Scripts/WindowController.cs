@@ -12,6 +12,7 @@ public class WindowController : MonoBehaviour
     public string janela;
     private GameObject objeto;
     private TMP_InputField input;
+    public string banco;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,8 @@ public class WindowController : MonoBehaviour
         objeto.SetActive(true);
 
         input.Select();
+
+        objeto.GetComponent<ComputerController>().bancoPrimario = banco;
 
    }
 

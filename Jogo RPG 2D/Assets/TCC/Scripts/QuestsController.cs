@@ -25,19 +25,19 @@ namespace Assets.TCC.Scripts
         /// </summary>
         /// <param name="colunas">Colunas da consulta do usuário</param>
         /// <param name="linhas">LInhas da consulta do usuário</param>
-        public void verifyMissionDB(List<string> colunas, List<IList<object>> linhas)
+        public void verifyMissionDB(List<string> colunas, List<IList<object>> linhas, string banco)
         {
-            //
+            bancoReserva = banco; //se criarmos um segundo pra conferir, adicionar string no final
 
             foreach (var flag in jogador.flagMissoesConcluidas.ToList())
             {
                 switch (flag)
                 {
-                    case "MISSAO1":
+                    case "CORAMISSAO2":
                         var consulta = "SELECT * FROM doacoes_3879;";
                         if(verifyData(colunas, linhas, consulta))
                         {
-                            jogador.updateTags("MISSAO3");
+                            jogador.updateTags("CORAMISSAO3");
                         }
 
                         break;
@@ -64,7 +64,7 @@ namespace Assets.TCC.Scripts
         private bool verifyData(List<string> columns, List<IList<object>> lines, string query)
         {
             bool isMissionCompleted = false;
-         
+
             expectedLines = database.dados(query, bancoReserva);
             expectedColumns = database.colunas(query, bancoReserva);
 

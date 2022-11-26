@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour
     public GameObject enter;
     public PauseController pause;
     public VanishController vanishController;
+    public NewsController googli;
+    public BookController livro1;
+    public BookController livro2;
 
     private void Awake()
     {
@@ -52,13 +55,42 @@ public class PlayerController : MonoBehaviour
 
         if (OpenPauseMenu())
             pause.esc();
-        
+
+        if (Tpressured() && googli.isOpen)
+            googli.fecha();
+        else if (Tpressured() && _canInteract)
+            googli.abre();
+
+        if (Epressured() && livro1.isOpen)
+            livro1.fecha();
+        else if (Epressured() && _canInteract)
+            livro1.abre();
+
+        if (Rpressured() && livro2.isOpen)
+            livro2.fecha();
+        else if (Rpressured() && _canInteract)
+            livro2.abre();
+
 
     }
 
     private static bool OpenPauseMenu()
     {
         return Input.GetKeyDown(KeyCode.Escape);
+    }
+
+    private static bool Tpressured() {
+        return Input.GetKeyDown(KeyCode.T);
+    }
+
+    private static bool Epressured()
+    {
+        return Input.GetKeyDown(KeyCode.E);
+    }
+
+    private static bool Rpressured()
+    {
+        return Input.GetKeyDown(KeyCode.R);
     }
 
     private bool CanInteractAndPressEnter()

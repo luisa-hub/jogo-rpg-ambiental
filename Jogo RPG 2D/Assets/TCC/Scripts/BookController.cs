@@ -7,6 +7,7 @@ public class BookController : MonoBehaviour
     // Start is called before the first frame update
     public GameObject botaoLivro;
     public GameObject objeto;
+    public bool isOpen = false;
 
 
     public void abre()
@@ -17,6 +18,8 @@ public class BookController : MonoBehaviour
        Player.Instance.PlayerPauseInteraction();
 
         botaoLivro.SetActive(false);
+
+        isOpen = true;
     }
 
     // Update is called once per frame
@@ -27,5 +30,7 @@ public class BookController : MonoBehaviour
         Player.Instance.PlayerReturnInteraction();
 
         botaoLivro.SetActive(true);
+
+        isOpen = false;
     }
 }

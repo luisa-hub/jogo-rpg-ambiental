@@ -34,7 +34,7 @@ public class ChatController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return) && Player.Instance.firstInteraction)
+        if ((Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) && Player.Instance.firstInteraction)
         {
 
             indexOfText = indexOfText < textos.Length ? ++indexOfText : indexOfText;

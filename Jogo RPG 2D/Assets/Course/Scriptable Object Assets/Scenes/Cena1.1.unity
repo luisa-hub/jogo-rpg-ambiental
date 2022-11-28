@@ -20352,7 +20352,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980018371}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -27.746, y: -27.41, z: 0}
+  m_LocalPosition: {x: -27.02, y: -30.14, z: 0}
   m_LocalScale: {x: 1.9166709, y: 1.9166709, z: 1.9166709}
   m_Children: []
   m_Father: {fileID: 2079674207}
@@ -20388,10 +20388,10 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0043717027, y: -0.1530236}
+  m_Offset: {x: -0.011936307, y: 0.49003035}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 1.2, y: 1.2}
     newSize: {x: 0.16, y: 0.32}
     adaptiveTilingThreshold: 0.5
@@ -20399,7 +20399,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7983296, y: 1.203168}
+  m_Size: {x: 1.1009431, y: 1.7478732}
   m_EdgeRadius: 0
 --- !u!61 &980018375
 BoxCollider2D:
@@ -20414,10 +20414,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.021860525, y: -0.45826527}
+  m_Offset: {x: -0.021860525, y: 0.1772232}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 1.2, y: 1.2}
     newSize: {x: 0.16, y: 0.32}
     adaptiveTilingThreshold: 0.5
@@ -20425,7 +20425,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4835367, y: 0.4178005}
+  m_Size: {x: 0.4835367, y: 0.35727787}
   m_EdgeRadius: 0
 --- !u!212 &980018376
 SpriteRenderer:
@@ -48781,7 +48781,7 @@ MonoBehaviour:
   chatController: {fileID: 0}
   textos:
   - "QUADRO1#Van Rossum aparece ao lado de um dos maiores l\xEDderes ambientais de
-    Lemuria, o Botanicae Thunberg.#Van Rossum doou algumas caixas de OMNICIBUS NATURALIS
+    Lemuria, o Botanicae Thunberg.#Ele doou algumas caixas de OMNICIBUS NATURALIS
     8 - VITAM\xCDNICO COMPLETO SEM S\xD3DIO, ORG\xC2NICO E SABOR TAMARINDO\u2122
     para o povoado ind\xEDgena da Floresta."
   retrato: {fileID: 0}

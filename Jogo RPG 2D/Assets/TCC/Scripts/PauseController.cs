@@ -14,6 +14,7 @@ public class PauseController : MonoBehaviour
     public GameObject creditWindow;
     GameObject pauseMenu;
     public bool isPaused = false;
+    public GameObject botoes;
 
     private void Start()
     {
@@ -28,6 +29,7 @@ public class PauseController : MonoBehaviour
         Player.Instance.PlayerPauseInteraction(isMenu: true);
         Time.timeScale = 0;
         isPaused = true;
+        botoes.SetActive(false);
     }
 
     public void UnPause()
@@ -37,6 +39,7 @@ public class PauseController : MonoBehaviour
         Player.Instance.PlayerReturnInteraction();
         Time.timeScale = 1;
         isPaused = false;
+        botoes.SetActive(true);
     }
 
     public void esc() {

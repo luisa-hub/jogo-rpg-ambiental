@@ -74,7 +74,8 @@ public class VanishController : MonoBehaviour
         try
         {
             GameObject npc = GameObject.Find(nome).gameObject;
-            Vector3 novaPosicao = new Vector3(npc.transform.position.x+x, npc.transform.position.y + y, npc.transform.position.z);
+            //Vector3 novaPosicao = new Vector3(npc.transform.position.x+x, npc.transform.position.y + y, npc.transform.position.z);
+            Vector3 novaPosicao = new Vector3(x, y, npc.transform.position.z);
             npc.transform.position = novaPosicao;
         }
         catch { }

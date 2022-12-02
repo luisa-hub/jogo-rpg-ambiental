@@ -127,6 +127,13 @@ namespace Assets.TCC.Scripts
                 case "COMBOLINHO":
                     jogador.updateTags("COMBOLINHO2");
                     break;
+                case "LOVELACE1":
+                    jogador.updateTags("NEWS1");
+                    jogador.updateTags("DESBLOQUEIABOTOES");
+                    break;
+                case "FRANK1":
+                    jogador.updateTags("NEWS2");
+                    break;
                 default:
                     // code block
                     break;

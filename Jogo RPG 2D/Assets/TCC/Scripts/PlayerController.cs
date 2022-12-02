@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     public NewsController googli;
     public BookController livro1;
     public BookController livro2;
+    public NewsController newsController;
+    public bool desbloqueouBotoes;
 
     private void Awake()
     {
@@ -56,20 +58,25 @@ public class PlayerController : MonoBehaviour
         if (OpenPauseMenu())
             pause.esc();
 
-        if (Tpressured() && googli.isOpen)
-            googli.fecha();
-        else if (Tpressured() && _canInteract)
-            googli.abre();
+        if (desbloqueouBotoes) {
 
-        if (Epressured() && livro1.isOpen)
-            livro1.fecha();
-        else if (Epressured() && _canInteract)
-            livro1.abre();
+            if (Tpressured() && googli.isOpen)
+                googli.fecha();
+            else if (Tpressured() && _canInteract)
+                googli.abre();
 
-        if (Rpressured() && livro2.isOpen)
-            livro2.fecha();
-        else if (Rpressured() && _canInteract)
-            livro2.abre();
+            if (Epressured() && livro1.isOpen)
+                livro1.fecha();
+            else if (Epressured() && _canInteract)
+                livro1.abre();
+
+            if (Rpressured() && livro2.isOpen)
+                livro2.fecha();
+            else if (Rpressured() && _canInteract)
+                livro2.abre();
+
+
+        }
 
 
     }
@@ -156,6 +163,7 @@ public class PlayerController : MonoBehaviour
         if (flagMissoesConcluidas.Contains(novaTag)==false) {
             flagMissoesConcluidas.Add(novaTag);
             vanishController.acoes();
+            newsController.atualizar(novaTag);
         }
 
 

@@ -9,6 +9,7 @@ public class VanishController : MonoBehaviour
 
     public PlayerController jogador;
     private List<GameObject> desaparecidos;
+    public GameObject botoesDesbloqueaveis;
 
     void Start()
     {
@@ -26,6 +27,9 @@ public class VanishController : MonoBehaviour
         {
             switch (flag)
             {
+                case "DESBLOQUEIABOTOES":
+                    desbloqueiaBotoes();
+                    break;
                 case "BOLINHA1":
                     vanish("BolinhaDePapel1");
                     break;
@@ -80,6 +84,11 @@ public class VanishController : MonoBehaviour
         }
         catch { }
 
+    }
+
+    public void desbloqueiaBotoes() {
+        jogador.desbloqueouBotoes = true;
+        botoesDesbloqueaveis.SetActive(true);
     }
 
 

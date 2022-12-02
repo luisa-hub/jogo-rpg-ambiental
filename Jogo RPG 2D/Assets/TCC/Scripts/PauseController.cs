@@ -15,6 +15,7 @@ public class PauseController : MonoBehaviour
     GameObject pauseMenu;
     public bool isPaused = false;
     public GameObject botoes;
+    private bool botoesPausados = false;
 
     private void Start()
     {
@@ -29,17 +30,26 @@ public class PauseController : MonoBehaviour
         Player.Instance.PlayerPauseInteraction(isMenu: true);
         Time.timeScale = 0;
         isPaused = true;
-        botoes.SetActive(false);
+        
+        if (configButton.activeSelf) {
+            botoes.SetActive(false);
+            botoesPausados = true;
+        }
     }
 
     public void UnPause()
     {
         pauseMenu.SetActive(false);
-        configButton.SetActive(true);
+        
         Player.Instance.PlayerReturnInteraction();
         Time.timeScale = 1;
         isPaused = false;
-        botoes.SetActive(true);
+        configButton.SetActive(true);
+        if (botoesPausados) {
+            botoes.SetActive(true);
+            botoesPausados = false;
+        }
+        
     }
 
     public void esc() {

@@ -18,6 +18,7 @@ namespace Assets.TCC.Scripts
         public char stringSeparetor2;
         public TextMeshProUGUI textoPrincipal;
         public GameObject exclamacao;
+        public GameObject content;
 
         public void atualizar(string flag) {
 
@@ -45,6 +46,7 @@ namespace Assets.TCC.Scripts
             Text texto2 = clone.GetComponentInChildren<Text>();
             texto2.text = novidade[2];
             exclamacao.SetActive(true);
+            
 
         }
 
@@ -60,6 +62,20 @@ namespace Assets.TCC.Scripts
             string texto;
             texto = button.GetComponentInChildren<Text>().text;
             textoPrincipal.text = texto;
+            highlight(button);
+        }
+
+        public void highlight(Button button) {
+            foreach (Transform child in content.transform) { 
+                var cor = child.GetComponent<Image>().color;
+                cor.a = 1f;
+                child.GetComponent<Image>().color = cor;
+            }
+
+            var cor2 = button.GetComponent<Image>().color;
+            cor2.a = 0.5f;
+            button.GetComponent<Image>().color = cor2;
+
         }
 
         public void abre()

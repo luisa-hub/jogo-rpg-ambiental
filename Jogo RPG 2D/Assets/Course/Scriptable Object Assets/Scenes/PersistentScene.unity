@@ -3705,6 +3705,7 @@ MonoBehaviour:
   stringSeparetor2: 36
   textoPrincipal: {fileID: 1240989893}
   exclamacao: {fileID: 533870137}
+  content: {fileID: 305996745}
 --- !u!224 &713585704
 RectTransform:
   m_ObjectHideFlags: 0

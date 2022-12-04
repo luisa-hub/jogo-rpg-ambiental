@@ -20,11 +20,20 @@ public class PlayerController : MonoBehaviour
     public BookController livro2;
     public NewsController newsController;
     public bool desbloqueouBotoes;
+    public NPCController narrador;
 
     private void Awake()
     {
         _canInteract = true;
     }
+
+    private void Start()
+    {
+        Player.Instance.PlayerPauseInteraction();
+        narrador.InitInteraction(flagMissoesConcluidas);
+    }
+
+
     // Update is called once per frame
     void Update()
     {

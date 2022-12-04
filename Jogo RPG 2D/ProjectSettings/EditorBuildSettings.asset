@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Course/Scriptable Object Assets/Scenes/MainMenu.unity
+    path: Assets/TCC/Scenes/MainMenu.unity
     guid: 43b49912530fd6a43a4a881fb3091c3a
   - enabled: 1
-    path: Assets/Course/Scriptable Object Assets/Scenes/PersistentScene.unity
+    path: Assets/TCC/Scenes/PersistentScene.unity
     guid: 2a1213a1535a45145a075439160377ce
   - enabled: 0
-    path: Assets/Course/Scriptable Object Assets/Scenes/Scene1_Farm.unity
+    path: Assets/TCC/Scenes/Scene1_Farm.unity
     guid: ddbda413a2879144b9dca337da8b8ca0
   - enabled: 1
-    path: Assets/Course/Scriptable Object Assets/Scenes/Cena1.1.unity
+    path: Assets/TCC/Scenes/Cena1.1.unity
     guid: aeba07b9f1fa1004789da850bfad06de
   m_configObjects: {}

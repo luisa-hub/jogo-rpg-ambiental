@@ -9462,7 +9462,8 @@ MonoBehaviour:
   - "NARRADOR1#Hoje \xE9 o seu primeiro dia de trabalho na Coorpora\xE7\xE3o Dente
     de Le\xE3o.#Voc\xEA acabou de sair da faculdade e est\xE1 ansiosa para come\xE7ar
     no seu primeiro dia de trabalho.#Ap\xF3s chegar de bicicleta, entrou nessa grande
-    constru\xE7\xE3o, completamente esverdeada por fora."
+    constru\xE7\xE3o, completamente esverdeada por fora.#Boa sorte no seu primeiro
+    dia!"
   retrato: {fileID: 21300000, guid: bfeba87c7b4c92d44a24875e49de89a0, type: 3}
   nome: 
 --- !u!61 &2093229508

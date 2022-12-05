@@ -169,12 +169,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatController: {fileID: 0}
   textos:
-  - "CORAMISSAO1#Aqui est\xE1 uma miss\xE3o.#Vai l\xE1 no arbusto secreto e pega
-    todos os usu\xE1rios...#...e uma coluna cheia de 42. Porque? Porque sim. Porque
-    eu to com vontade.# Boa sorte."
-  - "CORAMISSAO2#Ainda estou aguardando...#Voc\xEA concluir a miss\xE3o"
-  - "CORAMISSAO3#Obrigada por concluir a miss\xE3o"
-  - "CORAMISSAO4#Sim, voc\xEA completou a miss\xE3o muito bem"
+  - "VANHOSSUN1#Voc\xEA \xE9 a garota nova, n\xE9?#Sou Van Hossun, o chefe desse
+    lugar."
+  - "VANHOSSUN2#Voc\xEA j\xE1 recebeu instru\xE7\xF5es do que fazer?"
+  - VANHOSSUN3#Qualquer coisa, pergunte pro Edgar.
   retrato: {fileID: 21300000, guid: e0f7c1ac5585b5c45b5aead9a1174d3d, type: 3}
   nome: Sr. Van Rossum
 --- !u!61 &28597417
@@ -18320,7 +18318,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatController: {fileID: 0}
   textos:
-  - CHORONA1#Aaaaaa...
+  - "GRACE1#Aaaaaa...#Ser\xE1 que preciso mesmo completar essas planilhas pra hoje...?#A,
+    Oi#Meu nome \xE9 Grace Salix Babylonica#...chama de Grace"
+  - "GRACE2#O que te levou a vir pra esse lugar?#N\xE3o \xE9 t\xE3o divertido quando
+    parece por fora...#Deve estar pensando...#\"A, adoro OMNICIBUS NATURALIS 8 -
+    VITAM\xCDNICO COMPLETO SEM S\xD3DIO, ORG\xC2NICO E SABOR TAMARINDO\u2122\"#\"Trabalhar
+    no lugar que faz isso parece muito legal\"#\xC9, deve ter pensado isso...#...Parece
+    muito legal at\xE9 descobrir que isso significava, pasme...#...que vai ter que
+    trabalhar!"
+  - "GRACE3#Tamb\xE9m pensei nisso quando cheguei aqui...#Ainda era o OMNICIBUS 1,
+    a 15 anos atr\xE1s...#A, se eu soubesse..."
+  - GRACE4#Aaaaaa...#De qualquer forma, boa sorte...
   retrato: {fileID: 21300000, guid: df03151712423984c99a7e6e6fb9373d, type: 3}
   nome: Grace
 --- !u!61 &582980758
@@ -18676,7 +18684,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatController: {fileID: 0}
   textos:
-  - LOVELACE1#Oi bom dia como vai
+  - "LOVELACE1#Hmm...# [Ela mexe concentrada no computador]#Ah, droga, onde consigo
+    colocar agora o nove de copas...#Oh, Ol\xE1!#Voc\xEA deve ser a novata.#Eu sou
+    Lovelace, a secret\xE1ria daqui.#Procure um cara com formato de giz.#\xC9 o Edgar,
+    o gerente do setor.#Ele vai ser o seu instrutor.#[Ela volta a se concentrar na
+    tela]"
+  - "LOVELACE2#Hm...#Oh, \xE9 voc\xEA denovo.#\xC9 s\xF3 seguir o corredor, n\xE3o
+    tem erro.#Estou no meio de algo importante aqui."
+  - "LOVELACE3#Hm...#\xC9 tipo, um giz enorme.#Com bra\xE7os e pernas.#S\xE9rio,
+    voc\xEA vai entender quando encontrar.#Me deixa, preciso focar em...#Coisas."
+  - "LOVELACE4#Hm...#Era s\xF3 um \xC1szinho..."
   retrato: {fileID: 21300000, guid: 4565e9630439c444eb18a3ffc8a8fdd9, type: 3}
   nome: Srt. Lovelace
 --- !u!61 &639863136
@@ -19249,7 +19266,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatController: {fileID: 0}
   textos:
-  - "GEORGE1#Ol\xE1, sou George"
+  - "GEORGE1#Ol\xE1#Eu j\xE1 te vi antes...?#Oh, entendi...#Sou George.#Mas pode
+    me chamar de George.#Prazer em te conhecer."
+  - "GEORGE2#Voc\xEA gosta de bolinhos...?#O Frank trouxe alguns, t\xE3o l\xE1 na
+    mesa."
+  - GEORGE3#Muito legal da parte do Frank.
+  - "GEORGE4#Hm? O que tem minha x\xEDcara?"
   retrato: {fileID: 21300000, guid: a6535c0dd6644ca4a8a38de1cbcf3765, type: 3}
   nome: George
 --- !u!61 &716935063
@@ -19835,7 +19857,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatController: {fileID: 0}
   textos:
-  - "FRANK1#Ol\xE1, sou Frank Codd"
+  - "FRANK1#Ol\xE1, sou Frank Codd.#Seja bem vinda a essa empresa maravilhosa.#Espero
+    que goste bastante daqui!#Trouxe umas rosquinhas, se quiser, t\xE3o l\xE1 na
+    mesa"
+  - "FRANK2#Voc\xEA sabia que se apertar \"ESC\", voc\xEA pode pausar o jogo?#De
+    l\xE1 d\xE1 de mexer no volume, voltar ao menu principal ou at\xE9 sair.#Sinta-se
+    a vontade pra sair do jogo quando quiser."
+  - FRANK3#Sobre o que eu estava falando mesmo?
   retrato: {fileID: 21300000, guid: fe4371db510ee064baadaa8c0eb849e3, type: 3}
   nome: Frank Codd
 --- !u!61 &755990066
@@ -20232,13 +20260,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatController: {fileID: 0}
   textos:
-  - "CORAMISSAO1#Ol\xE1, sou Edgar, o gerente daqui.#Aqui est\xE1 uma miss\xE3o.#Vai
-    l\xE1 no arbusto secreto e pega todos os usu\xE1rios...#...e uma coluna cheia
-    de 42. Porque? Porque sim. Porque eu to com vontade.# Boa sorte."
-  - "CORAMISSAO2#Ainda estou aguardando...#Voc\xEA concluir a miss\xE3o"
-  - "CORAMISSAO3#Obrigada por concluir a miss\xE3o"
-  - "CORAMISSAO4#Sim, voc\xEA completou a miss\xE3o muito bem"
-  - "CORAMISSAO4#Sim, voc\xEA completou a miss\xE3o muito bem"
+  - "EDGAR1#Hm? Quem est\xE1 falando comigo?#[Ele vira a cabe\xE7a para os lados]#[Ap\xF3s
+    voc\xEA cutucar a perna dele, ele olha pra baixo]#Oh, Ol\xE1!#Voc\xEA deve ser
+    Guida, isso?#Sou Edgar, o gerente e instrutor do setor de seguran\xE7a.#A sua
+    mesa \xE9 aquela, que pisca brilhando convenientemente.#Seria boas maneiras cumprimentar
+    seus colegas de trabalho antes de qualquer coisa...#Voc\xEA j\xE1 fez isso antes
+    de vir falar comigo?#De qualquer forma, me avise quando estiver pronta pra come\xE7ar!"
+  - "EDGAR2#Ok, vamos come\xE7ar.#Nosso setor de seguran\xE7a busca manter a confidencialidade
+    de todos os dados da empresa!#Garantimos que todos os dispositivos est\xE3o atualizados
+    e com os \xFAltimos antiv\xEDrus dispon\xEDveis.#Tamb\xE9m, programados para
+    que ningu\xE9m baixe lol (Lenda das Ligas) neles.#Voc\xEA n\xE3o faria isso n\xE3o
+    \xE9?#De qualquer forma, toma isso.#Dois livros que podem te ajudar.#O primeiro
+    \xE9 um guia r\xE1pido de banco de dados.#E o segundo, \xE9 um guia mais detalhado,
+    caso tenha interesse.#E por \xFAltimo, lembre-se que voc\xEA sempre pode pesquisar
+    no Boogli em rela\xE7\xE3o a qualquer outra d\xFAvida.#Olha, d\xEA uma olhada!"
+  - "EDGAR3#Entre as nossas fun\xE7\xF5es, tamb\xE9m mantemos a consist\xEAncia e
+    a durabilidade dos dados no nosso banco.#Voc\xEA ficar\xE1 respons\xE1vel por
+    essa parte por enquanto!#Se precisar de ajuda, vou te orientar durante sua jornada
+    no mundo do SQL.#Ok, primeira coisa:#Fa\xE7a uma consulta procurando a tabela
+    doacoes_3879.#Voc\xEA consegue!"
+  - "EDGAR4#Fa\xE7a uma consulta buscando a tabela doacoes_3879.#Voc\xEA consegue!"
+  - "EDGAR5#VOC\xCA CONSEGUIUUU"
   retrato: {fileID: 21300000, guid: 9baaddbbd6c64234eab7e7138d1b67d1, type: 3}
   nome: Edgar
 --- !u!61 &799398192
@@ -20753,8 +20795,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatController: {fileID: 0}
   textos:
-  - "CORAMISSAO1#Ol\xE1, pequenina. # Bem vinda a empresa mais eco-friendly de Lemuria."
-  - "CORAMISSAO2#Tenho certeza que sua experi\xEAncia aqui ser\xE1 no m\xEDnimo divertida"
+  - "DIONE1#Ol\xE1, pequenina. # Bem vinda a empresa mais eco-friendly de Lemuria."
+  - "DIONE2#Tenho certeza que sua experi\xEAncia aqui ser\xE1 no m\xEDnimo divertida"
   retrato: {fileID: 21300000, guid: 5186349cbfa5088448a47862429f2a15, type: 3}
   nome: Dione
 --- !u!212 &929871898
@@ -20984,7 +21026,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatController: {fileID: 0}
   textos:
-  - "HOPPER1#Ol\xE1, bem vinda!"
+  - "HOPPER1#Ol\xE1! Bem vinda.#Sempre bom ver caras novas aqui.#E folhas novas.#Gostei
+    da sua folha.#Folha muito legal.#De qualquer forma, teve alguma planta falante
+    te incomodando?#Desculpe por isso.#Tenho tentado colocar mais natureza na empresa.#Tem
+    muitas plantas de pl\xE1stico, n\xE3o acha?"
+  - "HOPPER2#Sou do departamento ambiental da empresa.#Quer dizer, tamb\xE9m sou
+    O departamento ambiental da empresa.#...S\xF3 tem eu nele.#Parece que ainda tenho
+    um emprego porque precisam ao menos de uma pessoa em um departamento pra dizer
+    que ele existe.#Mas n\xE3o tem problema! As coisas v\xE3o melhorar.#Tenho certeza!"
+  - "HOPPER3#Qualquer coisa que precisar, s\xF3 me chamar!"
   retrato: {fileID: 21300000, guid: 0617cb2073f529647b734dbad90e4e42, type: 3}
   nome: Hopper
 --- !u!61 &980018374
@@ -28805,7 +28855,7 @@ MonoBehaviour:
   cobre: {fileID: 1305093748}
   cobreOpcional: {fileID: 1763895051}
   player: {fileID: 0}
-  chave: CORAMISSAO2
+  chave: vazia
   stringSeparator: 35
   textoTrancando: Porta trancada!
 --- !u!1 &1046551895

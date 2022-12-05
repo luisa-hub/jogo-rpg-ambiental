@@ -35,11 +35,11 @@ namespace Assets.TCC.Scripts
                 {
                     switch (flag)
                     {
-                        case "CORAMISSAO2":
+                        case "EDGAR4":
                             var consulta = "SELECT * FROM doacoes_3879;";
                             if (verifyData(colunas, linhas, consulta))
                             {
-                                jogador.updateTags("CORAMISSAO3");
+                                jogador.updateTags("EDGAR5");
                             }
 
                             break;
@@ -92,13 +92,75 @@ namespace Assets.TCC.Scripts
         {
             switch (flag)
             {
-                case "CORAMISSAO1":
-                    jogador.updateTags("CORAMISSAO2");
-
+                //------------EDGAR------------
+                case "EDGAR1":
+                    jogador.updateTags("EDGAR2");
                     break;
-                case "CORAMISSAO3":
-                    jogador.updateTags("CORAMISSAO4");
+                case "EDGAR2":
+                    jogador.updateTags("NEWS1");
+                    jogador.updateTags("DESBLOQUEIABOTOES");
+                    jogador.updateTags("EDGAR3");
                     break;
+                case "EDGAR3":
+                    jogador.updateTags("EDGAR4");
+                    break;
+                //------------LOVELACE------------
+                case "LOVELACE1":
+                    jogador.updateTags("LOVELACE2");
+                    break;
+                case "LOVELACE2":
+                    jogador.updateTags("LOVELACE3");
+                    break;
+                case "LOVELACE3":
+                    jogador.updateTags("LOVELACE4");
+                    break;
+                //------------FRANK------------
+                case "FRANK1":
+                    jogador.updateTags("FRANK2");
+                    jogador.updateTags("NEWS2");
+                    break;
+                case "FRANK2":
+                    jogador.updateTags("FRANK3");
+                    break;
+                //------------GEORGE------------
+                case "GEORGE1":
+                    jogador.updateTags("GEORGE2");
+                    break;
+                case "GEORGE2":
+                    jogador.updateTags("GEORGE3");
+                    break;
+                case "GEORGE3":
+                    jogador.updateTags("GEORGE4");
+                    break;
+                //------------GRACE------------
+                case "GRACE1":
+                    jogador.updateTags("GRACE2");
+                    break;
+                case "GRACE2":
+                    jogador.updateTags("GRACE3");
+                    break;
+                case "GRACE3":
+                    jogador.updateTags("GRACE4");
+                    break;
+                //------------HOPPER------------
+                case "HOPPER1":
+                    jogador.updateTags("HOPPER2");
+                    break;
+                case "HOPPER2":
+                    jogador.updateTags("HOPPER3");
+                    break;
+                //------------DIONE------------
+                case "DIONE1":
+                    jogador.updateTags("DIONE2");
+                    break;
+                //------------VAN HOSSUN------------
+                case "VANHOSSUN1":
+                    jogador.updateTags("VANHOSSUN2");
+                    break;
+                case "VANHOSSUN2":
+                    jogador.updateTags("VANHOSSUN3");
+                    break;
+                //------------OBJETOS------------
                 case "BOLINHA1":
                     jogador.updateTags("BOLINHA1");
                     break;
@@ -114,6 +176,7 @@ namespace Assets.TCC.Scripts
                 case "PRIVADA3":
                     jogador.updateTags("PRIVADA4");
                     break;
+                //------------QUEST LEÃO------------
                 case "LEAO1":
                     jogador.updateTags("LEAO2");
                     break;
@@ -127,13 +190,7 @@ namespace Assets.TCC.Scripts
                 case "COMBOLINHO":
                     jogador.updateTags("COMBOLINHO2");
                     break;
-                case "LOVELACE1":
-                    jogador.updateTags("NEWS1");
-                    jogador.updateTags("DESBLOQUEIABOTOES");
-                    break;
-                case "FRANK1":
-                    jogador.updateTags("NEWS2");
-                    break;
+                
                 default:
                     // code block
                     break;

@@ -1429,7 +1429,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 119, y: 261.5}
+  m_AnchoredPosition: {x: -19, y: 411}
   m_SizeDelta: {x: 4.161358, y: 4.3466606}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &862896875
@@ -2327,6 +2327,7 @@ MonoBehaviour:
   estrela1: {fileID: 2029658656}
   estrela2: {fileID: 383681273}
   estrela3: {fileID: 862896873}
+  posicao1: {x: 0, y: 0, z: 0}
 --- !u!114 &1659061243
 MonoBehaviour:
   m_ObjectHideFlags: 0

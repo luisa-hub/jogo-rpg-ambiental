@@ -12,31 +12,44 @@ public class MainMenu : MonoBehaviour
     public GameObject estrela1;
     public GameObject estrela2;
     public GameObject estrela3;
-    public Vector3 posicao1;
+    public Vector2 posicao1;
+    public Vector2 posicao2;
+    public Vector3 posicao3;
     // Start is called before the first frame update
 
     public void Start()
     {
-        InvokeRepeating("anima1", 0.005f, 0.005f);
-        posicao1 = estrela1.transform.position;
+        InvokeRepeating("anima1", 0.03f, 0.03f);
+        posicao1 = estrela1.GetComponent<RectTransform>().anchoredPosition;
 
 
+        InvokeRepeating("anima2", 0.015f, 0.015f);
+        posicao2 = estrela2.GetComponent<RectTransform>().anchoredPosition;
 
-        InvokeRepeating("anima2", 0.003f, 0.003f);
 
-
-        InvokeRepeating("anima3", 0.004f, 0.004f);
+        InvokeRepeating("anima3", 0.02f, 0.02f);
+        posicao3 = estrela3.GetComponent<RectTransform>().anchoredPosition;
 
     }
 
 
     public void Update()
     {
-        if (estrela1.transform.position.x > 500) {
-            Vector3 novaPosicao = posicao1;
-            estrela1.transform.position = novaPosicao;
-            Debug.Log(estrela1.transform.position);
-        
+        if (estrela1.GetComponent<RectTransform>().anchoredPosition.y < 0) {
+            Vector2 novaPosicao = posicao1;
+            estrela1.GetComponent<RectTransform>().anchoredPosition = novaPosicao;
+        }
+
+        if (estrela2.GetComponent<RectTransform>().anchoredPosition.y < 0)
+        {
+            Vector2 novaPosicao = posicao2;
+            estrela2.GetComponent<RectTransform>().anchoredPosition = novaPosicao;
+        }
+
+        if (estrela3.GetComponent<RectTransform>().anchoredPosition.y < 0)
+        {
+            Vector2 novaPosicao = posicao3;
+            estrela3.GetComponent<RectTransform>().anchoredPosition = novaPosicao;
         }
     }
 
@@ -83,8 +96,11 @@ public class MainMenu : MonoBehaviour
 
     public void animaEstrela(int x, int y, GameObject estrela) {
 
-        Vector3 novaPosicao = new Vector3(estrela.transform.position.x+x, estrela.transform.position.y + y, estrela.transform.position.z);
-        estrela.transform.position = novaPosicao;
+        Vector2 novaPosicao = new Vector3(estrela.GetComponent<RectTransform>().anchoredPosition.x + x, estrela.GetComponent<RectTransform>().anchoredPosition.y + y);
+        //Vector3 novaPosicao = new Vector3(estrela.transform.position.x+x, estrela.transform.position.y + y, estrela.transform.position.z);
+
+        estrela.GetComponent<RectTransform>().anchoredPosition = novaPosicao;
+        //estrela.transform.position = novaPosicao;
     }
 
     public void anima1() {

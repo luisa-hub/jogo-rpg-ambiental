@@ -3,11 +3,13 @@ using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class PlayerController : MonoBehaviour
 {
     private bool _canInteract = true;
     private GameObject lastGameObjectWithCollision;
+    private List<GameObject> listaColisoes;
     public List<string> flagMissoesConcluidas;
     NPCController nPCController;
     WindowController windowController;
@@ -31,6 +33,7 @@ public class PlayerController : MonoBehaviour
     {
         Player.Instance.PlayerPauseInteraction();
         narrador.InitInteraction(flagMissoesConcluidas);
+        listaColisoes = new List<GameObject>();
     }
 
 
@@ -42,21 +45,21 @@ public class PlayerController : MonoBehaviour
         {
             if (isNpcObject())
             {
-                nPCController = lastGameObjectWithCollision.GetComponent<NPCController>();
+                nPCController = ultimoObjeto().GetComponent<NPCController>();
                 Player.Instance.PlayerPauseInteraction();
                 nPCController.InitInteraction(flagMissoesConcluidas);
             }
 
             if (isComputerObject())
             {
-                windowController = lastGameObjectWithCollision.GetComponent<WindowController>();
+                windowController = ultimoObjeto().GetComponent<WindowController>();
                 Player.Instance.PlayerPauseInteraction();
                 windowController.InitInteraction();
             }
 
             if (isDoorObject())
             {
-                porta = lastGameObjectWithCollision.GetComponent<DoorController>();
+                porta = ultimoObjeto().GetComponent<DoorController>();
                 bool aberto = porta.InitInteraction(flagMissoesConcluidas);
                 if (!aberto) { Player.Instance.PlayerPauseInteraction(); }
             }
@@ -90,6 +93,17 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    private GameObject ultimoObjeto() {
+        //return lastGameObjectWithCollision;
+        GameObject retornar;
+        try { retornar = listaColisoes.Last(); }
+        catch  {
+            retornar = null;
+        }
+        
+        return retornar;
+    }
+
     private static bool OpenPauseMenu()
     {
         return Input.GetKeyDown(KeyCode.Escape);
@@ -116,26 +130,26 @@ public class PlayerController : MonoBehaviour
 
     private bool isDoorObject()
     {
-        return lastGameObjectWithCollision && lastGameObjectWithCollision.tag.Equals("Porta");
+        return ultimoObjeto() && ultimoObjeto().tag.Equals("Porta");
     }
 
     private bool isComputerObject()
     {
-        return lastGameObjectWithCollision && lastGameObjectWithCollision.tag.Equals("Computador");
+        return ultimoObjeto() && ultimoObjeto().tag.Equals("Computador");
     }
 
     private bool isNpcObject()
     {
-        return lastGameObjectWithCollision && lastGameObjectWithCollision.tag.Equals("NPC");
+        return ultimoObjeto() && ultimoObjeto().tag.Equals("NPC");
     }
 
     private void EnterInteractionSprite()
     {
-        if (lastGameObjectWithCollision != null
+        if (ultimoObjeto() != null
                     && _canInteract
-                    && (lastGameObjectWithCollision.tag.Equals("NPC")
-                    || lastGameObjectWithCollision.tag.Equals("Computador")
-                    || lastGameObjectWithCollision.tag.Equals("Porta")))
+                    && (ultimoObjeto().tag.Equals("NPC")
+                    || ultimoObjeto().tag.Equals("Computador")
+                    || ultimoObjeto().tag.Equals("Porta")))
         {
 
             enter.GetComponent<SpriteRenderer>().enabled = true;
@@ -159,13 +173,33 @@ public class PlayerController : MonoBehaviour
             || collision.gameObject.tag.Equals("NPC") 
             || collision.gameObject.tag.Equals("Porta"))
 
-        lastGameObjectWithCollision = collision.gameObject;
+        //lastGameObjectWithCollision = collision.gameObject;
+        listaColisoes.Add(collision.gameObject);
+        //Debug.Log("colocado");
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.gameObject == lastGameObjectWithCollision)
+        //if (collision.gameObject == ultimoObjeto()) {
+        listaColisoes.Remove(collision.gameObject);
+        /*
+            if (listaColisoes.Remove(collision.gameObject)) {
+                if (listaColisoes.Count > 0)
+                {
+                    Debug.Log("removido");
+                    lastGameObjectWithCollision = listaColisoes.Last();
+                    Debug.Log(listaColisoes.Count);
+                }
+            }
+            else { 
+            
             lastGameObjectWithCollision = null;
+                Debug.Log("anulado");
+            }
+        */
+
+        //}
+
     }
 
     public void updateTags(string novaTag) {

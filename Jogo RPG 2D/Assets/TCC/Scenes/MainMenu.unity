@@ -538,7 +538,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6, y: 35}
+  m_AnchoredPosition: {x: -6, y: 63}
   m_SizeDelta: {x: 671.391, y: 244.17728}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &259957208
@@ -560,19 +560,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Data Guida - 2022
-
-    Projeto de TCC - IFSC LAGES
-
-
-    Breno Rocha Maia
-    & Luisa Farias
-
-    Orientador Leonador Bravo
-
-
-
-    Obrigado por jogar!'
+  m_text: "Data Guida - 2022\nProjeto de TCC - IFSC LAGES\n\nBreno Rocha Maia & Luisa
+    Farias\nOrientador Leonador Bravo\nM\xFAsica por Jari Sihvola\n\n\nObrigado por
+    jogar!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1693,7 +1683,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1348812988
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2327,7 +2317,9 @@ MonoBehaviour:
   estrela1: {fileID: 2029658656}
   estrela2: {fileID: 383681273}
   estrela3: {fileID: 862896873}
-  posicao1: {x: 0, y: 0, z: 0}
+  posicao1: {x: 0, y: 0}
+  posicao2: {x: 0, y: 0}
+  posicao3: {x: 0, y: 0, z: 0}
 --- !u!114 &1659061243
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -51,8 +51,8 @@ namespace Assets.TCC.Scripts
         }
 
         public GameObject criaObjetoSlider() {
-            GameObject clone = Instantiate(original);
-            clone.transform.SetParent(noticiasSlider.transform);
+            GameObject clone = Instantiate(original, noticiasSlider.transform);
+            //clone.transform.SetParent(noticiasSlider.transform);
             clone.SetActive(true);
             return clone;
 

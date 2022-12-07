@@ -1301,6 +1301,80 @@ MonoBehaviour:
   testDynamic: 0
   testTextMeshPro: 0
   text: {fileID: 0}
+--- !u!1 &229273532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 229273533}
+  - component: {fileID: 229273535}
+  - component: {fileID: 229273534}
+  m_Layer: 5
+  m_Name: Search Symbol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &229273533
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229273532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1361038208}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -62.9, y: 168.5}
+  m_SizeDelta: {x: 67.17532, y: 61.551407}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &229273534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229273532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7f1c9bacf1d0f0842a3de15fd7a7b02c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &229273535
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229273532}
+  m_CullTransparentMesh: 0
 --- !u!1 &237672035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1479,7 +1553,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 105.8, y: 159.2}
+  m_AnchoredPosition: {x: 139.7, y: 160}
   m_SizeDelta: {x: 326.70483, y: 86.66443}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &290904172
@@ -1501,7 +1575,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ed29e1e12be50b145bf29d899c0bc63d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e414a8e80a909bc4d9bc44c756114ddc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3703,7 +3777,13 @@ MonoBehaviour:
   noticiasSlider: {fileID: 305996745}
   original: {fileID: 820226697}
   news:
-  - "NEWS1#Dente de Le\xE3o#A empresa dente de le\xE3o \xE9 daora<br><br>yeeeeeeeeeeeeeeeey<br>funciona"
+  - "NEWS1#Dente de Le\xE3o#<style=\"Title>Dente de Le\xE3o Corp</style><br><br>Fundada
+    em 3953 pelo pequeno empreendedor Van Rossum e seu primo, a Dente de Le\xE3o
+    \xE9 hoje a maior empresa fundada em Saturnville, tendo como vis\xE3o o futuro
+    das pessoas e a garantia de uma vida digna e acess\xEDvel. Seu principal valor
+    \xE9 o meio ambiente. Atrav\xE9s de pr\xE1ticas ecol\xF3gicas, a Dente de Le\xE3o
+    Corp. se auto-declara respons\xE1vel pelo futuro de Lemuria atrav\xE9s de uma
+    pol\xEDtica mais verde e eco-friendly. <br><br>http://www.kiwipedia.lemuria.org/"
   - "NEWS2#Van Russan#O van russan \xE9 bem van e bem hussan"
   stringSeparator: 35
   stringSeparetor2: 36
@@ -5790,7 +5870,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 85.7, y: 4.1}
+  m_AnchoredPosition: {x: 117.9, y: -7.3}
   m_SizeDelta: {x: 371.26892, y: 340.99088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1240989893
@@ -5812,9 +5892,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
-
-'
+  m_text: "Este \xE9 o Boogli, o sistema de pesquisa mais popular do planeta.\n\nClique
+    em uma abo lado pra acessar pesquisas sobre diversos assuntos!\n\nAo longo do
+    dia a dia, ir\xE1 encontrar assuntos interessantes para pesquisar sobre."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5823,8 +5903,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283190537
+  m_fontColor: {r: 0.035599854, g: 0.3018868, b: 0.2968272, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6370,6 +6450,7 @@ RectTransform:
   - {fileID: 237672036}
   - {fileID: 1240989892}
   - {fileID: 290904171}
+  - {fileID: 229273533}
   m_Father: {fileID: 713585704}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -4724,7 +4724,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatController: {fileID: 0}
   textos:
-  - "NARRADOR1#Ol\xE1, sou o narrador#Aqui est\xE1 Guida"
+  - "NARRADOR1#Hoje \xE9 seu primeiro dia de trabalho na Corpora\xE7\xE3o Dente de
+    Le\xE3o.#Voc\xEA acabou de sair da faculdade e est\xE1 ansiosa para o seu primeiro
+    dia.#Com sua bicicleta, chegou at\xE9 aqui, entrando nessa constru\xE7\xE3o totalmente
+    verde por fora e azul por dentro."
   retrato: {fileID: 21300000, guid: bfeba87c7b4c92d44a24875e49de89a0, type: 3}
   nome: 
 --- !u!61 &995165914

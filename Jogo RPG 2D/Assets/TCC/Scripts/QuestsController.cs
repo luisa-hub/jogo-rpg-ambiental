@@ -98,6 +98,7 @@ namespace Assets.TCC.Scripts
                     break;
                 case "EDGAR2":
                     jogador.updateTags("NEWS1");
+                    jogador.updateTags("NEWS2");
                     jogador.updateTags("DESBLOQUEIABOTOES");
                     jogador.updateTags("EDGAR3");
                     break;
@@ -117,7 +118,6 @@ namespace Assets.TCC.Scripts
                 //------------FRANK------------
                 case "FRANK1":
                     jogador.updateTags("FRANK2");
-                    jogador.updateTags("NEWS2");
                     break;
                 case "FRANK2":
                     jogador.updateTags("FRANK3");

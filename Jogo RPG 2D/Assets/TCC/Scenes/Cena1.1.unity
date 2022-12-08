@@ -20282,11 +20282,11 @@ MonoBehaviour:
   - "EDGAR4#Fa\xE7a uma consulta buscando a tabela doacoes_3979.#Voc\xEA consegue!"
   - "EDGAR5#Muito bem!#Agora que voc\xEA conseguiu selecionar todos os itens da tabela,
     vamos fazer uma filtragem.#Encontre a empresa de Id 24 na tabela!"
-  - "EDGAR6#Caramba, essa foi r\xE1pido. Parab\xE9ns! #Sua pr\xF3xima miss\xE3o \xE9
-    deletar todos os registros da empresa com o Id 24.#Voc\xEA acha que consegue?#Boa
-    sorte! "
-  - "EDGAR7#VOC\xCA CONSEGUIUUU"
-  - "EDGAR8#VOC\xCA CONSEGUIUUU"
+  - EDGAR5b#Encontre a empresa de Id 24 na tabela!
+  - "EDGAR6#Caramba, essa foi r\xE1pido. Parab\xE9ns! #Ok, agora a tarefa em si.#Sua
+    pr\xF3xima miss\xE3o \xE9 deletar todos os registros da empresa com o Id 24.#Ordens
+    de superiores.#Voc\xEA acha que consegue?#Boa sorte! "
+  - EDGAR6b#Agora, deletar todos os registros da empresa com o Id 24.#Ordens de superiores.
   - "EDGAR9#VOC\xCA CONSEGUIUUU"
   - "EDGAR10#VOC\xCA CONSEGUIUUU"
   retrato: {fileID: 21300000, guid: 9baaddbbd6c64234eab7e7138d1b67d1, type: 3}
@@ -20805,9 +20805,15 @@ MonoBehaviour:
   textos:
   - "DIONE1#Ol\xE1, pequenina. # Bem vinda a empresa mais eco-friendly de Lemuria."
   - "DIONE2#Tenho certeza que sua experi\xEAncia aqui ser\xE1 no m\xEDnimo divertida"
-  - "DIONE3#Tenho certeza que sua experi\xEAncia aqui ser\xE1 no m\xEDnimo divertida"
-  - "DIONE4#Tenho certeza que sua experi\xEAncia aqui ser\xE1 no m\xEDnimo divertida"
-  - "DIONE5#Tenho certeza que sua experi\xEAncia aqui ser\xE1 no m\xEDnimo divertida"
+  - "PLANTASURGE#Hey, hey, psiu!#Voc\xEA ai!#Sim, voc\xEA mesmo.#Tem certeza que
+    deletar isso ai \xE9 uma boa id\xE9ia?#Parece um pouco precipitado. Como dizem,
+    Deletar algo \xE9 apagar sua hist\xF3ria.#Eu ouvi uns rumores que tem algo fedendo
+    ai.#N\xE3o achou nada suspeito nessa empresa?"
+  - "DIONE3#Por que n\xE3o tenta descobrir que empresa \xE9 essa?#Acho que a Lovelace
+    pode ter algo no computador dela.#Dif\xEDcil vai ser tirar ela de l\xE1. "
+  - "DIONE4#Hey, pequena!#Me d\xE1 uma chance! N\xE3o vai se arrepender. Nunca te
+    pedi nada!#S\xF3 dar uma espiadinha no computador da Lovelace, e descobrir que
+    empresa \xE9 essa..."
   retrato: {fileID: 21300000, guid: 5186349cbfa5088448a47862429f2a15, type: 3}
   nome: Dione
 --- !u!212 &929871898

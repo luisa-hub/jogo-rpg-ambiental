@@ -132,9 +132,10 @@ public class ChatController : MonoBehaviour
         mandarQuestController = textos[0];
         //Inicia o índice de texto (começa com 1, pois o index 0 é a flag da missão)
         indexOfText = 1;
-        
+        Debug.Log(textos[indexOfText].ToString());
         // Define o texto inicial
         ObjetoTexto.text = textos[indexOfText];
+        Debug.Log(textos.Length);
 
     }
 

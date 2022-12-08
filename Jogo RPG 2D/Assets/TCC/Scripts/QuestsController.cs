@@ -54,13 +54,20 @@ namespace Assets.TCC.Scripts
                             }
                             break;
                         case "EDGAR6":
-
-                            if (consultaDigitada.ToLower().Replace(@"\s+", "").Contains("deletefromdoacoes_3979whereid_empresa=24") )
+                            //fazer Replace(@"\s+", "") funcionar
+                            if (consultaDigitada.ToLower().Contains("delete from doacoes_3979 where id_empresa = 24") )
                             {
                                 jogador.updateTags("PLANTASURGE");
                             }
                             break;
-                            
+                        case "PLANTASURGE":
+                            //fazer Replace(@"\s+", "") funcionar
+                            if (consultaDigitada.ToLower().Contains("delete from doacoes_3979 where id_empresa = 24"))
+                            {
+                                jogador.updateTags("PLANTASURGEREPETE");
+                            }
+                            break;
+
                             // code block
                             break;
                         default:
@@ -124,6 +131,12 @@ namespace Assets.TCC.Scripts
                 case "EDGAR3":
                     jogador.updateTags("EDGAR4");
                     break;
+                case "EDGAR5":
+                    jogador.updateTags("EDGAR5b");
+                    break;
+                case "EDGAR6":
+                    jogador.updateTags("EDGAR6b");
+                    break;
                 //------------LOVELACE------------
                 case "LOVELACE1":
                     jogador.updateTags("LOVELACE2");
@@ -172,6 +185,12 @@ namespace Assets.TCC.Scripts
                 //------------DIONE------------
                 case "DIONE1":
                     jogador.updateTags("DIONE2");
+                    break;
+                case "PLANTASURGE":
+                    jogador.updateTags("DIONE3");
+                    break;
+                case "DIONE3":
+                    jogador.updateTags("DIONE4");
                     break;
                 //------------VAN HOSSUN------------
                 case "VANHOSSUN1":

@@ -205,8 +205,17 @@ public class PlayerController : MonoBehaviour
     public void updateTags(string novaTag) {
         if (flagMissoesConcluidas.Contains(novaTag)==false) {
             flagMissoesConcluidas.Add(novaTag);
-            vanishController.acoes();
+            vanishController.acoes(novaTag);
             newsController.atualizar(novaTag);
+        }
+
+
+    }
+    public void removeTag(string novaTag)
+    {
+        if (flagMissoesConcluidas.Contains(novaTag) == true)
+        {
+            flagMissoesConcluidas.Remove(novaTag);
         }
 
 

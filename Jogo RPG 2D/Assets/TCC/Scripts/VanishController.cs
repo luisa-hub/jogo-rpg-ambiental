@@ -11,6 +11,8 @@ public class VanishController : MonoBehaviour
     private List<GameObject> desaparecidos;
     public GameObject botoesDesbloqueaveis;
     public ComputerController computador;
+    public NPCController npcController;
+
 
     void Start()
     {
@@ -23,9 +25,10 @@ public class VanishController : MonoBehaviour
         
     }
 
-    public void acoes() {
-        foreach (var flag in jogador.flagMissoesConcluidas.ToList())
-        {
+    public void acoes(string flag) {
+        //foreach (var flag in jogador.flagMissoesConcluidas.ToList())
+
+            //{
             switch (flag)
             {
                 case "DESBLOQUEIABOTOES":
@@ -41,8 +44,16 @@ public class VanishController : MonoBehaviour
                     //vanish("Edgar");
                     move("Dione", -2.218489f, 1.64565f);
                     resetaBanco();
+                    computador.fechar();
+                    dialogoSurpresa("Dione");
                     break;
-                case "CORAMISSAO3":
+                case "PLANTASURGEREPETE":
+                    resetaBanco();
+                    computador.fechar();
+                    dialogoSurpresa("Dione");
+                    jogador.removeTag("PLANTASURGEREPETE");
+                    break;
+            case "CORAMISSAO3":
                     //appear("Edgar");
                     break;
                 default:
@@ -51,13 +62,21 @@ public class VanishController : MonoBehaviour
             }
 
 
-        }
+        //}
 
 
     }
 
     void resetaBanco() {
         computador.resetaBanco();
+    }
+
+    void dialogoSurpresa(string nome) {
+        GameObject npc = GameObject.Find(nome).gameObject;
+        npcController = npc.GetComponent<NPCController>();
+        Player.Instance.PlayerPauseInteraction();
+        npcController.InitInteraction(jogador.flagMissoesConcluidas);
+
     }
 
     void vanish(string nome) {

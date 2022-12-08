@@ -147,6 +147,10 @@ namespace Assets.TCC.Scripts
                 case "LOVELACE3":
                     jogador.updateTags("LOVELACE4");
                     break;
+                case "LOVELACE5":
+                    jogador.updateTags("EDGAR8");
+                    jogador.updateTags("LOVELACE6");
+                    break;
                 //------------FRANK------------
                 case "FRANK1":
                     jogador.updateTags("FRANK2");
@@ -188,6 +192,11 @@ namespace Assets.TCC.Scripts
                     break;
                 case "PLANTASURGE":
                     jogador.updateTags("DIONE3");
+                    jogador.updateTags("LOVELACE5");
+                    jogador.updateTags("EDGAR7");
+                    jogador.updateTags("GRACE5");
+                    jogador.updateTags("GEORGE5");
+                    jogador.updateTags("HOPPER4");
                     break;
                 case "DIONE3":
                     jogador.updateTags("DIONE4");
@@ -217,6 +226,12 @@ namespace Assets.TCC.Scripts
                     break;
                 case "OMNICIBUS":
                     jogador.updateTags("NEWSOMNI8");
+                    break;
+                case "LIXEIRABANHEIRO":
+                    jogador.updateTags("SENHA");
+                    break;
+                case "SENHA":
+                    jogador.updateTags("LOVELACE7");
                     break;
                 //------------QUEST LEÃO------------
                 case "LEAO1":

@@ -43,6 +43,7 @@ public class VanishController : MonoBehaviour
                 case "PLANTASURGE":
                     //vanish("Edgar");
                     move("Dione", -2.218489f, 1.64565f);
+                    move("Edgar", 18.56f, 6.01f);
                     resetaBanco();
                     computador.fechar();
                     dialogoSurpresa("Dione");
@@ -52,6 +53,9 @@ public class VanishController : MonoBehaviour
                     computador.fechar();
                     dialogoSurpresa("Dione");
                     jogador.removeTag("PLANTASURGEREPETE");
+                    break;
+                case "GRACE5":
+                    move("ComputadorLal", 13.78f, 5.22f);
                     break;
             case "CORAMISSAO3":
                     //appear("Edgar");

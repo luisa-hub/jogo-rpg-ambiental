@@ -2913,7 +2913,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.size
-      value: 22
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[0]
@@ -3008,20 +3008,40 @@ PrefabInstance:
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[18]
       value: 
-      objectReference: {fileID: 21300000, guid: 160fe9416f5a0c2469e45aabf177c539,
+      objectReference: {fileID: 21300000, guid: 64f1e791e4c67314da8c5e0ed213d3c6,
         type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[19]
       value: 
-      objectReference: {fileID: 21300000, guid: 5e9341b92f08673449f56ae51730aa96,
+      objectReference: {fileID: 21300000, guid: 3ef01bfc199f1f34b91a0b092736c300,
         type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[20]
       value: 
-      objectReference: {fileID: 21300000, guid: c5ef1aebbf4ddc64fb05f9c829fcd56a,
+      objectReference: {fileID: 21300000, guid: a53a5a9a91c2fba4688b21a428a8242f,
         type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[21]
+      value: 
+      objectReference: {fileID: 21300000, guid: 26c2f083d939add4c8562856e2f8315f,
+        type: 3}
+    - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
+      propertyPath: bookPages.Array.data[22]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8a6e91f786dfe004e9ee7b4e04cd12aa,
+        type: 3}
+    - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
+      propertyPath: bookPages.Array.data[23]
+      value: 
+      objectReference: {fileID: 21300000, guid: 685728c4bc12cbb46ae2dedf15d453a1,
+        type: 3}
+    - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
+      propertyPath: bookPages.Array.data[24]
+      value: 
+      objectReference: {fileID: 21300000, guid: c5ef1aebbf4ddc64fb05f9c829fcd56a,
+        type: 3}
+    - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
+      propertyPath: bookPages.Array.data[25]
       value: 
       objectReference: {fileID: 21300000, guid: c5ef1aebbf4ddc64fb05f9c829fcd56a,
         type: 3}
@@ -11220,7 +11240,6 @@ MonoBehaviour:
   jogador: {fileID: 4548441709604419837}
   botoesDesbloqueaveis: {fileID: 321074449}
   computador: {fileID: 175768535}
-  npcController: {fileID: 0}
   pauseController: {fileID: 900371859}
 --- !u!1 &4686568465519428239
 GameObject:

@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TCC/Scenes/MainMenu.unity
     guid: 43b49912530fd6a43a4a881fb3091c3a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Course/Scriptable Object Assets/Scenes/PersistentScene.unity
     guid: 2a1213a1535a45145a075439160377ce
+  - enabled: 1
+    path: Assets/TCC/Scenes/PersistentScene.unity
+    guid: 515e51cc3a21e494fa82d721c2b60912
   - enabled: 0
     path: Assets/TCC/Scenes/Scene1_Farm.unity
     guid: ddbda413a2879144b9dca337da8b8ca0

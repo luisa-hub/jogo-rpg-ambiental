@@ -20973,8 +20973,8 @@ MonoBehaviour:
     com a Dente de Le\xE3o no mercado..."
   - "DIONE9#Essa empresa que se vangloria por suas doa\xE7\xF5es caridosas...#Que
     tal dar uma olhada em todas as doa\xE7\xF5es?#Ver pra que tipo de empresa que
-    ela doando, e quanto."
-  - "DIONE10#Parecido com o anterior, mas sem filtrar s\xF3 a 24!"
+    ela doando, e em qual quantia."
+  - DIONE10#Basicamente a consulta anterior, mas sem filtrar no id 24.#Sus.
   - "DIONE11#Voc\xEA v\xEA?#H\xE1 algo certamente rolando!#Vamos investigar mais
     a fundo, e desmascarar isso tudo!"
   - "DIONE12#PARAB\xC9INS!#VOC\xCA TERMIU A PRIMEIRA FASE DE DATA GUIDA.#SE MANTENHA
@@ -50175,7 +50175,7 @@ MonoBehaviour:
   textos:
   - "COMPLOVE#Algu\xE9m deixou um desenho inacabado no Paint.#Parece uma caldeira.#Ou
     uma janela?#No meio de arquivos de planilhas de Excel, abas do LinkedIn e not\xEDcias
-    sobre Lemuria, voc\xEA encontra:#Uma tabela de empresas que se destaca. empresas_3979.
+    sobre Lemuria, voc\xEA encontra:#Uma tabela de empresas que se destaca.#empresas_3979.
     #Voc\xEA encontrou a tabela. "
   - "COMPLOVE2#empresas_3979. #Voc\xEA encontrou a tabela. "
   retrato: {fileID: 0}

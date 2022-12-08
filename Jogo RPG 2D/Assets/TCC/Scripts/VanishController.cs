@@ -44,7 +44,7 @@ public class VanishController : MonoBehaviour
                 case "PLANTASURGE":
                     //vanish("Edgar");
                     move("Dione", -2.218489f, 1.64565f);
-                    move("Edgar", 18.56f, 6.01f);
+                    move("Edgar", 34.07567f, 7.344794f);
                     resetaBanco();
                     computador.fechar();
                     dialogoSurpresa("Dione");

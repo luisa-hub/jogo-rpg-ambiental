@@ -2892,7 +2892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 180032, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 183440, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: m_IsActive
@@ -2983,27 +2983,27 @@ PrefabInstance:
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[13]
       value: 
-      objectReference: {fileID: 21300000, guid: 5e9341b92f08673449f56ae51730aa96,
+      objectReference: {fileID: 21300000, guid: 31f4f834a77b42243b272cd77658c73e,
         type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[14]
       value: 
-      objectReference: {fileID: 21300000, guid: 160fe9416f5a0c2469e45aabf177c539,
+      objectReference: {fileID: 21300000, guid: 0554fa9f78ed09d44b4cfd3442997c14,
         type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[15]
       value: 
-      objectReference: {fileID: 21300000, guid: 5e9341b92f08673449f56ae51730aa96,
+      objectReference: {fileID: 21300000, guid: 0e63e3bec0308794aa235c09ea8f691f,
         type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[16]
       value: 
-      objectReference: {fileID: 21300000, guid: 160fe9416f5a0c2469e45aabf177c539,
+      objectReference: {fileID: 21300000, guid: 892d2c84f72ae344a89d58d7df8e34e4,
         type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[17]
       value: 
-      objectReference: {fileID: 21300000, guid: 5e9341b92f08673449f56ae51730aa96,
+      objectReference: {fileID: 21300000, guid: 78242358c65c73943b32695cc1600a3c,
         type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[18]
@@ -4469,7 +4469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &760386136
 RectTransform:
   m_ObjectHideFlags: 0

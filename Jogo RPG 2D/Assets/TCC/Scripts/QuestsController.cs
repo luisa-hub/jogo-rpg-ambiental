@@ -68,7 +68,28 @@ namespace Assets.TCC.Scripts
                             }
                             break;
 
-                            // code block
+                            case "DIONE6":
+                            consulta = "SELECT * FROM empresas_3979;";
+                            if (verifyData(colunas, linhas, consulta))
+                            {
+                                jogador.updateTags("DIONE7");
+                            }
+                            break;
+
+                            case "DIONE7":
+                            consulta = "SELECT empresas_3979.nome, doacoes_3979.Valor FROM doacoes_3979 INNER JOIN empresas_3979 WHERE doacoes_3979.Id_Empresa = empresas_3979.Id AND empresas_3979.Id = 24;";
+                            if (verifyData(colunas, linhas, consulta))
+                            {
+                                jogador.updateTags("DIONE8");
+                            }
+                            break;
+
+                        case "DIONE9":
+                            consulta = "SELECT empresas_3979.nome, doacoes_3979.Valor FROM doacoes_3979 INNER JOIN empresas_3979 WHERE doacoes_3979.Id_Empresa = empresas_3979.Id;";
+                            if (verifyData(colunas, linhas, consulta))
+                            {
+                                jogador.updateTags("DIONE11");
+                            }
                             break;
                         default:
                             // code block
@@ -120,13 +141,7 @@ namespace Assets.TCC.Scripts
                     jogador.updateTags("NEWS1");
                     jogador.updateTags("NEWS2");
                     jogador.updateTags("DESBLOQUEIABOTOES");
-                    jogador.updateTags("EDGAR3");
-
-                    
-                    jogador.updateTags("NEWSDONUTS");
-                    
-                    
-                    
+                    jogador.updateTags("EDGAR3");  
                     break;
                 case "EDGAR3":
                     jogador.updateTags("EDGAR4");
@@ -208,6 +223,22 @@ namespace Assets.TCC.Scripts
                 case "DIONE3":
                     jogador.updateTags("DIONE4");
                     break;
+                case "DIONE5":
+                    jogador.updateTags("DIONE6");
+                    break;
+                case "DIONE8":
+                    jogador.updateTags("DIONE9");
+                    break;
+                case "DIONE9":
+                    jogador.updateTags("DIONE10");
+                    jogador.updateTags("NEWSDONUTS");
+                    break;
+                case "DIONE11":
+                    jogador.updateTags("DIONE12");
+                    break;
+                case "DIONE12":
+                    jogador.updateTags("FIM");
+                    break;
                 //------------VAN HOSSUN------------
                 case "VANHOSSUN1":
                     jogador.updateTags("VANHOSSUN2");
@@ -239,6 +270,12 @@ namespace Assets.TCC.Scripts
                     break;
                 case "SENHA":
                     jogador.updateTags("LOVELACE7");
+                    jogador.updateTags("PCLAL2");
+                    break;
+                case "COMPLOVE":
+                    jogador.updateTags("LOVELACE7");
+                    jogador.updateTags("DIONE5");
+                    jogador.updateTags("COMPLOVE2");
                     break;
                 //------------QUEST LEÃO------------
                 case "LEAO1":

@@ -11,7 +11,8 @@ public class VanishController : MonoBehaviour
     private List<GameObject> desaparecidos;
     public GameObject botoesDesbloqueaveis;
     public ComputerController computador;
-    public NPCController npcController;
+    private NPCController npcController;
+    public PauseController pauseController;
 
 
     void Start()
@@ -61,6 +62,9 @@ public class VanishController : MonoBehaviour
                     move("Srt. Lovelace",12.99561f, 3.1079f);
                     move("ComputadorLal", -45.6f, 5.22f);
                     move("ComputadorLovelace", -21.73f, -24.36f);
+                    break;
+                case "FIM":
+                    fim();
                     break;
                 default:
                     // code block
@@ -121,5 +125,7 @@ public class VanishController : MonoBehaviour
         botoesDesbloqueaveis.SetActive(true);
     }
 
-
+    public void fim() {
+        pauseController.menu();
+    }
 }

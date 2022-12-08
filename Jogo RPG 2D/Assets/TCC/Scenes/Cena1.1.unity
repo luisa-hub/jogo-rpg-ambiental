@@ -1598,6 +1598,7 @@ MonoBehaviour:
   - "SENHA#Voc\xEA digita a senha que encontrou no banheiro.#123#[INSTALANDO LENDA
     DAS LIGAS...]#[LENDA DAS LIGAS INSTALADO COM SUCESSO.]#Voc\xEA consegue deixar
     Lenda das Ligas funcionando neste computador.."
+  - "PCLAL2#Lenda das Ligas est\xE1 instalado e funcionando!"
   retrato: {fileID: 0}
   nome: 
 --- !u!61 &366865502
@@ -20959,6 +20960,25 @@ MonoBehaviour:
   - "DIONE4#Hey, verdinha!!#Me d\xE1 uma chance! N\xE3o vai se arrepender. Nunca
     te pedi nada!#S\xF3 dar uma espiadinha no computador da Lovelace, e descobrir
     que empresa \xE9 essa..."
+  - "DIONE5#Oh! Vejo que voc\xEA encontrou o nome da tabela.#Acho melhor desinstalar
+    Lenda das Ligas quando tiver oportunidade.#Por que n\xE3o seleciona todas as
+    informa\xE7\xF5es da tabela?#Vamos dar uma olhada no que ela guarda. "
+  - DIONE6#Que tal dar um select na tabela empresas_3979?#Talvez descobriremos algo.
+  - "DIONE7#Muito bem!#Agora, tente junta o id_empresa com o id das doa\xE7\xF5es.#O
+    operador inner Join pode te ajudar nessa!#Filtre pelas colunas de nome da empresa,
+    e de Valor das doa\xE7\xF5es.#Aproveite e pegue s\xF3 as que tem o id que voc\xEA
+    pediram pra voc\xEA deletar, o 24!"
+  - "DIONE8#Sim.#Era isso que queriam esconder.#Doa\xE7\xF5es para a empresa MakeDonuts...#Conhecida
+    por ser uma empresa nada legal.#Mas, imagino que eles tenham lucrado bastante
+    com a Dente de Le\xE3o no mercado..."
+  - "DIONE9#Essa empresa que se vangloria por suas doa\xE7\xF5es caridosas...#Que
+    tal dar uma olhada em todas as doa\xE7\xF5es?#Ver pra que tipo de empresa que
+    ela doando, e quanto."
+  - "DIONE10#Parecido com o anterior, mas sem filtrar s\xF3 a 24!"
+  - "DIONE11#Voc\xEA v\xEA?#H\xE1 algo certamente rolando!#Vamos investigar mais
+    a fundo, e desmascarar isso tudo!"
+  - "DIONE12#PARAB\xC9INS!#VOC\xCA TERMIU A PRIMEIRA FASE DE DATA GUIDA.#SE MANTENHA
+    LIGADO PARA A CONTINUA\xC7\xC3O!#OBRIGADO POR JOGAR!"
   retrato: {fileID: 21300000, guid: 5186349cbfa5088448a47862429f2a15, type: 3}
   nome: Dione
 --- !u!212 &929871898
@@ -50155,8 +50175,9 @@ MonoBehaviour:
   textos:
   - "COMPLOVE#Algu\xE9m deixou um desenho inacabado no Paint.#Parece uma caldeira.#Ou
     uma janela?#No meio de arquivos de planilhas de Excel, abas do LinkedIn e not\xEDcias
-    sobre Lem\xFAria, voc\xEA encontra:#Uma tabela de empresas que se destaca. empresas_3979.
+    sobre Lemuria, voc\xEA encontra:#Uma tabela de empresas que se destaca. empresas_3979.
     #Voc\xEA encontrou a tabela. "
+  - "COMPLOVE2#empresas_3979. #Voc\xEA encontrou a tabela. "
   retrato: {fileID: 0}
   nome: 
 --- !u!61 &1584866663

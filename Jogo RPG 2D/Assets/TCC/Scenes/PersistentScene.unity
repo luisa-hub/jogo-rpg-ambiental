@@ -11220,6 +11220,8 @@ MonoBehaviour:
   jogador: {fileID: 4548441709604419837}
   botoesDesbloqueaveis: {fileID: 321074449}
   computador: {fileID: 175768535}
+  npcController: {fileID: 0}
+  pauseController: {fileID: 900371859}
 --- !u!1 &4686568465519428239
 GameObject:
   m_ObjectHideFlags: 0

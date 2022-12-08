@@ -54,7 +54,8 @@ namespace Assets.TCC.Scripts
                             }
                             break;
                         case "EDGAR6":
-                            if (consultaDigitada.ToLower().Contains("delete from doacoes_3979 where id_empresa = 24") )
+
+                            if (consultaDigitada.ToLower().Replace(@"\s+", "").Contains("deletefromdoacoes_3979whereid_empresa=24") )
                             {
                                 jogador.updateTags("PLANTASURGE");
                             }

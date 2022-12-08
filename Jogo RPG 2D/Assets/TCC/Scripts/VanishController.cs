@@ -10,6 +10,7 @@ public class VanishController : MonoBehaviour
     public PlayerController jogador;
     private List<GameObject> desaparecidos;
     public GameObject botoesDesbloqueaveis;
+    public ComputerController computador;
 
     void Start()
     {
@@ -39,6 +40,7 @@ public class VanishController : MonoBehaviour
                 case "PLANTASURGE":
                     //vanish("Edgar");
                     move("Dione", -2.218489f, 1.64565f);
+                    resetaBanco();
                     break;
                 case "CORAMISSAO3":
                     //appear("Edgar");
@@ -54,6 +56,9 @@ public class VanishController : MonoBehaviour
 
     }
 
+    void resetaBanco() {
+        computador.resetaBanco();
+    }
 
     void vanish(string nome) {
 

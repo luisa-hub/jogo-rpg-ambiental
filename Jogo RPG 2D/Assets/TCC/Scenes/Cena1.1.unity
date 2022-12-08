@@ -20797,6 +20797,9 @@ MonoBehaviour:
   textos:
   - "DIONE1#Ol\xE1, pequenina. # Bem vinda a empresa mais eco-friendly de Lemuria."
   - "DIONE2#Tenho certeza que sua experi\xEAncia aqui ser\xE1 no m\xEDnimo divertida"
+  - "DIONE3#Tenho certeza que sua experi\xEAncia aqui ser\xE1 no m\xEDnimo divertida"
+  - "DIONE4#Tenho certeza que sua experi\xEAncia aqui ser\xE1 no m\xEDnimo divertida"
+  - "DIONE5#Tenho certeza que sua experi\xEAncia aqui ser\xE1 no m\xEDnimo divertida"
   retrato: {fileID: 21300000, guid: 5186349cbfa5088448a47862429f2a15, type: 3}
   nome: Dione
 --- !u!212 &929871898
@@ -51245,7 +51248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatController: {fileID: 0}
   textos:
-  - "OMNICIBUS2#O t\xE3o adorado produto que essa empresa produz...#Chamado de OMNICIBUS
+  - "OMNICIBUS#O t\xE3o adorado produto que essa empresa produz...#Chamado de OMNICIBUS
     NATURALIS 8 - VITAM\xCDNICO COMPLETO SEM S\xD3DIO, ORG\xC2NICO E SABOR TAMARINDO\u2122.#Tem
     bastante OMNICIBUS NATURALIS 8 - VITAM\xCDNICO COMPLETO SEM S\xD3DIO, ORG\xC2NICO
     E SABOR TAMARINDO\u2122 pros funcion\xE1rios."
@@ -52123,7 +52126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatController: {fileID: 0}
   textos:
-  - "OMNICIBUS3#Mais OMNICIBUS NATURALIS 8 - VITAM\xCDNICO COMPLETO SEM S\xD3DIO,
+  - "OMNICIBUS#Mais OMNICIBUS NATURALIS 8 - VITAM\xCDNICO COMPLETO SEM S\xD3DIO,
     ORG\xC2NICO E SABOR TAMARINDO\u2122."
   retrato: {fileID: 0}
   nome: 

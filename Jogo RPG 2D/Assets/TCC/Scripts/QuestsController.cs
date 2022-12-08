@@ -102,11 +102,11 @@ namespace Assets.TCC.Scripts
                     jogador.updateTags("DESBLOQUEIABOTOES");
                     jogador.updateTags("EDGAR3");
 
-                    jogador.updateTags("NEWSOMNI8");
+                    
                     jogador.updateTags("NEWSDONUTS");
                     jogador.updateTags("NEWSCOMPRE");
                     jogador.updateTags("NEWSLAL");
-                    jogador.updateTags("NEWSOMNI1");
+                    
                     break;
                 case "EDGAR3":
                     jogador.updateTags("EDGAR4");
@@ -147,6 +147,7 @@ namespace Assets.TCC.Scripts
                     break;
                 case "GRACE3":
                     jogador.updateTags("GRACE4");
+                    jogador.updateTags("NEWSOMNI1");
                     break;
                 //------------HOPPER------------
                 case "HOPPER1":
@@ -181,6 +182,9 @@ namespace Assets.TCC.Scripts
                     break;
                 case "PRIVADA3":
                     jogador.updateTags("PRIVADA4");
+                    break;
+                case "OMNICIBUS":
+                    jogador.updateTags("NEWSOMNI8");
                     break;
                 //------------QUEST LEÃO------------
                 case "LEAO1":

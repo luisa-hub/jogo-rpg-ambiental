@@ -20279,8 +20279,16 @@ MonoBehaviour:
     essa parte por enquanto!#Se precisar de ajuda, vou te orientar durante sua jornada
     no mundo do SQL.#Ok, primeira coisa:#Fa\xE7a uma consulta procurando a tabela
     doacoes_3879.#Voc\xEA consegue!"
-  - "EDGAR4#Fa\xE7a uma consulta buscando a tabela doacoes_3879.#Voc\xEA consegue!"
-  - "EDGAR5#VOC\xCA CONSEGUIUUU"
+  - "EDGAR4#Fa\xE7a uma consulta buscando a tabela doacoes_3979.#Voc\xEA consegue!"
+  - "EDGAR5#Muito bem!#Agora que voc\xEA conseguiu selecionar todos os itens da tabela,
+    vamos fazer uma filtragem.#Encontre a empresa de Id 24 na tabela!"
+  - "EDGAR6#Caramba, essa foi r\xE1pido. Parab\xE9ns! #Sua pr\xF3xima miss\xE3o \xE9
+    deletar todos os registros da empresa com o Id 24.#Voc\xEA acha que consegue?#Boa
+    sorte! "
+  - "EDGAR7#VOC\xCA CONSEGUIUUU"
+  - "EDGAR8#VOC\xCA CONSEGUIUUU"
+  - "EDGAR9#VOC\xCA CONSEGUIUUU"
+  - "EDGAR10#VOC\xCA CONSEGUIUUU"
   retrato: {fileID: 21300000, guid: 9baaddbbd6c64234eab7e7138d1b67d1, type: 3}
   nome: Edgar
 --- !u!61 &799398192

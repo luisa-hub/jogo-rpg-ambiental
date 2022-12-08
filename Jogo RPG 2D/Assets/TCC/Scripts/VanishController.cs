@@ -36,9 +36,9 @@ public class VanishController : MonoBehaviour
                 case "BOLINHA2":
                     vanish("BolinhaDePapel2");
                     break;
-                case "CORAMISSAO2":
+                case "PLANTASURGE":
                     //vanish("Edgar");
-                    //move("Edgar", 3, 0);
+                    move("Dione", -2.218489f, 1.64565f);
                     break;
                 case "CORAMISSAO3":
                     //appear("Edgar");
@@ -74,7 +74,7 @@ public class VanishController : MonoBehaviour
         catch { }
     }
 
-    void move(string nome, int x, int y) {
+    void move(string nome, float x, float y) {
         try
         {
             GameObject npc = GameObject.Find(nome).gameObject;

@@ -47,7 +47,7 @@ public class ComputerController : MonoBehaviour
             List<IList<object>> linhas = banco.dados(consulta.text, bancoPrimario);
 
 
-            quest.verifyMissionDB(colunas, linhas, bancoPrimario);
+            quest.verifyMissionDB(colunas, linhas, bancoPrimario, consulta.text);
 
             table.MontarTabela(colunas, linhas);
 

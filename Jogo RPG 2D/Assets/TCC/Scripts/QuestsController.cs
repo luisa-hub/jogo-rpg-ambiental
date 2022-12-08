@@ -25,18 +25,20 @@ namespace Assets.TCC.Scripts
         /// </summary>
         /// <param name="colunas">Colunas da consulta do usuário</param>
         /// <param name="linhas">LInhas da consulta do usuário</param>
-        public void verifyMissionDB(List<string> colunas, List<IList<object>> linhas, string banco)
+        public void verifyMissionDB(List<string> colunas, List<IList<object>> linhas, string banco, string consultaDigitada)
         {
-            bancoReserva = banco; //se criarmos um segundo pra conferir, adicionar string no final
-
+            bancoReserva = banco+"Backup"; //se criarmos um segundo pra conferir, adicionar string no final
+            var consulta = "";
             foreach (var flag in jogador.flagMissoesConcluidas.ToList())
             {
                 if (bancoReserva == "missao1Backup")
                 {
+                    //var consulta = "";
                     switch (flag)
                     {
+                        
                         case "EDGAR4":
-                            var consulta = "SELECT * FROM doacoes_3989;";
+                            consulta = "SELECT * FROM doacoes_3979;";
                             if (verifyData(colunas, linhas, consulta))
                             {
                                 jogador.updateTags("EDGAR5");
@@ -44,10 +46,20 @@ namespace Assets.TCC.Scripts
 
                             break;
 
-                        case "MISSAO3":
-                            // jogador.updateTags("MISSAO4");
+                        case "EDGAR5":
+                            consulta = "SELECT * FROM doacoes_3979 WHERE Id_Empresa = 24;";
+                            if (verifyData(colunas, linhas, consulta))
+                            {
+                                jogador.updateTags("EDGAR6");
+                            }
                             break;
-                        case "MISSAO5":
+                        case "EDGAR6":
+                            if (consultaDigitada.ToLower().Contains("delete from doacoes_3979 where id_empresa = 24") )
+                            {
+                                jogador.updateTags("PLANTASURGE");
+                            }
+                            break;
+                            
                             // code block
                             break;
                         default:

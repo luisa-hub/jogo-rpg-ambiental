@@ -4127,28 +4127,88 @@ MonoBehaviour:
   noticiasSlider: {fileID: 305996745}
   original: {fileID: 820226697}
   news:
-  - "NEWS1#Dente de Le\xE3o#<style=\"Title>Dente de Le\xE3o Corp</style><br><br>Fundada
-    em 3953 pelo pequeno empreendedor Van Rossum e seu primo, a Dente de Le\xE3o
-    \xE9 hoje a maior empresa fundada em Saturnville, tendo como vis\xE3o o futuro
-    das pessoas e a garantia de uma vida digna e acess\xEDvel. Seu principal valor
-    \xE9 o meio ambiente. Atrav\xE9s de pr\xE1ticas ecol\xF3gicas, a Dente de Le\xE3o
-    Corp. se auto-declara respons\xE1vel pelo futuro de Lemuria atrav\xE9s de uma
-    pol\xEDtica mais verde e eco-friendly. <br><br>http://www.kiwipedia.lemuria.org/"
-  - "NEWS2#Omnicibus#<style=\"Title>Um Caso de Sucesso</style><br>A Empresa Dente
-    de Le\xE3o, do empreendedor Van Rossum, assume mais uma vez sua vis\xE3o ambientalista
-    e eticamente respons\xE1vel. Conhecida por seu melhor produto, a OMNICIBUS NATURALIS
-    8 - VITAM\xCDNICO COMPLETO SEM S\xD3DIO, ORG\xC2NICO E SABOR TAMARINDO\u2122,
-    a Dente de Le\xE3o aumentou suas vendas em mais de 8000% nos \xFAltimos dois
-    anos, sendo um exemplo de sustentabilidade e pr\xE1ticas eco-friendly. Na \xFAltima
-    segunda-feira (03/08/3080), ela fez uma doa\xE7\xE3o de 50 mil loops para empresas
-    e ONGs como ZeroHungry, \u2018ONU\u2019, \u2018AnimalEquality\u2019 e \u2018OmozaniaZero\u2019. 
+  - "NEWS1#Dente de Le\xE3o#<style=\"Title>Dente de Le\xE3o Corp</style><br><br>     
+    Fundada em 3953 pelo pequeno empreendedor Van Rossum e seu primo, a Dente de
+    Le\xE3o \xE9 hoje a maior empresa fundada em Saturnville, tendo como vis\xE3o
+    o futuro das pessoas e a garantia de uma vida digna e acess\xEDvel. <br>     
+    Seu principal valor \xE9 o meio ambiente. Atrav\xE9s de pr\xE1ticas ecol\xF3gicas,
+    a Dente de Le\xE3o Corp. se auto-declara respons\xE1vel pelo futuro de Lemuria
+    atrav\xE9s de uma pol\xEDtica mais verde e eco-friendly. <br><br>http://www.kiwipedia.lemuria.org/"
+  - "NEWS2#Caso de Sucesso#<br><style=\"Title>Um Caso de Sucesso</style><br><br>     
+    A Empresa Dente de Le\xE3o, do empreendedor Van Rossum, assume mais uma vez sua
+    vis\xE3o ambientalista e eticamente respons\xE1vel.<br>       Conhecida por seu
+    melhor produto, a OMNICIBUS NATURALIS 8 - VITAM\xCDNICO COMPLETO SEM S\xD3DIO,
+    ORG\xC2NICO E SABOR TAMARINDO\u2122, a Dente de Le\xE3o aumentou suas vendas
+    em mais de 80000% nos \xFAltimos dois anos, sendo um exemplo de sustentabilidade
+    e pr\xE1ticas eco-friendly. <br>       Na \xFAltima segunda-feira (03/08/3080),
+    ela fez uma doa\xE7\xE3o de 50 mil loops para empresas e ONGs como ZeroHungry,
+    \u2018ONU\u2019, \u2018AnimalEquality\u2019 e \u2018OmozaniaZero\u2019.  <br>     
     Van Rossum, que n\xE3o gosta de entrevistas presenciais, respondeu nosso e mail
     com a seguinte declara\xE7\xE3o: \u2018N\xF3s apenas fazemos aquilo que as gera\xE7\xF5es
-    passadas falharam em fazer! Precisamos garantir o futuro das pessoas.\u2019 A
-    empresa, cuja sede fica na cidade de Saturnville, um pequeno munic\xEDpio com
+    passadas falharam em fazer! Precisamos garantir o futuro das pessoas.\u2019 <br>      
+    A empresa, cuja sede fica na cidade de Saturnville, um pequeno munic\xEDpio com
     menos de cem mil habitantes, possui grandes vis\xF5es de neg\xF3cio e pretende
     ampliar seu escopo de atua\xE7\xE3o em mais de 500 cidades diferentes no pr\xF3ximo
-    ano lunar ."
+    ano lunar.<br><br>www.casosdesucessomuitozicas.lemuria.com"
+  - "NEWSOMNI8#Omnicibus 8#<br><style=\"Title>Omnicibus 8 - Vitam\xEDnico Completo
+    Sem S\xF3dio, Org\xE2nico e Sabor Tamarindo (Trademarked)</style><br><br>       
+    A OMNICIBUS NATURALIS 8 - VITAM\xCDNICO COMPLETO SEM S\xD3DIO, ORG\xC2NICO E
+    SABOR TAMARINDO\u2122 \xE9 o atual principal produto da Corpora\xE7\xE3o Dente
+    de Le\xE3o. <br>       Um multivitam\xEDnico que supre todas as necessidades
+    di\xE1rias, capaz de neutralizar efeitos negativos do consumo exagerado de a\xE7\xFAcar
+    e gordura. <br>     Ele \xE9 um multivitam\xEDnico completo, desprovido de s\xF3dio,
+    supostamente produzido de formas org\xE2nicas e naturais. E indiscutivelmente,
+    tem gosto de Tamarindo.<br>      A empresa tamb\xE9m enfatiza o fato dele ser
+    produzido de forma 100% ecol\xF3gica e eco-friendly. <br>Sua f\xF3rmula \xE9
+    um segredo industrial.<br><br>http://www.kiwipedia.lemuria.org/"
+  - "NEWSDONUTS#MakeDonuts#<br><style=\"Title>MakeDonuts ou FakeDonuts?</style><br><br>      
+    Uma das maiores multinacionais de donuts de Lemuria, MakeDonuts, foi indiciada
+    nesta quinta feira por explora\xE7\xE3o dos seus funcion\xE1rios.<br>      Eles
+    vieram \xE0 tona exigindo direitos trabalhistas, tendo que realizar turnos de
+    trabalho de at\xE9 12 horas por dia e recebendo menos de 800 loops.<br>     
+    Como recompensa, diz funcion\xE1ria em entrevista exclusiva: \u201CEles nos davam
+    os restos de donuts gordurosos para levar para casa, como se parte do pagamento
+    fosse realizado. Eu nem gosto de Donuts!\u201D<br><br> www.escandalosonline.lemuria.com "
+  - "NEWSCOMPRE#Compre!#      Gostaria de poder comer quantas besteiras quiser?<br>     
+    Can\xE7ado de precisar comer vegetais?<br><br>      Encomende j\xE1 suas por\xE7\xF5es
+    de OMNICIBUS NATURALIS 8 - VITAM\xCDNICO COMPLETO SEM S\xD3DIO, ORG\xC2NICO E
+    SABOR TAMARINDO\u2122! <br><br>     Com ela, voc\xEA tem tudo que precisa para
+    o seu corpo. <br>Seja radical voc\xEA tamb\xE9m com OMNICIBUS NATURALIS 8 - VITAM\xCDNICO
+    COMPLETO SEM S\xD3DIO, ORG\xC2NICO E SABOR TAMARINDO\u2122!  <br><br>     Por
+    apenas 19,99 loops, encomende j\xE1!  <br><br>      Produzido de forma totalmente
+    ambientalmente respons\xE1vel! <br>Cont\xE9m polpa de fruta. <br><br>*N\xE3o
+    cont\xE9m cffccf. N\xE3o cont\xE9m s\xF3dio. Embalagem descart\xE1vel. N\xE3o
+    testado em animais, plantas ou rob\xF4s. N\xE3o cont\xE9m \xE1cido sulf\xFArico.
+    N\xE3o destr\xF3i \xE1rvores ao tocar nelas. N\xE3o cont\xE9m agrot\xF3xicos
+    anti-aranhas. <br><br><br><br><br>**Dente de Le\xE3o Corp n\xE3o se responsabiliza
+    por quaisquer efeitos colaterais ao consumir o produto.  <br><br>www.anuncioqueabriusemvocepedir.lemuria.com "
+  - "NEWSLAL#Lenda das Ligas#<br><style=\"Title>Lenda das Ligas</style><br><br>     
+    Lenda das Ligas (abreviado como LaL e comumente referido como Ligas) \xE9 um
+    jogo eletr\xF4nico do g\xEAnero multiplayer online battle arena (MOBA) desenvolvido
+    e publicado pela Toir Games. <br>      Foi lan\xE7ado em outubro de 3970 para
+    Macrohard Doors e em mar\xE7o de 3973 para pinguimOS. <br>    Atualmente o jogo
+    com o maior n\xFAmero de jogadores de Lemuria. <br>     No jogo, duas equipes
+    de cinco jogadores batalham em um combate jogador contra jogador (PvP), com cada
+    equipe ocupando e defendendo sua metade do mapa. Cada um dos dez jogadores controla
+    um personagem, conhecido como \"lenda\", com habilidades \xFAnicas e diferentes
+    estilos de jogo.<br><br> http://www.kiwipedia.lemuria.org/ "
+  - "NEWSOMNI1#Omnicibus 1#<br><style=\"Title>F\xF3rum Segredos da Culin\xE1ria</style> 
+    <br><style=\"Title>Omncibus 1</style><br><br><b>folhaDeTr\xEAsOlhos (2 semanas
+    atr\xE1s)</b> <br>Eu ouvi falar da minha tia que quando ela era pequena, ela
+    comeu um coisa chamada Omnicibus 1. N\xE3o consegui achar nada sobre internet.
+    Algu\xE9m tem informa\xE7\xF5es sobre isso?<br> <br><b>joaoGomes56346262 (2 semanas
+    atr\xE1s)</b><br> que eu saiba a dente de le\xE3o corp s\xF3 teve o 7 e o 8,
+    e s\xE3o consideravelmente recentes <br><br><b>DetetiveChefe (2 semanas atr\xE1s)</b>
+    <br>Apesar de ter estourado consideravelmente recentemente, a Dente de Le\xE3o
+    Corp \xE9 consideravelmente antiga. \xC9 justo assumir que tiveram v\xE1rios
+    outros produtos, mesmo que vendendo em pequena escala s\xF3 nos arredores de
+    SaturnVille. <br><br><b>joaoGomes56346262 (2 semanas atr\xE1s)</b><br> se nao
+    ta na internet nao existe <br><br><b>DetetiveChefe (1 semanas atr\xE1s)</b> <br>Depois
+    de dar uma fu\xE7ada, consegui encontrar uma imagem em uma foto antiga. Aparentemente
+    era uma barrinha de cereal recreativa, sabor Nugget instant\xE2neo. Nada parecido
+    com os milagres do Omnicibus 7 e 8. <br><br><b>joaoGomes56346262 (1 semanas atr\xE1s)</b><br>
+    parece bom <br><br><b>folhaDeTr\xEAsOlhos (1 semanas atr\xE1s</b>)<br>Obrigada! 
+    <br><br>www.forunssobretudo.lemuria.com/askculinaria "
   stringSeparator: 35
   stringSeparetor2: 36
   textoPrincipal: {fileID: 1240989893}

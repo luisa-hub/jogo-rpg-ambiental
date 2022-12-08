@@ -101,6 +101,12 @@ namespace Assets.TCC.Scripts
                     jogador.updateTags("NEWS2");
                     jogador.updateTags("DESBLOQUEIABOTOES");
                     jogador.updateTags("EDGAR3");
+
+                    jogador.updateTags("NEWSOMNI8");
+                    jogador.updateTags("NEWSDONUTS");
+                    jogador.updateTags("NEWSCOMPRE");
+                    jogador.updateTags("NEWSLAL");
+                    jogador.updateTags("NEWSOMNI1");
                     break;
                 case "EDGAR3":
                     jogador.updateTags("EDGAR4");

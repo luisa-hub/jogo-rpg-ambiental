@@ -8,7 +8,7 @@ namespace Assets.TCC.Scripts
     public class QuestsController : MonoBehaviour
     {
         public DatabaseController database;
-        private string bancoReserva = "missao1Banckup"; //"missao1Backup"
+        private string bancoReserva = "missao1Backup"; //"missao1Backup"
         public PlayerController jogador;
 
         private List<IList<object>> expectedLines;
@@ -31,12 +31,12 @@ namespace Assets.TCC.Scripts
 
             foreach (var flag in jogador.flagMissoesConcluidas.ToList())
             {
-                if (bancoReserva == "missao1Banckup")
+                if (bancoReserva == "missao1Backup")
                 {
                     switch (flag)
                     {
                         case "EDGAR4":
-                            var consulta = "SELECT * FROM doacoes_3879;";
+                            var consulta = "SELECT * FROM doacoes_3989;";
                             if (verifyData(colunas, linhas, consulta))
                             {
                                 jogador.updateTags("EDGAR5");

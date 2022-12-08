@@ -404,7 +404,7 @@ namespace WDT
             if (datas.Count == 0)
             {
                 Debug.LogError("empty data");
-                return false;
+                return true;
             }
 
             for (int i = 0; i < datas.Count; i++)
@@ -441,6 +441,7 @@ namespace WDT
             {
                 for (int j = 0; j < datas.Count - 1; j++)
                 {
+                  
                     if ((datas[j][i] == null) || (datas[j + 1][i] == null))
                     {
                         if ((datas[j][i] == null) && (datas[j + 1][i] == null))
@@ -452,7 +453,7 @@ namespace WDT
 
                     if (datas[j][i].GetType() == datas[j + 1][i].GetType())
                         continue;
-
+                   
                     Debug.LogError("data type not same:[" + j + "," + i + "], [" + (j + 1) + "," + i + "]");
                     return false;
                 }

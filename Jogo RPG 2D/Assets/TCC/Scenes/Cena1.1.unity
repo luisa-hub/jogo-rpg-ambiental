@@ -1192,7 +1192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   janela: CanvasSqlInteraction
-  banco: missao1Banckup
+  banco: missao1
 --- !u!95 &231901090
 Animator:
   serializedVersion: 3
@@ -29866,7 +29866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   janela: CanvasSqlInteraction
-  banco: missao1Banckup
+  banco: missao1
 --- !u!95 &1135294177
 Animator:
   serializedVersion: 3

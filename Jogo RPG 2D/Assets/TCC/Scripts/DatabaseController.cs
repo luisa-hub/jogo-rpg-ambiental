@@ -34,7 +34,7 @@ public class DatabaseController : MonoBehaviour
                     for (int i = 0; i < reader.FieldCount; i++)
                     {
                          
-                        colunas.Add(reader.GetName(i).ToString());
+                        colunas.Add(reader.GetName(i));
                         
                     }
 
@@ -71,8 +71,14 @@ public class DatabaseController : MonoBehaviour
                         //para cada valor de cada coluna, adiciona o objeto numa lista de valores
                         for (int i = 0; i < reader.FieldCount; i++)
                         {
-                            valores.Add(reader.GetValue(i).ToString());
-                        }
+                            if (reader.GetValue(i).GetType().ToString() == "System.DBNull")
+                                valores.Add(reader.GetValue(i).ToString());
+                            else
+                            {
+                                valores.Add(reader.GetValue(i));
+                            }
+
+                            }
 
                         dados.Add(valores);
 

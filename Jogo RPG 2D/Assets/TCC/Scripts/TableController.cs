@@ -41,13 +41,24 @@ namespace Assets.TCC.Scripts
             foreach (var nome in nomeColunas)
             {
                 m_columnDefs.Add(new WColumnDef() 
-                { name = nome, width = nome.Contains("Id") ? "80" : "100" });
+                { name = nome, width = nome.Contains("Id")? "80" : "200" });
 
             }
+
+            m_datas = new List<IList<object>>() { };
 
             //Montar os dados com os respectivos valores
             m_datas = new List<IList<object>>(dados);
 
+            foreach (var item in m_datas)
+            {
+                foreach (var x in item)
+                {
+                    Debug.Log(x);
+                }
+               
+
+            }
             //Inicializa a tabela
             if (testTextMeshPro)
             {

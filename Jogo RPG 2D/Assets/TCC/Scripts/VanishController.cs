@@ -57,8 +57,10 @@ public class VanishController : MonoBehaviour
                 case "GRACE5":
                     move("ComputadorLal", 13.78f, 5.22f);
                     break;
-            case "CORAMISSAO3":
-                    //appear("Edgar");
+                case "LOVELACE8":
+                    move("Srt. Lovelace",12.99561f, 3.1079f);
+                    move("ComputadorLal", -45.6f, 5.22f);
+                    move("ComputadorLovelace", -21.73f, -24.36f);
                     break;
                 default:
                     // code block

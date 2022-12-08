@@ -124,8 +124,8 @@ namespace Assets.TCC.Scripts
 
                     
                     jogador.updateTags("NEWSDONUTS");
-                    jogador.updateTags("NEWSCOMPRE");
-                    jogador.updateTags("NEWSLAL");
+                    
+                    
                     
                     break;
                 case "EDGAR3":
@@ -150,6 +150,10 @@ namespace Assets.TCC.Scripts
                 case "LOVELACE5":
                     jogador.updateTags("EDGAR8");
                     jogador.updateTags("LOVELACE6");
+                    jogador.updateTags("NEWSCOMPRE");
+                    break;
+                case "LOVELACE7":
+                    jogador.updateTags("LOVELACE8");
                     break;
                 //------------FRANK------------
                 case "FRANK1":
@@ -178,6 +182,9 @@ namespace Assets.TCC.Scripts
                 case "GRACE3":
                     jogador.updateTags("GRACE4");
                     jogador.updateTags("NEWSOMNI1");
+                    break;
+                case "GRACE5":
+                    jogador.updateTags("NEWSLAL");
                     break;
                 //------------HOPPER------------
                 case "HOPPER1":
